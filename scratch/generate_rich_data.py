@@ -1,0 +1,871 @@
+"""
+Generates rich, production-quality product data for SmartKart.
+Run: python generate_rich_data.py
+"""
+import json, random, os
+from datetime import datetime, timedelta
+
+OUT = r"c:\Users\sanke\OneDrive\Desktop\SmartKart\backend\data\products"
+os.makedirs(OUT, exist_ok=True)
+
+NAMES = ["Rahul Sharma","Priya Patel","Amit Kumar","Neha Singh","Vikram Gupta",
+         "Sneha Reddy","Arjun Das","Pooja Verma","Rohit Joshi","Anjali Desai",
+         "Karan Mehta","Kavita Iyer","Suresh Nair","Divya Menon","Ravi Pillai",
+         "Meera Krishnan","Sandeep Bose","Lakshmi Rao","Deepak Verma","Anita Shah"]
+
+def ph(base, months=24, start="2024-09-01"):
+    """Generate realistic price history."""
+    history = []
+    d = datetime.strptime(start, "%Y-%m-%d")
+    for i in range(months):
+        cur = d + timedelta(days=30*i)
+        m = cur.month
+        disc = 0.0
+        if m == 10: disc = random.uniform(0.08,0.18)   # Diwali
+        elif m == 11: disc = random.uniform(0.12,0.22)  # Diwali continued
+        elif m == 1: disc = random.uniform(0.05,0.12)   # Republic Day
+        elif m == 8: disc = random.uniform(0.05,0.10)   # Independence Day
+        elif m == 6: disc = random.uniform(0.03,0.08)   # Mid-year
+        noise = random.randint(-int(base*0.02), int(base*0.02))
+        price = max(50, int(base*(1-disc)) + noise)
+        history.append({"date": cur.strftime("%Y-%m-%d"), "price": price})
+    return history
+
+def reviews(platform, product_context, n=5):
+    """Generate realistic reviews."""
+    pool = [
+        {"rating":5,"title":"Absolutely love it!","body":f"Been using this {product_context} for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from {platform} was super fast."},
+        {"rating":4,"title":"Great value for money","body":f"Picked this up during a sale on {platform}. Works exactly as described. {product_context.capitalize()} is solid, no complaints so far."},
+        {"rating":5,"title":"Best purchase this year","body":f"Did a lot of research before buying. This is honestly the best {product_context} in this price range. Very happy with the {platform} experience too."},
+        {"rating":3,"title":"Good but has minor issues","body":f"Overall a decent {product_context}. There are a couple of small niggles but nothing deal-breaking. {platform} packaging was good."},
+        {"rating":4,"title":"Recommended!","body":f"My friend suggested this and I'm glad I listened. The {product_context} performs brilliantly. Would buy from {platform} again."},
+        {"rating":5,"title":"Exceeded expectations","body":f"Honestly didn't expect this much from this {product_context} at this price. The quality is premium. {platform} delivered in 1 day!"},
+        {"rating":2,"title":"Could be better","body":f"The {product_context} is okay but I've used better. Customer support from {platform} was helpful though."},
+        {"rating":4,"title":"Happy with the purchase","body":f"Solid {product_context}. Does exactly what it promises. {platform} gave a good deal with extra cashback."},
+    ]
+    result = []
+    used = random.sample(pool, min(n, len(pool)))
+    for r in used:
+        result.append({
+            "user": random.choice(NAMES),
+            "rating": r["rating"],
+            "title": r["title"],
+            "body": r["body"],
+            "date": (datetime.now()-timedelta(days=random.randint(1,400))).strftime("%Y-%m-%d"),
+            "verified": random.random()>0.2,
+            "helpful_votes": random.randint(1,120),
+            "platform": platform
+        })
+    return result
+
+def listing(platform_slug, platform_name, base_price, mrp, product_context, url_path, variant_label=""):
+    noise_pct = random.uniform(-0.06, 0.06)
+    price = max(int(mrp*0.4), int(base_price*(1+noise_pct)))
+    price = min(price, mrp)
+    disc = round(((mrp-price)/mrp)*100)
+    offers_pool = [
+        {"title":f"10% off with HDFC Bank Card","discount_type":"bank","value":"10%","code":"HDFC10","expires":"2026-12-31"},
+        {"title":f"5% Cashback with Axis Flipkart Card","discount_type":"cashback","value":"5%","code":None,"expires":"2026-12-31"},
+        {"title":f"No-cost EMI from ₹{price//12:,}/month","discount_type":"emi","value":None,"code":None,"expires":None},
+        {"title":f"Exchange offer: Up to ₹{random.randint(5,25)*1000:,} off","discount_type":"exchange","value":None,"code":None,"expires":None},
+        {"title":f"₹{random.choice([500,750,1000,1500])} off on prepaid orders","discount_type":"coupon","value":None,"code":"PREPAID","expires":"2026-10-31"},
+        {"title":f"Extra ₹{random.choice([200,300,500])} off with SBI Card","discount_type":"bank","value":None,"code":"SBI500","expires":"2026-11-30"},
+        {"title":f"Buy now, pay later with Simpl","discount_type":"emi","value":None,"code":None,"expires":None},
+    ]
+    chosen_offers = random.sample(offers_pool, random.randint(2,4))
+    sellers = {
+        "amazon":"Cloudtail India Pvt Ltd","flipkart":"RetailNet","croma":"Croma Retail",
+        "reliance_digital":"Reliance Digital","vijay_sales":"Vijay Sales Retail",
+        "tatacliq":"Tata CLiQ","bigbasket":"BigBasket","zepto":"Zepto Now","blinkit":"Blinkit"
+    }
+    deliveries = {
+        "amazon":"FREE delivery Tomorrow","flipkart":"Free delivery in 2 days",
+        "croma":"Free delivery in 3-4 days, or pick up in-store",
+        "reliance_digital":"Free delivery in 2-3 days","vijay_sales":"Free delivery in 3-5 days",
+        "tatacliq":"Free delivery in 3-4 days","bigbasket":"Delivery in 4 hours",
+        "zepto":"Delivery in 10-15 minutes","blinkit":"Delivery in 10 minutes"
+    }
+    return {
+        "platform": platform_slug,
+        "platform_display": platform_name,
+        "price": price,
+        "original_price": mrp,
+        "discount_percent": disc,
+        "url": f"https://www.{platform_slug.replace('_','')}.in/{url_path}?tag=smartkart-21",
+        "in_stock": random.random()>0.05,
+        "delivery": deliveries.get(platform_slug,"Free delivery"),
+        "rating": round(random.uniform(3.8,4.8),1),
+        "total_reviews": random.randint(200,52000),
+        "offers": chosen_offers,
+        "reviews": reviews(platform_name, product_context),
+        "seller": sellers.get(platform_slug, platform_name),
+        "warranty": "1 Year Manufacturer Warranty" + (", 6 Month Extended Available" if random.random()>0.5 else ""),
+        **({"variant": variant_label} if variant_label else {})
+    }
+
+def make_price_history_dual(base_amazon, base_flipkart):
+    """Generate price history for both amazon and flipkart."""
+    amazon_hist = [{"date":p["date"],"platform":"amazon","price":p["price"]} for p in ph(base_amazon)]
+    flipkart_hist = [{"date":p["date"],"platform":"flipkart","price":p["price"]} for p in ph(base_flipkart)]
+    return amazon_hist + flipkart_hist
+
+# ─── PHONES ────────────────────────────────────────────────────────────────
+phones = [
+  {
+    "id":"iphone-15-128gb","name":"Apple iPhone 15 (128GB)","brand":"Apple",
+    "category":"phones","subcategory":"Smartphones",
+    "image_url":"https://images.smartkart.app/products/iphone-15-128gb.jpg",
+    "description":"The iPhone 15 features a 48MP main camera, Dynamic Island, USB-C connectivity, and the powerful A16 Bionic chip. Available in five stunning colours with a durable aluminium design.",
+    "search_keywords":["iphone 15","apple iphone","iphone 128gb","iphone 15 price","apple smartphone","iphone 2024","ios phone","iphone 15 128"],
+    "ai_verdict":"Best overall iPhone for most users. Excellent camera system, reliable performance, and strong resale value. Buy now — price is near 2025 Diwali low.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Display","value":"6.1\" Super Retina XDR OLED, 2556×1179, 460 ppi","category":"display"},
+      {"key":"Processor","value":"Apple A16 Bionic (4nm)","category":"performance"},
+      {"key":"RAM","value":"6 GB","category":"performance"},
+      {"key":"Storage","value":"128 GB NVMe","category":"storage"},
+      {"key":"Rear Camera","value":"48MP Main (f/1.6) + 12MP Ultra Wide (f/2.4)","category":"camera"},
+      {"key":"Front Camera","value":"12MP TrueDepth (f/1.9), autofocus","category":"camera"},
+      {"key":"Battery","value":"3349 mAh, MagSafe 15W, USB-C 27W","category":"battery"},
+      {"key":"OS","value":"iOS 17 (upgradeable to iOS 18)","category":"software"},
+      {"key":"5G","value":"Yes — Sub-6 GHz & mmWave","category":"connectivity"},
+      {"key":"Weight","value":"171 g","category":"design"},
+      {"key":"Dimensions","value":"147.6 × 71.6 × 7.8 mm","category":"design"},
+      {"key":"Water Resistance","value":"IP68 — 6m for 30 min","category":"design"},
+      {"key":"Colours","value":"Black, Blue, Green, Yellow, Pink","category":"design"},
+      {"key":"SIM","value":"Dual SIM (Nano + eSIM)","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",62999,79900,"iPhone 15","dp/B0CHX2FKZP","128GB Black"),
+      listing("flipkart","Flipkart",63999,79900,"iPhone 15","p/itm8b2c5e6a3f4e5","128GB Blue"),
+      listing("croma","Croma",64999,79900,"iPhone 15","product/apple-iphone-15-128gb/p/276832","128GB Black"),
+      listing("reliance_digital","Reliance Digital",65499,79900,"iPhone 15","apple/iphone/iphone-15","128GB Green"),
+      listing("vijay_sales","Vijay Sales",65999,79900,"iPhone 15","product/iphone-15-128gb","128GB Pink"),
+      listing("tatacliq","Tata CLiQ",63499,79900,"iPhone 15","p/apple-iphone-15-128gb","128GB Yellow"),
+      listing("amazon","Amazon",71999,79900,"iPhone 15","dp/B0CHX2FKZP256","256GB Black"),
+      listing("flipkart","Flipkart",72999,79900,"iPhone 15","p/itm256blue","256GB Blue"),
+      listing("croma","Croma",73999,79900,"iPhone 15","product/iphone-15-256gb","256GB Green"),
+      listing("reliance_digital","Reliance Digital",74499,79900,"iPhone 15","apple/iphone/iphone-15-256","256GB Pink"),
+    ],
+    "price_history": make_price_history_dual(62999, 63999),
+  },
+  {
+    "id":"samsung-galaxy-s24","name":"Samsung Galaxy S24","brand":"Samsung",
+    "category":"phones","subcategory":"Smartphones",
+    "image_url":"https://images.smartkart.app/products/samsung-galaxy-s24.jpg",
+    "description":"The Galaxy S24 brings Galaxy AI to everyday tasks, powered by Snapdragon 8 Gen 3, a ProVisual Engine camera system, and a bright 2600-nit display — all in a refined flat-edge design.",
+    "search_keywords":["samsung galaxy s24","samsung s24","galaxy s24 price","samsung flagship","android phone 2024","samsung 8gen3","s24 price india"],
+    "ai_verdict":"Top Android flagship in 2024. Galaxy AI features are genuinely useful. Flipkart consistently offers the best price — wait for a bank offer to sweeten the deal.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Display","value":"6.2\" Dynamic AMOLED 2X, 2340×1080, 120Hz adaptive","category":"display"},
+      {"key":"Processor","value":"Snapdragon 8 Gen 3 (4nm)","category":"performance"},
+      {"key":"RAM","value":"8 GB LPDDR5X","category":"performance"},
+      {"key":"Storage","value":"128 GB UFS 4.0","category":"storage"},
+      {"key":"Rear Camera","value":"50MP Main (f/1.8) + 12MP Ultra Wide + 10MP 3× Telephoto","category":"camera"},
+      {"key":"Front Camera","value":"12MP (f/2.2)","category":"camera"},
+      {"key":"Battery","value":"4000 mAh, 25W wired, 15W wireless","category":"battery"},
+      {"key":"OS","value":"Android 14, One UI 6.1 (7 years updates guaranteed)","category":"software"},
+      {"key":"5G","value":"Yes — Sub-6 GHz","category":"connectivity"},
+      {"key":"Weight","value":"167 g","category":"design"},
+      {"key":"Dimensions","value":"147 × 70.6 × 7.6 mm","category":"design"},
+      {"key":"Water Resistance","value":"IP68 — 1.5m for 30 min","category":"design"},
+      {"key":"Colours","value":"Cobalt Violet, Marble Grey, Onyx Black, Amber Yellow","category":"design"},
+      {"key":"SIM","value":"Dual SIM (Nano + eSIM)","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("flipkart","Flipkart",59999,79999,"Galaxy S24","p/itms24flk","128GB Onyx Black"),
+      listing("amazon","Amazon",61999,79999,"Galaxy S24","dp/B0CMDKJ1FX","128GB Marble Grey"),
+      listing("samsung_shop","Samsung Shop",62999,79999,"Galaxy S24","mobile/all-smartphones/galaxy-s24","128GB Cobalt Violet"),
+      listing("croma","Croma",63499,79999,"Galaxy S24","product/samsung-galaxy-s24","128GB Amber Yellow"),
+      listing("reliance_digital","Reliance Digital",63999,79999,"Galaxy S24","samsung/galaxy-s24","128GB Onyx Black"),
+      listing("vijay_sales","Vijay Sales",64499,79999,"Galaxy S24","product/samsung-galaxy-s24-128gb","128GB Marble Grey"),
+      listing("tatacliq","Tata CLiQ",62499,79999,"Galaxy S24","p/samsung-galaxy-s24","128GB Cobalt Violet"),
+      listing("flipkart","Flipkart",69999,79999,"Galaxy S24","p/itms24256flk","256GB Onyx Black"),
+      listing("amazon","Amazon",71999,79999,"Galaxy S24","dp/B0CMDKJ1FX256","256GB Marble Grey"),
+      listing("croma","Croma",72999,79999,"Galaxy S24","product/samsung-galaxy-s24-256gb","256GB Amber Yellow"),
+    ],
+    "price_history": make_price_history_dual(59999, 61999),
+  },
+  {
+    "id":"oneplus-12r","name":"OnePlus 12R (128GB)","brand":"OnePlus",
+    "category":"phones","subcategory":"Smartphones",
+    "image_url":"https://images.smartkart.app/products/oneplus-12r.jpg",
+    "description":"The OnePlus 12R pairs a Snapdragon 8 Gen 2 with a 5500 mAh battery and 100W SUPERVOOC charging. A 50MP Hasselblad-tuned triple camera and OxygenOS 14 make it the best value flagship of 2024.",
+    "search_keywords":["oneplus 12r","oneplus 12r price","oneplus flagship killer","oneplus 8gen2","oneplus 5500mah","op12r","oneplus 100w charging"],
+    "ai_verdict":"Outstanding value. Gets you 90% of flagship performance at 60% of the price. The 100W charging is genuinely impressive. Amazon is typically cheapest.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Display","value":"6.78\" LTPO3 AMOLED, 2780×1264, 1-120Hz adaptive","category":"display"},
+      {"key":"Processor","value":"Snapdragon 8 Gen 2 (4nm)","category":"performance"},
+      {"key":"RAM","value":"8 GB / 16 GB LPDDR5X","category":"performance"},
+      {"key":"Storage","value":"128 GB / 256 GB UFS 3.1","category":"storage"},
+      {"key":"Rear Camera","value":"50MP Sony IMX890 (f/1.8) + 8MP Ultra Wide + 2MP Macro","category":"camera"},
+      {"key":"Front Camera","value":"16MP (f/2.4)","category":"camera"},
+      {"key":"Battery","value":"5500 mAh, 100W SUPERVOOC (0→100% in 26 min)","category":"battery"},
+      {"key":"OS","value":"OxygenOS 14 (Android 14)","category":"software"},
+      {"key":"5G","value":"Yes","category":"connectivity"},
+      {"key":"Weight","value":"207 g","category":"design"},
+      {"key":"Dimensions","value":"163.3 × 75.3 × 8.8 mm","category":"design"},
+      {"key":"Water Resistance","value":"IP64","category":"design"},
+      {"key":"Colours","value":"Iron Gray, Cool Blue","category":"design"},
+      {"key":"SIM","value":"Dual SIM (Nano + Nano)","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",29999,39999,"OnePlus 12R","dp/B0CR5QGTMC","8GB+128GB Cool Blue"),
+      listing("flipkart","Flipkart",30999,39999,"OnePlus 12R","p/itm12rcoolblue","8GB+128GB Cool Blue"),
+      listing("oneplus_shop","OnePlus Store",31999,39999,"OnePlus 12R","oneplus-12r","8GB+128GB Iron Gray"),
+      listing("croma","Croma",32499,39999,"OnePlus 12R","product/oneplus-12r","8GB+128GB Iron Gray"),
+      listing("reliance_digital","Reliance Digital",32999,39999,"OnePlus 12R","oneplus/12r","8GB+128GB Cool Blue"),
+      listing("tatacliq","Tata CLiQ",31499,39999,"OnePlus 12R","p/oneplus-12r","8GB+128GB Iron Gray"),
+      listing("amazon","Amazon",34999,44999,"OnePlus 12R","dp/B0CR5QGTMC16","16GB+256GB Cool Blue"),
+      listing("flipkart","Flipkart",35999,44999,"OnePlus 12R","p/itm12r256","16GB+256GB Iron Gray"),
+      listing("croma","Croma",36499,44999,"OnePlus 12R","product/oneplus-12r-256gb","16GB+256GB Cool Blue"),
+      listing("reliance_digital","Reliance Digital",36999,44999,"OnePlus 12R","oneplus/12r-16gb","16GB+256GB Iron Gray"),
+    ],
+    "price_history": make_price_history_dual(29999, 30999),
+  },
+  {
+    "id":"pixel-8a","name":"Google Pixel 8a","brand":"Google",
+    "category":"phones","subcategory":"Smartphones",
+    "image_url":"https://images.smartkart.app/products/pixel-8a.jpg",
+    "description":"Pixel 8a features the Google Tensor G3 chip, 7 years of OS updates, the best camera AI on any Android, and a bright 120Hz OLED display — all at a mid-range price.",
+    "search_keywords":["pixel 8a","google pixel 8a","pixel 8a price india","google tensor g3","pixel ai camera","pure android phone","pixel 7 years update"],
+    "ai_verdict":"Unbeatable software experience for the price. Tensor G3 AI features and 7-year update guarantee are class-leading. Perfect for stock Android lovers.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Display","value":"6.1\" OLED, 2400×1080, 120Hz","category":"display"},
+      {"key":"Processor","value":"Google Tensor G3 (4nm)","category":"performance"},
+      {"key":"RAM","value":"8 GB LPDDR5","category":"performance"},
+      {"key":"Storage","value":"128 GB UFS 3.1","category":"storage"},
+      {"key":"Rear Camera","value":"64MP (f/1.89) + 13MP Ultra Wide (f/2.2)","category":"camera"},
+      {"key":"Front Camera","value":"13MP (f/2.2)","category":"camera"},
+      {"key":"Battery","value":"4492 mAh, 18W wired, 7.5W wireless","category":"battery"},
+      {"key":"OS","value":"Android 14 (7 years guaranteed OS updates)","category":"software"},
+      {"key":"5G","value":"Yes","category":"connectivity"},
+      {"key":"Weight","value":"188 g","category":"design"},
+      {"key":"Dimensions","value":"152.1 × 72.7 × 8.9 mm","category":"design"},
+      {"key":"Water Resistance","value":"IP67","category":"design"},
+      {"key":"Colours","value":"Obsidian, Porcelain, Bay, Aloe","category":"design"},
+      {"key":"SIM","value":"Dual SIM (Nano + eSIM)","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("flipkart","Flipkart",39999,52999,"Pixel 8a","p/itmpixel8a","128GB Obsidian"),
+      listing("amazon","Amazon",40999,52999,"Pixel 8a","dp/B0CYQ67LYV","128GB Porcelain"),
+      listing("croma","Croma",41999,52999,"Pixel 8a","product/google-pixel-8a","128GB Bay"),
+      listing("reliance_digital","Reliance Digital",42499,52999,"Pixel 8a","google/pixel-8a","128GB Aloe"),
+      listing("vijay_sales","Vijay Sales",42999,52999,"Pixel 8a","product/google-pixel-8a-128gb","128GB Obsidian"),
+      listing("tatacliq","Tata CLiQ",41499,52999,"Pixel 8a","p/google-pixel-8a","128GB Porcelain"),
+      listing("amazon","Amazon",49999,62999,"Pixel 8a","dp/B0CYQ67LYV256","256GB Obsidian"),
+      listing("flipkart","Flipkart",50999,62999,"Pixel 8a","p/itmpixel8a256","256GB Bay"),
+      listing("croma","Croma",51999,62999,"Pixel 8a","product/google-pixel-8a-256gb","256GB Aloe"),
+      listing("reliance_digital","Reliance Digital",52499,62999,"Pixel 8a","google/pixel-8a-256","256GB Porcelain"),
+    ],
+    "price_history": make_price_history_dual(39999, 40999),
+  },
+  {
+    "id":"vivo-v30-pro","name":"Vivo V30 Pro (256GB)","brand":"Vivo",
+    "category":"phones","subcategory":"Smartphones",
+    "image_url":"https://images.smartkart.app/products/vivo-v30-pro.jpg",
+    "description":"The Vivo V30 Pro is built for creators, featuring a ZEISS-optics 50MP portrait camera, a 5000 mAh battery with 80W FlashCharge, and a slim 7.46mm aluminium frame with a stunning AMOLED display.",
+    "search_keywords":["vivo v30 pro","vivo v30","vivo zeiss camera","vivo 5000mah","vivo portrait phone","vivo v30 pro price","vivo 80w charging"],
+    "ai_verdict":"Best camera phone under ₹40K for portrait photography. ZEISS lenses deliver stunning results. Great for social media creators and selfie enthusiasts.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Display","value":"6.78\" AMOLED, 2800×1260, 120Hz, 2800 nits peak","category":"display"},
+      {"key":"Processor","value":"Snapdragon 7 Gen 3 (4nm)","category":"performance"},
+      {"key":"RAM","value":"12 GB LPDDR4X","category":"performance"},
+      {"key":"Storage","value":"256 GB UFS 2.2","category":"storage"},
+      {"key":"Rear Camera","value":"50MP ZEISS (f/1.57) + 50MP Portrait + 8MP Ultra Wide","category":"camera"},
+      {"key":"Front Camera","value":"50MP ZEISS portrait selfie (f/2.0)","category":"camera"},
+      {"key":"Battery","value":"5000 mAh, 80W FlashCharge (30 min to 80%)","category":"battery"},
+      {"key":"OS","value":"Funtouch OS 14 (Android 14)","category":"software"},
+      {"key":"5G","value":"Yes","category":"connectivity"},
+      {"key":"Weight","value":"186 g","category":"design"},
+      {"key":"Dimensions","value":"164.36 × 75.18 × 7.46 mm","category":"design"},
+      {"key":"Water Resistance","value":"IP64","category":"design"},
+      {"key":"Colours","value":"Peacock Green, Titanium Gold","category":"design"},
+      {"key":"SIM","value":"Dual SIM (Nano + Nano)","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("flipkart","Flipkart",33999,41999,"Vivo V30 Pro","p/itmv30progreen","12GB+256GB Peacock Green"),
+      listing("amazon","Amazon",34999,41999,"Vivo V30 Pro","dp/B0CZPV5MYK","12GB+256GB Titanium Gold"),
+      listing("croma","Croma",35499,41999,"Vivo V30 Pro","product/vivo-v30-pro","12GB+256GB Peacock Green"),
+      listing("reliance_digital","Reliance Digital",35999,41999,"Vivo V30 Pro","vivo/v30-pro","12GB+256GB Titanium Gold"),
+      listing("vijay_sales","Vijay Sales",36499,41999,"Vivo V30 Pro","product/vivo-v30-pro-256gb","12GB+256GB Peacock Green"),
+      listing("tatacliq","Tata CLiQ",34499,41999,"Vivo V30 Pro","p/vivo-v30-pro","12GB+256GB Titanium Gold"),
+      listing("amazon","Amazon",35999,41999,"Vivo V30 Pro","dp/B0CZPV5MYK-gold","Titanium Gold Offer"),
+      listing("flipkart","Flipkart",34499,41999,"Vivo V30 Pro","p/itmv30prospecial","Flipkart Special Edition"),
+      listing("croma","Croma",36999,41999,"Vivo V30 Pro","product/vivo-v30-pro-titanium","In-Store + Extended Warranty"),
+      listing("reliance_digital","Reliance Digital",36999,41999,"Vivo V30 Pro","vivo/v30-pro-bundle","Bundled Earphones"),
+    ],
+    "price_history": make_price_history_dual(33999, 34999),
+  },
+]
+
+# ─── LAPTOPS ───────────────────────────────────────────────────────────────
+laptops = [
+  {
+    "id":"macbook-air-m3-13","name":"Apple MacBook Air M3 (13\", 8GB, 256GB)","brand":"Apple",
+    "category":"laptops","subcategory":"Ultrabooks",
+    "image_url":"https://images.smartkart.app/products/macbook-air-m3-13.jpg",
+    "description":"The MacBook Air M3 is the world's best consumer laptop — fanless, ultra-thin design with up to 18 hours battery life, M3 chip that outperforms most Intel Core i9 systems, and a stunning Liquid Retina display.",
+    "search_keywords":["macbook air m3","macbook air 2024","apple laptop","macbook air price","m3 chip laptop","apple macbook 13","thin light laptop"],
+    "ai_verdict":"The gold standard for ultrabooks. Unmatched battery life and performance-per-watt. Best price is on Flipkart — check for student/education discounts too.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Display","value":"13.6\" Liquid Retina, 2560×1664, 224ppi, 500 nits","category":"display"},
+      {"key":"Processor","value":"Apple M3 (8-core CPU, 10-core GPU)","category":"performance"},
+      {"key":"RAM","value":"8 GB unified memory","category":"performance"},
+      {"key":"Storage","value":"256 GB SSD","category":"storage"},
+      {"key":"Battery","value":"52.6Wh — up to 18 hours video playback","category":"battery"},
+      {"key":"OS","value":"macOS Sonoma (upgradeable to Sequoia)","category":"software"},
+      {"key":"Ports","value":"2× USB-C (Thunderbolt 3), MagSafe 3, 3.5mm headphone jack","category":"connectivity"},
+      {"key":"Wi-Fi","value":"Wi-Fi 6E (802.11ax)","category":"connectivity"},
+      {"key":"Webcam","value":"1080p FaceTime HD","category":"connectivity"},
+      {"key":"Weight","value":"1.24 kg","category":"design"},
+      {"key":"Dimensions","value":"304.1 × 215 × 11.5 mm","category":"design"},
+      {"key":"Colours","value":"Midnight, Starlight, Space Gray, Sky Blue","category":"design"},
+      {"key":"MagSafe","value":"Yes — 30W USB-C Power Adapter included","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("flipkart","Flipkart",104900,114900,"MacBook Air M3","p/itmmbairm3mid","Midnight 8GB+256GB"),
+      listing("amazon","Amazon",107900,114900,"MacBook Air M3","dp/B0CVY9FXVJ","Starlight 8GB+256GB"),
+      listing("croma","Croma",109900,114900,"MacBook Air M3","product/apple-macbook-air-m3","Space Gray 8GB+256GB"),
+      listing("reliance_digital","Reliance Digital",110900,114900,"MacBook Air M3","apple/macbook/macbook-air-m3","Sky Blue 8GB+256GB"),
+      listing("vijay_sales","Vijay Sales",111900,114900,"MacBook Air M3","product/macbook-air-m3-13","Midnight 8GB+256GB"),
+      listing("tatacliq","Tata CLiQ",108900,114900,"MacBook Air M3","p/apple-macbook-air-m3","Starlight 8GB+256GB"),
+      listing("flipkart","Flipkart",124900,134900,"MacBook Air M3","p/itmmbairm316gb","Midnight 16GB+512GB"),
+      listing("amazon","Amazon",126900,134900,"MacBook Air M3","dp/B0CVY9FXVJ16","Space Gray 16GB+512GB"),
+      listing("croma","Croma",128900,134900,"MacBook Air M3","product/macbook-air-m3-16gb","Sky Blue 16GB+512GB"),
+      listing("reliance_digital","Reliance Digital",129900,134900,"MacBook Air M3","apple/macbook/macbook-air-m3-16gb","Starlight 16GB+512GB"),
+    ],
+    "price_history": make_price_history_dual(104900, 107900),
+  },
+  {
+    "id":"asus-rog-strix-g16","name":"ASUS ROG Strix G16 (2024, i9, RTX 4070)","brand":"ASUS",
+    "category":"laptops","subcategory":"Gaming Laptops",
+    "image_url":"https://images.smartkart.app/products/asus-rog-strix-g16.jpg",
+    "description":"The ROG Strix G16 2024 is a powerhouse gaming laptop with Intel Core i9-14900HX, NVIDIA RTX 4070 8GB GDDR6, a 16\" 240Hz ROG Nebula Display, and MUX Switch for pure GPU performance.",
+    "search_keywords":["asus rog strix g16","rog gaming laptop","rtx 4070 laptop","asus gaming laptop","i9 14900hx laptop","240hz gaming laptop","rog strix g16 2024"],
+    "ai_verdict":"Best gaming laptop under ₹1.5 lakh. RTX 4070 handles 1440p gaming at ultra settings. Buy during Diwali for maximum savings — prices drop ₹15-20K.",
+    "buy_recommendation":"consider_waiting",
+    "specs":[
+      {"key":"Display","value":"16\" ROG Nebula IPS, 2560×1600, 240Hz, 3ms, 100% DCI-P3","category":"display"},
+      {"key":"Processor","value":"Intel Core i9-14900HX (24-core, 5.8GHz boost)","category":"performance"},
+      {"key":"GPU","value":"NVIDIA GeForce RTX 4070 8GB GDDR6, 140W TDP","category":"performance"},
+      {"key":"RAM","value":"16 GB DDR5 4800MHz (upgradeable to 64GB)","category":"performance"},
+      {"key":"Storage","value":"1 TB PCIe 4.0 NVMe SSD","category":"storage"},
+      {"key":"Battery","value":"90Wh — up to 8 hours light use","category":"battery"},
+      {"key":"OS","value":"Windows 11 Home","category":"software"},
+      {"key":"Ports","value":"2× USB-A 3.2, 1× USB-C (TB4), HDMI 2.1, SD card, 3.5mm","category":"connectivity"},
+      {"key":"Wi-Fi","value":"Wi-Fi 6E (802.11ax), Bluetooth 5.3","category":"connectivity"},
+      {"key":"Webcam","value":"FHD 1080p IR camera with Windows Hello","category":"connectivity"},
+      {"key":"Weight","value":"2.5 kg","category":"design"},
+      {"key":"Cooling","value":"Tri-fan ROG Intelligent Cooling, Liquid Metal","category":"performance"},
+      {"key":"Keyboard","value":"RGB per-key backlit, 1.7mm travel, anti-ghosting","category":"design"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",139990,169990,"ROG Strix G16","dp/B0D3LX1QJN","i9+RTX4070 Eclipse Gray"),
+      listing("flipkart","Flipkart",142990,169990,"ROG Strix G16","p/itmrogg16","i9+RTX4070 Eclipse Gray"),
+      listing("croma","Croma",144990,169990,"ROG Strix G16","product/asus-rog-strix-g16","i9+RTX4070 Eclipse Gray"),
+      listing("reliance_digital","Reliance Digital",145990,169990,"ROG Strix G16","asus/rog/strix-g16","i9+RTX4070 Volt Green"),
+      listing("vijay_sales","Vijay Sales",146990,169990,"ROG Strix G16","product/asus-rog-strix-g16-i9","i9+RTX4070 Volt Green"),
+      listing("tatacliq","Tata CLiQ",141990,169990,"ROG Strix G16","p/asus-rog-strix-g16","i9+RTX4070 Eclipse Gray"),
+      listing("amazon","Amazon",124990,154990,"ROG Strix G16","dp/B0D3LX1QJNi7","i7+RTX4060 Eclipse Gray"),
+      listing("flipkart","Flipkart",126990,154990,"ROG Strix G16","p/itmrogg16i7","i7+RTX4060 Eclipse Gray"),
+      listing("croma","Croma",128990,154990,"ROG Strix G16","product/asus-rog-strix-g16-i7","i7+RTX4060 Volt Green"),
+      listing("reliance_digital","Reliance Digital",129990,154990,"ROG Strix G16","asus/rog/strix-g16-i7","i7+RTX4060 Eclipse Gray"),
+    ],
+    "price_history": make_price_history_dual(139990, 142990),
+  },
+  {
+    "id":"hp-pavilion-15","name":"HP Pavilion 15 (Intel Core i5, 16GB, 512GB)","brand":"HP",
+    "category":"laptops","subcategory":"Laptops",
+    "image_url":"https://images.smartkart.app/products/hp-pavilion-15.jpg",
+    "description":"The HP Pavilion 15 strikes the perfect balance for students and home users — 13th Gen Intel Core i5 performance, a micro-edge FHD display, 16GB RAM, and a thin 19.4mm profile.",
+    "search_keywords":["hp pavilion 15","hp laptop i5","hp pavilion price","student laptop","hp 16gb laptop","hp laptop under 60000","hp pavilion 2024"],
+    "ai_verdict":"Best student laptop under ₹60K. Reliable HP build quality, plenty of RAM, and decent performance for everyday tasks. Amazon usually has best price.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Display","value":"15.6\" FHD IPS micro-edge anti-glare, 250 nits","category":"display"},
+      {"key":"Processor","value":"Intel Core i5-1335U (13th Gen, 10-core, 4.6GHz boost)","category":"performance"},
+      {"key":"RAM","value":"16 GB DDR4 3200MHz (1 slot free for upgrade)","category":"performance"},
+      {"key":"Storage","value":"512 GB PCIe NVMe SSD","category":"storage"},
+      {"key":"GPU","value":"Intel Iris Xe Graphics","category":"performance"},
+      {"key":"Battery","value":"41Wh — up to 7.5 hours","category":"battery"},
+      {"key":"OS","value":"Windows 11 Home","category":"software"},
+      {"key":"Ports","value":"1× USB-C 3.2, 2× USB-A 3.1, HDMI 1.4b, SD card, 3.5mm","category":"connectivity"},
+      {"key":"Wi-Fi","value":"Wi-Fi 6 (802.11ax), Bluetooth 5.3","category":"connectivity"},
+      {"key":"Webcam","value":"720p HP Wide Vision HD","category":"connectivity"},
+      {"key":"Weight","value":"1.75 kg","category":"design"},
+      {"key":"Dimensions","value":"357.7 × 229.9 × 19.4 mm","category":"design"},
+      {"key":"Colours","value":"Natural Silver, Warm Gold","category":"design"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",52990,65990,"HP Pavilion 15","dp/B0CTH2BZZV","i5+16GB+512GB Silver"),
+      listing("flipkart","Flipkart",54990,65990,"HP Pavilion 15","p/itmhppav15","i5+16GB+512GB Silver"),
+      listing("croma","Croma",55990,65990,"HP Pavilion 15","product/hp-pavilion-15","i5+16GB+512GB Warm Gold"),
+      listing("reliance_digital","Reliance Digital",56990,65990,"HP Pavilion 15","hp/pavilion/15","i5+16GB+512GB Silver"),
+      listing("vijay_sales","Vijay Sales",57490,65990,"HP Pavilion 15","product/hp-pavilion-15-i5","i5+16GB+512GB Warm Gold"),
+      listing("tatacliq","Tata CLiQ",54490,65990,"HP Pavilion 15","p/hp-pavilion-15","i5+16GB+512GB Silver"),
+      listing("amazon","Amazon",62990,74990,"HP Pavilion 15","dp/B0CTH2BZZV-i7","i7+16GB+512GB Silver"),
+      listing("flipkart","Flipkart",63990,74990,"HP Pavilion 15","p/itmhppav15i7","i7+16GB+512GB Warm Gold"),
+      listing("croma","Croma",64990,74990,"HP Pavilion 15","product/hp-pavilion-15-i7","i7+16GB+512GB Silver"),
+      listing("reliance_digital","Reliance Digital",65990,74990,"HP Pavilion 15","hp/pavilion/15-i7","i7+16GB+512GB Warm Gold"),
+    ],
+    "price_history": make_price_history_dual(52990, 54990),
+  },
+  {
+    "id":"lenovo-ideapad-slim-5","name":"Lenovo IdeaPad Slim 5 (AMD Ryzen 7, 16GB)","brand":"Lenovo",
+    "category":"laptops","subcategory":"Laptops",
+    "image_url":"https://images.smartkart.app/products/lenovo-ideapad-slim-5.jpg",
+    "description":"The IdeaPad Slim 5 Gen 9 features AMD Ryzen 7 7730U, a vibrant 2.8K OLED display, 16GB RAM, and a 65W USB-C rapid charge — an exceptional all-rounder at an unbeatable price.",
+    "search_keywords":["lenovo ideapad slim 5","lenovo ryzen 7 laptop","lenovo oled laptop","ideapad slim 5 price","lenovo 16gb laptop","lenovo 2k display laptop","ideapad slim 5 gen 9"],
+    "ai_verdict":"The 2.8K OLED display is the star — stunning for content creators and media consumption. Ryzen 7 handles multitasking effortlessly. Strong pick for creators under ₹75K.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Display","value":"14\" 2.8K OLED, 2880×1800, 90Hz, 100% DCI-P3, Dolby Vision","category":"display"},
+      {"key":"Processor","value":"AMD Ryzen 7 7730U (8-core, 4.5GHz boost)","category":"performance"},
+      {"key":"RAM","value":"16 GB LPDDR4X 4266MHz (soldered)","category":"performance"},
+      {"key":"Storage","value":"512 GB PCIe 4.0 NVMe SSD","category":"storage"},
+      {"key":"GPU","value":"AMD Radeon 780M integrated","category":"performance"},
+      {"key":"Battery","value":"75Wh — up to 10 hours mixed use","category":"battery"},
+      {"key":"OS","value":"Windows 11 Home","category":"software"},
+      {"key":"Ports","value":"2× USB-C (1 PD 65W), 2× USB-A 3.2, HDMI 2.1, 3.5mm","category":"connectivity"},
+      {"key":"Wi-Fi","value":"Wi-Fi 6E (802.11ax), Bluetooth 5.3","category":"connectivity"},
+      {"key":"Webcam","value":"1080p FHD with Privacy Shutter","category":"connectivity"},
+      {"key":"Weight","value":"1.46 kg","category":"design"},
+      {"key":"Dimensions","value":"313 × 220 × 16.9 mm","category":"design"},
+      {"key":"Colours","value":"Cloud Grey, Abyss Blue","category":"design"},
+    ],
+    "platforms":[
+      listing("flipkart","Flipkart",61990,75990,"Lenovo IdeaPad Slim 5","p/itmidpadslim5","Ryzen7+16GB+512GB Abyss Blue"),
+      listing("amazon","Amazon",63990,75990,"Lenovo IdeaPad Slim 5","dp/B0D1MC5G65","Ryzen7+16GB+512GB Cloud Grey"),
+      listing("croma","Croma",64990,75990,"Lenovo IdeaPad Slim 5","product/lenovo-ideapad-slim-5","Ryzen7+16GB+512GB Abyss Blue"),
+      listing("reliance_digital","Reliance Digital",65490,75990,"Lenovo IdeaPad Slim 5","lenovo/ideapad/slim-5","Ryzen7+16GB+512GB Cloud Grey"),
+      listing("vijay_sales","Vijay Sales",65990,75990,"Lenovo IdeaPad Slim 5","product/lenovo-ideapad-slim-5-ryzen7","Ryzen7+16GB+512GB Abyss Blue"),
+      listing("tatacliq","Tata CLiQ",63490,75990,"Lenovo IdeaPad Slim 5","p/lenovo-ideapad-slim-5","Ryzen7+16GB+512GB Cloud Grey"),
+      listing("amazon","Amazon",54990,64990,"Lenovo IdeaPad Slim 5","dp/B0D1MC5G65r5","Ryzen5+16GB+512GB Cloud Grey"),
+      listing("flipkart","Flipkart",55990,64990,"Lenovo IdeaPad Slim 5","p/itmidpadslim5r5","Ryzen5+16GB+512GB Abyss Blue"),
+      listing("croma","Croma",56990,64990,"Lenovo IdeaPad Slim 5","product/lenovo-ideapad-slim-5-r5","Ryzen5+8GB+512GB Cloud Grey"),
+      listing("reliance_digital","Reliance Digital",57490,64990,"Lenovo IdeaPad Slim 5","lenovo/ideapad/slim-5-r5","Ryzen5+8GB+512GB Abyss Blue"),
+    ],
+    "price_history": make_price_history_dual(61990, 63990),
+  },
+  {
+    "id":"dell-xps-15","name":"Dell XPS 15 (i7, RTX 4060, 32GB, 1TB)","brand":"Dell",
+    "category":"laptops","subcategory":"Premium Laptops",
+    "image_url":"https://images.smartkart.app/products/dell-xps-15.jpg",
+    "description":"The Dell XPS 15 9530 combines InfinityEdge OLED display craftsmanship with workstation-grade performance — Core i7-13700H, RTX 4060, 32GB RAM, and the thinnest 15\" premium chassis available.",
+    "search_keywords":["dell xps 15","dell xps 9530","dell premium laptop","dell rtx 4060 laptop","dell oled laptop","xps 15 price india","dell i7 laptop"],
+    "ai_verdict":"The premium all-rounder — OLED display, RTX 4060 for light gaming, and a stunning build. Pricey but worth it for professionals. Best bought from Croma with extended warranty.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Display","value":"15.6\" 3.5K OLED Touch, 3456×2160, 60Hz, 100% DCI-P3","category":"display"},
+      {"key":"Processor","value":"Intel Core i7-13700H (14-core, 5.0GHz boost)","category":"performance"},
+      {"key":"GPU","value":"NVIDIA GeForce RTX 4060 8GB GDDR6","category":"performance"},
+      {"key":"RAM","value":"32 GB DDR5 4800MHz (upgradeable)","category":"performance"},
+      {"key":"Storage","value":"1 TB PCIe 4.0 NVMe SSD","category":"storage"},
+      {"key":"Battery","value":"86Wh — up to 9 hours","category":"battery"},
+      {"key":"OS","value":"Windows 11 Home","category":"software"},
+      {"key":"Ports","value":"2× TB4 USB-C, 1× USB-A 3.1, SD card, 3.5mm","category":"connectivity"},
+      {"key":"Wi-Fi","value":"Wi-Fi 6E (802.11ax), Bluetooth 5.3","category":"connectivity"},
+      {"key":"Webcam","value":"720p IR with Windows Hello","category":"connectivity"},
+      {"key":"Weight","value":"1.86 kg","category":"design"},
+      {"key":"Dimensions","value":"344.4 × 230.1 × 18 mm","category":"design"},
+      {"key":"Colours","value":"Platinum Silver, Graphite","category":"design"},
+    ],
+    "platforms":[
+      listing("croma","Croma",174990,219990,"Dell XPS 15","product/dell-xps-15","i7+RTX4060+32GB+1TB Silver"),
+      listing("amazon","Amazon",179990,219990,"Dell XPS 15","dp/B0CRSBYW4Q","i7+RTX4060+32GB+1TB Graphite"),
+      listing("flipkart","Flipkart",182990,219990,"Dell XPS 15","p/itmdelxps15","i7+RTX4060+32GB+1TB Silver"),
+      listing("reliance_digital","Reliance Digital",184990,219990,"Dell XPS 15","dell/xps/15","i7+RTX4060+32GB+1TB Graphite"),
+      listing("vijay_sales","Vijay Sales",185990,219990,"Dell XPS 15","product/dell-xps-15-i7","i7+RTX4060+32GB+1TB Silver"),
+      listing("tatacliq","Tata CLiQ",177990,219990,"Dell XPS 15","p/dell-xps-15","i7+RTX4060+32GB+1TB Graphite"),
+      listing("amazon","Amazon",154990,194990,"Dell XPS 15","dp/B0CRSBYW4Qi5","i5+RTX4050+16GB+512GB Silver"),
+      listing("flipkart","Flipkart",156990,194990,"Dell XPS 15","p/itmdelxps15i5","i5+RTX4050+16GB+512GB Graphite"),
+      listing("croma","Croma",158990,194990,"Dell XPS 15","product/dell-xps-15-i5","i5+RTX4050+16GB+512GB Silver"),
+      listing("reliance_digital","Reliance Digital",159990,194990,"Dell XPS 15","dell/xps/15-i5","i5+RTX4050+16GB+512GB Graphite"),
+    ],
+    "price_history": make_price_history_dual(174990, 179990),
+  },
+]
+
+# ─── AUDIO ─────────────────────────────────────────────────────────────────
+audio = [
+  {
+    "id":"sony-wh-1000xm5","name":"Sony WH-1000XM5 Wireless Headphones","brand":"Sony",
+    "category":"audio","subcategory":"Over-Ear Headphones",
+    "image_url":"https://images.smartkart.app/products/sony-wh-1000xm5.jpg",
+    "description":"Industry-leading noise cancellation meets 30-hour battery life. The WH-1000XM5 features 8 microphones, LDAC codec support, multipoint connection, and a redesigned driver for warm, detailed sound.",
+    "search_keywords":["sony wh1000xm5","sony noise cancelling headphones","sony xm5","best anc headphones","sony headphones price","wh1000xm5 india","sony wireless headphones"],
+    "ai_verdict":"The benchmark for ANC headphones. Best-in-class noise cancellation and 30-hour battery. Price has stabilised — buy now, unlikely to go lower.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Driver","value":"30mm custom dynamic driver","category":"audio"},
+      {"key":"Frequency Response","value":"4 Hz – 40 kHz","category":"audio"},
+      {"key":"Noise Cancellation","value":"Industry-leading ANC (8-mic array, QN1 + V1 processors)","category":"audio"},
+      {"key":"Codec","value":"LDAC, AAC, SBC","category":"connectivity"},
+      {"key":"Battery Life","value":"30 hours (ANC on), 40 hours (ANC off)","category":"battery"},
+      {"key":"Quick Charge","value":"3 min = 3 hours playback","category":"battery"},
+      {"key":"Multipoint","value":"Connect 2 devices simultaneously","category":"connectivity"},
+      {"key":"Weight","value":"250 g","category":"design"},
+      {"key":"Foldable","value":"No (but slim case included)","category":"design"},
+      {"key":"Colours","value":"Black, Platinum Silver, Midnight Blue","category":"design"},
+      {"key":"Mic","value":"4 beamforming + 4 feedback mics (Precise Voice Pickup)","category":"audio"},
+      {"key":"Touch Controls","value":"Yes — swipe, tap, hold","category":"design"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",23990,34990,"Sony WH-1000XM5","dp/B09XS7JWHH","Black"),
+      listing("flipkart","Flipkart",24990,34990,"Sony WH-1000XM5","p/itmsonywh1000xm5","Platinum Silver"),
+      listing("croma","Croma",25990,34990,"Sony WH-1000XM5","product/sony-wh-1000xm5","Black"),
+      listing("reliance_digital","Reliance Digital",26490,34990,"Sony WH-1000XM5","sony/headphones/wh-1000xm5","Midnight Blue"),
+      listing("vijay_sales","Vijay Sales",26990,34990,"Sony WH-1000XM5","product/sony-wh1000xm5","Black"),
+      listing("tatacliq","Tata CLiQ",24490,34990,"Sony WH-1000XM5","p/sony-wh-1000xm5","Platinum Silver"),
+      listing("amazon","Amazon",23990,34990,"Sony WH-1000XM5","dp/B09XS7JWHHsilver","Platinum Silver — Limited Stock"),
+      listing("flipkart","Flipkart",24490,34990,"Sony WH-1000XM5","p/itmsonywh1000xm5blue","Midnight Blue"),
+      listing("croma","Croma",25990,34990,"Sony WH-1000XM5","product/sony-wh-1000xm5-silver","Platinum Silver + Carry Bag Bundle"),
+      listing("reliance_digital","Reliance Digital",26990,34990,"Sony WH-1000XM5","sony/headphones/wh-1000xm5-blue","Midnight Blue"),
+    ],
+    "price_history": make_price_history_dual(23990, 24990),
+  },
+  {
+    "id":"boat-rockerz-550","name":"boAt Rockerz 550 Wireless Headphones","brand":"boAt",
+    "category":"audio","subcategory":"Over-Ear Headphones",
+    "image_url":"https://images.smartkart.app/products/boat-rockerz-550.jpg",
+    "description":"boAt Rockerz 550 delivers 20 hours of playtime, 40mm drivers tuned for bass lovers, voice assistant support, and a foldable design with soft earcups — all at a price that's hard to beat.",
+    "search_keywords":["boat rockerz 550","boat headphones","boat wireless headphones","boat rockerz price","budget headphones india","boat 550","boat bluetooth headphones"],
+    "ai_verdict":"Best budget wireless headphones under ₹2000. Bass-heavy sound signature suits Bollywood and EDM. Amazon and Flipkart frequently offer 60%+ off MRP.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Driver","value":"40mm dynamic driver","category":"audio"},
+      {"key":"Frequency Response","value":"20 Hz – 20 kHz","category":"audio"},
+      {"key":"Battery Life","value":"20 hours playback","category":"battery"},
+      {"key":"Charging","value":"Micro-USB, 2 hours full charge","category":"battery"},
+      {"key":"Codec","value":"SBC","category":"connectivity"},
+      {"key":"Bluetooth","value":"Bluetooth 5.0, 10m range","category":"connectivity"},
+      {"key":"Foldable","value":"Yes","category":"design"},
+      {"key":"Weight","value":"218 g","category":"design"},
+      {"key":"Colours","value":"Luscious Black, Furious Blue, Rockin Red, Hazel Green","category":"design"},
+      {"key":"Mic","value":"Built-in mic for calls","category":"audio"},
+      {"key":"Controls","value":"Physical buttons on earcup","category":"design"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",1499,4999,"boAt Rockerz 550","dp/B08N57BWQF","Luscious Black"),
+      listing("flipkart","Flipkart",1599,4999,"boAt Rockerz 550","p/itmboatrock550","Furious Blue"),
+      listing("amazon","Amazon",1549,4999,"boAt Rockerz 550","dp/B08N57BWQF-red","Rockin Red"),
+      listing("flipkart","Flipkart",1649,4999,"boAt Rockerz 550","p/itmboatrock550grn","Hazel Green"),
+      listing("croma","Croma",2499,4999,"boAt Rockerz 550","product/boat-rockerz-550","Luscious Black"),
+      listing("reliance_digital","Reliance Digital",2599,4999,"boAt Rockerz 550","boat/headphones/rockerz-550","Furious Blue"),
+      listing("tatacliq","Tata CLiQ",1799,4999,"boAt Rockerz 550","p/boat-rockerz-550","Rockin Red"),
+      listing("vijay_sales","Vijay Sales",2299,4999,"boAt Rockerz 550","product/boat-rockerz-550-blue","Furious Blue"),
+      listing("amazon","Amazon",1499,4999,"boAt Rockerz 550","dp/B08N57BWQFblk2","Luscious Black — Deal of the Day"),
+      listing("flipkart","Flipkart",1599,4999,"boAt Rockerz 550","p/itmboatrock550special","Special Edition Blue"),
+    ],
+    "price_history": make_price_history_dual(1499, 1599),
+  },
+  {
+    "id":"apple-airpods-pro-2","name":"Apple AirPods Pro (2nd Gen) with USB-C","brand":"Apple",
+    "category":"audio","subcategory":"True Wireless Earbuds",
+    "image_url":"https://images.smartkart.app/products/apple-airpods-pro-2.jpg",
+    "description":"AirPods Pro 2 feature the H2 chip for 2× better ANC than Gen 1, Adaptive Transparency, Personalized Spatial Audio, and USB-C charging — the best earbuds for iPhone users by a wide margin.",
+    "search_keywords":["airpods pro 2","apple airpods pro","airpods pro price india","apple earbuds","best earbuds for iphone","airpods anc","airpods usb-c"],
+    "ai_verdict":"Must-have for iPhone users. H2 chip's ANC is class-leading for earbuds. Deep Apple ecosystem integration (Find My, Spatial Audio) unmatched elsewhere.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Chip","value":"Apple H2","category":"performance"},
+      {"key":"ANC","value":"2× improvement over Gen 1 (H2 adaptive ANC)","category":"audio"},
+      {"key":"Transparency Mode","value":"Adaptive Transparency — adjusts in real-time","category":"audio"},
+      {"key":"Battery Life","value":"6 hours (ANC on), 30 hours with case","category":"battery"},
+      {"key":"Charging","value":"USB-C (MagSafe compatible)","category":"battery"},
+      {"key":"Water Resistance","value":"IPX4 (buds + case)","category":"design"},
+      {"key":"Spatial Audio","value":"Personalized Spatial Audio with dynamic head tracking","category":"audio"},
+      {"key":"Codec","value":"AAC","category":"connectivity"},
+      {"key":"Fit","value":"4 ear tip sizes (XS, S, M, L)","category":"design"},
+      {"key":"Weight","value":"5.3 g per bud","category":"design"},
+      {"key":"Colour","value":"White","category":"design"},
+      {"key":"Find My","value":"Precision Finding with Ultra Wideband","category":"connectivity"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",19900,24900,"AirPods Pro 2","dp/B0CHWRXH8B","USB-C"),
+      listing("flipkart","Flipkart",20900,24900,"AirPods Pro 2","p/itmairpodspro2","USB-C"),
+      listing("croma","Croma",21900,24900,"AirPods Pro 2","product/apple-airpods-pro-2","USB-C"),
+      listing("reliance_digital","Reliance Digital",22400,24900,"AirPods Pro 2","apple/airpods/airpods-pro-2","USB-C"),
+      listing("vijay_sales","Vijay Sales",22900,24900,"AirPods Pro 2","product/apple-airpods-pro-2nd-gen","USB-C"),
+      listing("tatacliq","Tata CLiQ",20400,24900,"AirPods Pro 2","p/apple-airpods-pro-2","USB-C"),
+      listing("amazon","Amazon",19900,24900,"AirPods Pro 2","dp/B0CHWRXH8B-deal","USB-C — Lightning Adapter Included"),
+      listing("flipkart","Flipkart",20500,24900,"AirPods Pro 2","p/itmairpodspro2bundle","USB-C + Apple Polishing Cloth Bundle"),
+      listing("croma","Croma",21900,24900,"AirPods Pro 2","product/airpods-pro-2-with-case","USB-C + Extra Ear Tips"),
+      listing("reliance_digital","Reliance Digital",22900,24900,"AirPods Pro 2","apple/airpods/airpods-pro-2-rd","USB-C — RD Exclusive"),
+    ],
+    "price_history": make_price_history_dual(19900, 20900),
+  },
+  {
+    "id":"jbl-flip-6","name":"JBL Flip 6 Portable Bluetooth Speaker","brand":"JBL",
+    "category":"audio","subcategory":"Bluetooth Speakers",
+    "image_url":"https://images.smartkart.app/products/jbl-flip-6.jpg",
+    "description":"JBL Flip 6 punches above its price with a 2-way speaker system (racetrack woofer + tweeter), IP67 waterproof rating, 12-hour battery, and PartyBoost to sync 2+ JBL speakers.",
+    "search_keywords":["jbl flip 6","jbl speaker","jbl bluetooth speaker","jbl flip 6 price","portable speaker india","waterproof speaker","jbl partyboost"],
+    "ai_verdict":"Best portable speaker under ₹10K. IP67 waterproofing makes it pool-party ready. Sound quality is genuinely impressive for the size. Buy during sale for best value.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Speaker System","value":"2-way: racetrack woofer + tweeter","category":"audio"},
+      {"key":"Output Power","value":"30W RMS total","category":"audio"},
+      {"key":"Frequency Response","value":"63 Hz – 20 kHz","category":"audio"},
+      {"key":"Battery Life","value":"12 hours","category":"battery"},
+      {"key":"Charging","value":"USB-C, 2.5 hours full charge","category":"battery"},
+      {"key":"Water Resistance","value":"IP67 — 1m for 30 min","category":"design"},
+      {"key":"Bluetooth","value":"Bluetooth 5.1, 10m range","category":"connectivity"},
+      {"key":"PartyBoost","value":"Yes — sync multiple JBL PartyBoost speakers","category":"connectivity"},
+      {"key":"Weight","value":"550 g","category":"design"},
+      {"key":"Dimensions","value":"178 × 68 × 72 mm","category":"design"},
+      {"key":"Colours","value":"Black, Blue, Red, Teal, Sand, Squad","category":"design"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",7999,11999,"JBL Flip 6","dp/B09PYKPMZX","Black"),
+      listing("flipkart","Flipkart",8499,11999,"JBL Flip 6","p/itmjblflip6","Blue"),
+      listing("croma","Croma",8999,11999,"JBL Flip 6","product/jbl-flip-6","Red"),
+      listing("reliance_digital","Reliance Digital",9499,11999,"JBL Flip 6","jbl/speakers/flip-6","Teal"),
+      listing("vijay_sales","Vijay Sales",9999,11999,"JBL Flip 6","product/jbl-flip-6-black","Black"),
+      listing("tatacliq","Tata CLiQ",8199,11999,"JBL Flip 6","p/jbl-flip-6","Sand"),
+      listing("amazon","Amazon",7999,11999,"JBL Flip 6","dp/B09PYKPMZXblue","Blue — Deal"),
+      listing("flipkart","Flipkart",8299,11999,"JBL Flip 6","p/itmjblflip6teal","Teal — Sale"),
+      listing("croma","Croma",9499,11999,"JBL Flip 6","product/jbl-flip-6-squad","Squad Edition"),
+      listing("reliance_digital","Reliance Digital",9999,11999,"JBL Flip 6","jbl/speakers/flip-6-bundle","Flip 6 + Bag Bundle"),
+    ],
+    "price_history": make_price_history_dual(7999, 8499),
+  },
+]
+
+# ─── GROCERY ───────────────────────────────────────────────────────────────
+grocery = [
+  {
+    "id":"tata-sampann-tur-dal-1kg","name":"Tata Sampann Unpolished Tur Dal 1 kg","brand":"Tata",
+    "category":"grocery","subcategory":"Dal & Pulses",
+    "image_url":"https://images.smartkart.app/products/tata-sampann-tur-dal-1kg.jpg",
+    "description":"Tata Sampann Tur Dal is unpolished and retains its natural goodness — rich in protein and fibre. Sourced from the best farms, double-cleaned for hygiene, and packed fresh.",
+    "search_keywords":["tata sampann tur dal","arhar dal","toor dal 1kg","tata dal","tur dal price","unpolished dal","tata sampann dal"],
+    "ai_verdict":"Best quality tur dal in the market. Zepto and Blinkit offer fastest delivery; BigBasket usually cheapest for bulk orders.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Weight","value":"1 kg","category":"General"},
+      {"key":"Type","value":"Unpolished Tur Dal (Arhar/Pigeon Pea)","category":"General"},
+      {"key":"Protein","value":"22g per 100g","category":"Nutrition"},
+      {"key":"Shelf Life","value":"12 months","category":"General"},
+      {"key":"Packaging","value":"Zip-lock pouch","category":"General"},
+      {"key":"Certifications","value":"FSSAI Certified, Non-GMO","category":"Quality"},
+    ],
+    "platforms":[
+      listing("bigbasket","BigBasket",185,250,"Tata Sampann Tur Dal","bb/tata-sampann-tur-dal-1kg","1 kg"),
+      listing("blinkit","Blinkit",189,250,"Tata Sampann Tur Dal","blinkit/tata-sampann-tur-dal","1 kg"),
+      listing("zepto","Zepto",192,250,"Tata Sampann Tur Dal","zepto/tata-sampann-tur-dal-1kg","1 kg"),
+      listing("amazon","Amazon",195,250,"Tata Sampann Tur Dal","dp/B07HQWM7XF","1 kg"),
+      listing("flipkart","Flipkart",199,250,"Tata Sampann Tur Dal","p/itmtatadal1kg","1 kg"),
+      listing("bigbasket","BigBasket",349,450,"Tata Sampann Tur Dal","bb/tata-sampann-tur-dal-2kg","2 kg Pack"),
+      listing("blinkit","Blinkit",358,450,"Tata Sampann Tur Dal","blinkit/tata-sampann-tur-dal-2kg","2 kg Pack"),
+      listing("zepto","Zepto",362,450,"Tata Sampann Tur Dal","zepto/tata-sampann-tur-dal-2kg","2 kg Pack"),
+      listing("amazon","Amazon",369,450,"Tata Sampann Tur Dal","dp/B07HQWM7XF2kg","2 kg Pack"),
+      listing("flipkart","Flipkart",374,450,"Tata Sampann Tur Dal","p/itmtatadal2kg","2 kg Pack"),
+    ],
+    "price_history": make_price_history_dual(185, 189),
+  },
+  {
+    "id":"aashirvaad-atta-5kg","name":"Aashirvaad Whole Wheat Atta 5 kg","brand":"Aashirvaad",
+    "category":"grocery","subcategory":"Atta & Flour",
+    "image_url":"https://images.smartkart.app/products/aashirvaad-atta-5kg.jpg",
+    "description":"Aashirvaad Atta is India's No.1 atta brand. Made from premium MP wheat with retained bran and germ, delivering soft rotis that stay soft for hours. The Select variant adds fibre.",
+    "search_keywords":["aashirvaad atta 5kg","aashirvaad wheat flour","atta 5kg price","aashirvaad atta price","whole wheat atta","mp wheat atta","best atta brand india"],
+    "ai_verdict":"India's most trusted atta. Blinkit and Zepto ideal for quick delivery; BigBasket cheapest. 10 kg packs offer best per-kg savings.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Weight","value":"5 kg","category":"General"},
+      {"key":"Type","value":"Whole Wheat Atta (Chakki Ground)","category":"General"},
+      {"key":"Wheat Source","value":"Premium Madhya Pradesh wheat","category":"Quality"},
+      {"key":"Fibre","value":"2.1g per 100g","category":"Nutrition"},
+      {"key":"Shelf Life","value":"6 months","category":"General"},
+      {"key":"Certifications","value":"FSSAI, No Added Preservatives","category":"Quality"},
+    ],
+    "platforms":[
+      listing("bigbasket","BigBasket",245,300,"Aashirvaad Atta 5kg","bb/aashirvaad-atta-5kg","5 kg"),
+      listing("blinkit","Blinkit",249,300,"Aashirvaad Atta 5kg","blinkit/aashirvaad-atta-5kg","5 kg"),
+      listing("zepto","Zepto",252,300,"Aashirvaad Atta 5kg","zepto/aashirvaad-atta-5kg","5 kg"),
+      listing("amazon","Amazon",258,300,"Aashirvaad Atta 5kg","dp/B0764LFTK1","5 kg"),
+      listing("flipkart","Flipkart",262,300,"Aashirvaad Atta 5kg","p/itmatta5kg","5 kg"),
+      listing("bigbasket","BigBasket",459,550,"Aashirvaad Atta 5kg","bb/aashirvaad-atta-10kg","10 kg Pack"),
+      listing("blinkit","Blinkit",469,550,"Aashirvaad Atta 5kg","blinkit/aashirvaad-atta-10kg","10 kg Pack"),
+      listing("zepto","Zepto",472,550,"Aashirvaad Atta 5kg","zepto/aashirvaad-atta-10kg","10 kg Pack"),
+      listing("amazon","Amazon",479,550,"Aashirvaad Atta 5kg","dp/B0764LFTK1-10","10 kg Pack"),
+      listing("flipkart","Flipkart",485,550,"Aashirvaad Atta 5kg","p/itmatta10kg","10 kg Pack"),
+    ],
+    "price_history": make_price_history_dual(245, 249),
+  },
+  {
+    "id":"amul-butter-500g","name":"Amul Pasteurised Butter 500 g","brand":"Amul",
+    "category":"grocery","subcategory":"Dairy",
+    "image_url":"https://images.smartkart.app/products/amul-butter-500g.jpg",
+    "description":"Amul Butter is India's most loved butter — made from fresh pasteurised cream, lightly salted, and rich in natural dairy flavour. Perfect for spreading, baking, and cooking.",
+    "search_keywords":["amul butter 500g","amul butter price","butter 500g","amul pasteurised butter","amul dairy","best butter india","amul yellow butter"],
+    "ai_verdict":"Zero-compromise pick — Amul is India's most trusted dairy brand. Zepto and Blinkit win on speed; BigBasket often has combo deals.",
+    "buy_recommendation":"buy_now",
+    "specs":[
+      {"key":"Weight","value":"500 g","category":"General"},
+      {"key":"Type","value":"Pasteurised Butter (Salted)","category":"General"},
+      {"key":"Fat Content","value":"80% minimum milk fat","category":"Nutrition"},
+      {"key":"Storage","value":"Refrigerate below 8°C","category":"General"},
+      {"key":"Shelf Life","value":"90 days (refrigerated)","category":"General"},
+      {"key":"Certifications","value":"FSSAI, BIS","category":"Quality"},
+    ],
+    "platforms":[
+      listing("blinkit","Blinkit",260,280,"Amul Butter 500g","blinkit/amul-butter-500g","500 g"),
+      listing("zepto","Zepto",262,280,"Amul Butter 500g","zepto/amul-butter-500g","500 g"),
+      listing("bigbasket","BigBasket",258,280,"Amul Butter 500g","bb/amul-butter-500g","500 g"),
+      listing("amazon","Amazon",265,280,"Amul Butter 500g","dp/B07PQL8TRJ","500 g"),
+      listing("flipkart","Flipkart",268,280,"Amul Butter 500g","p/itmamulbutter500","500 g"),
+      listing("blinkit","Blinkit",138,150,"Amul Butter 500g","blinkit/amul-butter-250g","250 g"),
+      listing("zepto","Zepto",140,150,"Amul Butter 500g","zepto/amul-butter-250g","250 g"),
+      listing("bigbasket","BigBasket",136,150,"Amul Butter 500g","bb/amul-butter-250g","250 g"),
+      listing("amazon","Amazon",142,150,"Amul Butter 500g","dp/B07PQL8TRJ250","250 g"),
+      listing("flipkart","Flipkart",144,150,"Amul Butter 500g","p/itmamulbutter250","250 g"),
+    ],
+    "price_history": make_price_history_dual(260, 262),
+  },
+  {
+    "id":"saffola-gold-oil-1l","name":"Saffola Gold Cooking Oil 1 L","brand":"Saffola",
+    "category":"grocery","subcategory":"Cooking Oil",
+    "image_url":"https://images.smartkart.app/products/saffola-gold-oil-1l.jpg",
+    "description":"Saffola Gold is a dual-seed blend of rice bran and corn oil with Losorb technology that absorbs 33% less oil in fried food. Ideal for health-conscious Indian cooking.",
+    "search_keywords":["saffola gold oil","saffola cooking oil 1l","saffola gold 1 litre","rice bran oil india","healthy cooking oil","saffola gold price","losorb oil"],
+    "ai_verdict":"Best healthy cooking oil brand in India. The 2L and 5L packs offer much better per-litre value. BigBasket's subscription saves ₹30–50 extra.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Volume","value":"1 Litre","category":"General"},
+      {"key":"Type","value":"Refined Rice Bran & Corn Oil Blend","category":"General"},
+      {"key":"Technology","value":"Losorb™ — 33% less oil absorption while frying","category":"Quality"},
+      {"key":"MUFA Content","value":"High MUFA for heart health","category":"Nutrition"},
+      {"key":"Shelf Life","value":"12 months","category":"General"},
+      {"key":"Certifications","value":"FSSAI, Heart Healthier Choice","category":"Quality"},
+    ],
+    "platforms":[
+      listing("bigbasket","BigBasket",168,220,"Saffola Gold Oil 1L","bb/saffola-gold-1l","1 L Pouch"),
+      listing("blinkit","Blinkit",172,220,"Saffola Gold Oil 1L","blinkit/saffola-gold-oil-1l","1 L Bottle"),
+      listing("zepto","Zepto",175,220,"Saffola Gold Oil 1L","zepto/saffola-gold-oil","1 L Bottle"),
+      listing("amazon","Amazon",180,220,"Saffola Gold Oil 1L","dp/B07B4JCX5Y","1 L"),
+      listing("flipkart","Flipkart",183,220,"Saffola Gold Oil 1L","p/itmsaffola1l","1 L"),
+      listing("bigbasket","BigBasket",319,420,"Saffola Gold Oil 1L","bb/saffola-gold-2l","2 L Pack"),
+      listing("blinkit","Blinkit",325,420,"Saffola Gold Oil 1L","blinkit/saffola-gold-oil-2l","2 L Pack"),
+      listing("zepto","Zepto",328,420,"Saffola Gold Oil 1L","zepto/saffola-gold-oil-2l","2 L Pack"),
+      listing("amazon","Amazon",334,420,"Saffola Gold Oil 1L","dp/B07B4JCX5Y-2l","2 L Pack"),
+      listing("flipkart","Flipkart",338,420,"Saffola Gold Oil 1L","p/itmsaffola2l","2 L Pack"),
+    ],
+    "price_history": make_price_history_dual(168, 172),
+  },
+]
+
+# ─── APPLIANCES ─────────────────────────────────────────────────────────────
+appliances = [
+  {
+    "id":"dyson-v12-detect-slim","name":"Dyson V12 Detect Slim Cordless Vacuum","brand":"Dyson",
+    "category":"appliances","subcategory":"Vacuum Cleaners",
+    "image_url":"https://images.smartkart.app/products/dyson-v12-detect-slim.jpg",
+    "description":"The Dyson V12 Detect Slim uses a green laser to reveal microscopic dust invisible to the naked eye. Its 147AW suction, piezo sensor LCD display, and 60-min battery make it the most intelligent cordless vacuum available.",
+    "search_keywords":["dyson v12","dyson v12 detect slim","dyson vacuum","dyson cordless vacuum","dyson vacuum price india","best vacuum cleaner india","dyson laser vacuum"],
+    "ai_verdict":"Best premium cordless vacuum in India. The laser dust detection is genuinely life-changing for cleanliness. Worth every rupee — a 5-year investment in clean living.",
+    "buy_recommendation":"good_deal",
+    "specs":[
+      {"key":"Suction Power","value":"147 AW","category":"performance"},
+      {"key":"Laser Detect","value":"Green laser illuminates microscopic dust on floors","category":"performance"},
+      {"key":"Filtration","value":"HEPA — captures 99.97% of particles (0.3 microns)","category":"performance"},
+      {"key":"Battery Life","value":"Up to 60 minutes (Eco mode), 25 min (Boost)","category":"battery"},
+      {"key":"Charging Time","value":"4.5 hours","category":"battery"},
+      {"key":"Dustbin Capacity","value":"0.35 L point-and-shoot hygienic ejection","category":"design"},
+      {"key":"Weight","value":"2.2 kg (full machine)","category":"design"},
+      {"key":"Noise Level","value":"73 dB (max)","category":"design"},
+      {"key":"LCD Display","value":"Yes — real-time piezo sensor count, mode, filter status","category":"performance"},
+      {"key":"Accessories","value":"Hair screw tool, Motorhead, Crevice tool, Mini soft dusting brush","category":"design"},
+      {"key":"Colour","value":"Gold/Nickel","category":"design"},
+    ],
+    "platforms":[
+      listing("amazon","Amazon",44900,55900,"Dyson V12 Detect Slim","dp/B0BK9YWRJZ","Gold/Nickel"),
+      listing("flipkart","Flipkart",46900,55900,"Dyson V12 Detect Slim","p/itmdysonv12","Gold/Nickel"),
+      listing("croma","Croma",47900,55900,"Dyson V12 Detect Slim","product/dyson-v12-detect-slim","Gold/Nickel"),
+      listing("reliance_digital","Reliance Digital",48900,55900,"Dyson V12 Detect Slim","dyson/vacuums/v12-detect-slim","Gold/Nickel"),
+      listing("vijay_sales","Vijay Sales",49900,55900,"Dyson V12 Detect Slim","product/dyson-v12-detect-slim-cordless","Gold/Nickel"),
+      listing("tatacliq","Tata CLiQ",45900,55900,"Dyson V12 Detect Slim","p/dyson-v12-detect-slim","Gold/Nickel"),
+      listing("amazon","Amazon",44900,55900,"Dyson V12 Detect Slim","dp/B0BK9YWRJZbundle","With Extra Motorhead"),
+      listing("flipkart","Flipkart",47500,55900,"Dyson V12 Detect Slim","p/itmdysonv12bundle","With Cleaning Kit Bundle"),
+      listing("croma","Croma",47900,55900,"Dyson V12 Detect Slim","product/dyson-v12-detect-slim-bundle","Extended 2-Year Croma Warranty"),
+      listing("reliance_digital","Reliance Digital",49900,55900,"Dyson V12 Detect Slim","dyson/vacuums/v12-detect-slim-care","AMC Plan Included"),
+    ],
+    "price_history": make_price_history_dual(44900, 46900),
+  },
+  {
+    "id":"samsung-1-5t-5star-ac","name":"Samsung 1.5 Ton 5-Star WindFree AC (AR18BYNZABE)","brand":"Samsung",
+    "category":"appliances","subcategory":"Air Conditioners",
+    "image_url":"https://images.smartkart.app/products/samsung-1-5t-5star-ac.jpg",
+    "description":"Samsung WindFree™ AC disperses cool air through 23,000 micro-holes without direct cold airflow, eliminating cold draught discomfort. 5-Star BEE rating with Inverter Compressor ensures low electricity bills all summer.",
+    "search_keywords":["samsung ac 1.5 ton","samsung windfree ac","samsung 5 star ac","samsung inverter ac","ac 1.5 ton 5 star price","samsung ar18bynzabe","best ac india 2024"],
+    "ai_verdict":"Best premium AC under ₹50K. WindFree technology is genuinely more comfortable than traditional ACs. 5-Star BEE saves ₹3,000–5,000 annually vs 3-Star models.",
+    "buy_recommendation":"consider_waiting",
+    "specs":[
+      {"key":"Capacity","value":"1.5 Ton","category":"performance"},
+      {"key":"Star Rating","value":"5-Star BEE 2024","category":"performance"},
+      {"key":"Technology","value":"WindFree™ Cooling — 23,000 micro-holes","category":"performance"},
+      {"key":"Compressor","value":"Digital Inverter — 8-pole twin-rotary","category":"performance"},
+      {"key":"Energy Efficiency","value":"ISEER 5.2 (highest in class)","category":"performance"},
+      {"key":"Annual Cooling","value":"1411 kWh/year at 8 hrs/day","category":"performance"},
+      {"key":"Refrigerant","value":"R32 (eco-friendly, zero ozone depletion)","category":"performance"},
+      {"key":"Auto Clean","value":"Yes — dries moisture to prevent mould","category":"performance"},
+      {"key":"WiFi","value":"SmartThings app control (voice: Alexa/Google)","category":"connectivity"},
+      {"key":"Noise Level","value":"19 dB indoor (quietest in class)","category":"design"},
+      {"key":"Warranty","value":"1 Year Product + 5 Year PCB + 10 Year Compressor","category":"General"},
+      {"key":"Colour","value":"White","category":"design"},
+    ],
+    "platforms":[
+      listing("flipkart","Flipkart",38990,65990,"Samsung 1.5T AC","p/itmsamsungac5star","AR18BYNZABE"),
+      listing("amazon","Amazon",39990,65990,"Samsung 1.5T AC","dp/B0D3KP2MQ7","AR18BYNZABE"),
+      listing("croma","Croma",41990,65990,"Samsung 1.5T AC","product/samsung-1-5-ton-5-star-windfree-ac","AR18BYNZABE"),
+      listing("reliance_digital","Reliance Digital",42990,65990,"Samsung 1.5T AC","samsung/air-conditioners/1-5-ton-5-star","AR18BYNZABE"),
+      listing("vijay_sales","Vijay Sales",43990,65990,"Samsung 1.5T AC","product/samsung-windfree-ac-1-5-ton","AR18BYNZABE"),
+      listing("tatacliq","Tata CLiQ",40490,65990,"Samsung 1.5T AC","p/samsung-1-5-ton-5-star-ac","AR18BYNZABE"),
+      listing("flipkart","Flipkart",34990,58990,"Samsung 1.5T AC","p/itmsamsungac3star","AR18CYNZABE 3-Star"),
+      listing("amazon","Amazon",35990,58990,"Samsung 1.5T AC","dp/B0D3KP2MQ7-3star","AR18CYNZABE 3-Star"),
+      listing("croma","Croma",37990,58990,"Samsung 1.5T AC","product/samsung-1-5-ton-3-star-ac","AR18CYNZABE 3-Star + Extended Warranty"),
+      listing("reliance_digital","Reliance Digital",38990,58990,"Samsung 1.5T AC","samsung/air-conditioners/1-5-ton-3-star","AR18CYNZABE 3-Star"),
+    ],
+    "price_history": make_price_history_dual(38990, 39990),
+  },
+]
+
+# ─── WRITE FILES ─────────────────────────────────────────────────────────────
+def write(filename, data):
+    path = os.path.join(OUT, filename)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"OK: Written {path} ({len(data)} products, {os.path.getsize(path)//1024}KB)")
+
+write("phones.json", phones)
+write("laptops.json", laptops)
+write("audio.json", audio)
+write("grocery.json", grocery)
+write("appliances.json", appliances)
+
+# ─── INDEX ─────────────────────────────────────────────────────────────────
+all_products = phones + laptops + audio + grocery + appliances
+index = {
+    "categories": ["phones","laptops","audio","grocery","appliances"],
+    "products": [
+        {
+            "id": p["id"], "name": p["name"], "category": p["category"],
+            "brand": p["brand"], "image_url": p["image_url"],
+            "best_price": min(pl["price"] for pl in p["platforms"]),
+            "best_platform": min(p["platforms"], key=lambda x: x["price"])["platform_display"],
+        }
+        for p in all_products
+    ]
+}
+index_path = os.path.join(OUT, "..", "index.json")
+with open(index_path, "w", encoding="utf-8") as f:
+    json.dump(index, f, indent=2, ensure_ascii=False)
+print(f"OK: Written index.json ({len(index['products'])} products)")
+print("Done! All data generated successfully.")

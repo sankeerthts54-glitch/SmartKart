@@ -1,0 +1,48 @@
+<USER_REQUEST>
+GROCERIES AND KITCHEN NEEDS
+Section Name: Daily Fresh
+Product 1: Vegetables
+[https://i.pinimg.com/736x/4b/5a/f8/4b5af8abef06e276c11ae5c914797a21.jpg](https://i.pinimg.com/736x/4b/5a/f8/4b5af8abef06e276c11ae5c914797a21.jpg)
+Product 2: Fruits
+[https://i.pinimg.com/736x/36/78/f1/3678f1eb815bd34ce44345db09fa6805.jpg](https://i.pinimg.com/736x/36/78/f1/3678f1eb815bd34ce44345db09fa6805.jpg)
+product 3: leafies:
+[https://i.pinimg.com/1200x/81/b3/5c/81b35c1388a4897316a8fdd57f321d18.jpg](https://i.pinimg.com/1200x/81/b3/5c/81b35c1388a4897316a8fdd57f321d18.jpg)
+product 4: Exotic
+[https://i.pinimg.com/736x/3d/29/a2/3d29a2310c62207e02f61aea94ee0773.jpg](https://i.pinimg.com/736x/3d/29/a2/3d29a2310c62207e02f61aea94ee0773.jpg)
+product 5:Dairy Products
+[https://i.pinimg.com/736x/fd/9e/c1/fd9ec19c8e92ccb3ac4d3e32c19488eb.jpg](https://i.pinimg.com/736x/fd/9e/c1/fd9ec19c8e92ccb3ac4d3e32c19488eb.jpg)
+Section Name: Kitchen Essentials:
+Product 1: kitchen Equipments:
+[https://i.pinimg.com/1200x/db/d1/86/dbd1864cb5a73c593ef9ea15ee5c77ad.jpg](https://i.pinimg.com/1200x/db/d1/86/dbd1864cb5a73c593ef9ea15ee5c77ad.jpg)
+Product 2: Appliances
+[https://i.pinimg.com/736x/9d/81/96/9d8196d89a397f3f3b7859fecb1e7644.jpg](https://i.pinimg.com/736x/9d/81/96/9d8196d89a397f3f3b7859fecb1e7644.jpg)
+Product 3: Dinnerware
+[https://i.pinimg.com/736x/21/47/5e/21475e3d79264984c8191b20ee2571e0.jpg](https://i.pinimg.com/736x/21/47/5e/21475e3d79264984c8191b20ee2571e0.jpg)
+product 4: Kitchen Hygiene
+[https://i.pinimg.com/736x/ef/c0/a7/efc0a79c4bcfcc9a63de327fdde5b158.jpg](https://i.pinimg.com/736x/ef/c0/a7/efc0a79c4bcfcc9a63de327fdde5b158.jpg)
+product 5:Storage and containers:
+[https://i.pinimg.com/736x/41/a2/88/41a28818094889048ad31e5a199d8c3e.jpg](https://i.pinimg.com/736x/41/a2/88/41a28818094889048ad31e5a199d8c3e.jpg)
+Section Name: food and groceries
+product 1:Staples & Grains
+[https://i.pinimg.com/1200x/35/8e/4a/358e4ae4c99f8bdfcbbea29df82dd0a1.jpg](https://i.pinimg.com/1200x/35/8e/4a/358e4ae4c99f8bdfcbbea29df82dd0a1.jpg)
+product 2 : Spices & se
+<truncated 14699 bytes>
+assets/products/mSjSu3wR/sennheiser-hd-280-pro-2016/design-medium.jpg?format=auto](https://i.rtings.com/assets/products/mSjSu3wR/sennheiser-hd-280-pro-2016/design-medium.jpg?format=auto)
+Apple Airpods 3
+[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5qbsArMHm29nN7J7T3aTmU8lpnFH7FS-SaBgm1Vk66WxQX4D_XsyVNU4&s=10](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5qbsArMHm29nN7J7T3aTmU8lpnFH7FS-SaBgm1Vk66WxQX4D_XsyVNU4&s=10)
+JBL earphones
+[https://m.media-amazon.com/images/I/91SYMGg5hRL._AC_UF1000,1000_QL80_AIweblab1381794,T1_.jpg](https://m.media-amazon.com/images/I/91SYMGg5hRL._AC_UF1000,1000_QL80_AIweblab1381794,T1_.jpg)
+Boat eardopes 161
+[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbgWSy3VjgAH1CAxC_ySLlFdTaPLeckoxDVGrTNKmRVT8Ts_TEuxO65U&s=10](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbgWSy3VjgAH1CAxC_ySLlFdTaPLeckoxDVGrTNKmRVT8Ts_TEuxO65U&s=10)
+64 Audio Solo Universal Planar Magnetic In-Ear Monitor
+[https://www.headphonezone.in/cdn/shop/files/Headphone-Zone-64-Audio-Solo-08.jpg?v=1740465294&width=1160](https://www.headphonezone.in/cdn/shop/files/Headphone-Zone-64-Audio-Solo-08.jpg?v=1740465294&width=1160)
+from the given dataset fetch the product details and images, reviews, ratings,price details,specs compared with multiple platforms showing discounts and offers along with the price change graph.
+Rank and showcase the exact results fetch from the platform the given dataset consists of 3 categories and each category consists of 3 sections having 5 products each.
+ensure that the links redirect to the exact product page and do not hallucinate any data
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-30T13:38:06+05:30.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from Claude Opus 4.6 (Thinking) to Claude Sonnet 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>

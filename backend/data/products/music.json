@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "yamaha-psr-e373-keyboard",
+    "name": "Yamaha PSR-E373 61-Key Portable Keyboard",
+    "brand": "Yamaha",
+    "category": "music",
+    "subcategory": "keyboards",
+    "image_url": "https://in.yamaha.com/files/PSR-E373_product_image_1200x1200_bf3f9db9c8d6c6f3c9c1f7c1f1d3c1f0.jpg",
+    "description": "The Yamaha PSR-E373 is a feature-packed 61-key portable keyboard with 622 instrument voices, 205 accompaniment styles, and Yamaha's Education Suite for beginners. Ideal for students and hobbyists who want professional sound quality with easy-to-use controls.",
+    "search_keywords": [
+      "yamaha keyboard",
+      "psr e373",
+      "yamaha psr",
+      "61 key keyboard",
+      "portable keyboard",
+      "beginner keyboard",
+      "electronic keyboard",
+      "digital piano",
+      "yamaha psr e373",
+      "music keyboard"
+    ],
+    "best_price": 8499,
+    "best_platform": "amazon",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Yamaha",
+        "category": "General"
+      },
+      {
+        "key": "Model",
+        "value": "PSR-E373",
+        "category": "General"
+      },
+      {
+        "key": "Number of Keys",
+        "value": "61 (Standard Size)",
+        "category": "Keyboard"
+      },
+      {
+        "key": "Touch Sensitivity",
+        "value": "Yes (3 sensitivity levels + Off)",
+        "category": "Keyboard"
+      },
+      {
+        "key": "Voices / Tones",
+        "value": "622 instrument voices",
+        "category": "Sound"
+      },
+      {
+        "key": "Accompaniment Styles",
+        "value": "205 preset styles",
+        "category": "Features"
+      },
+      {
+        "key": "Polyphony",
+        "value": "48 notes maximum",
+        "category": "Sound"
+      },
+      {
+        "key": "Effects",
+        "value": "Reverb (12 types), Chorus (14 types), DSP (106 types)",
+        "category": "Sound"
+      },
+      {
+        "key": "Built-in Songs",
+        "value": "154 songs with lesson function",
+        "category": "Features"
+      },
+      {
+        "key": "Connectivity",
+        "value": "USB to Host, Headphone Out, Sustain Pedal Jack",
+        "category": "Connectivity"
+      },
+      {
+        "key": "Power Supply",
+        "value": "AC Adaptor (included) or 6 AA Batteries",
+        "category": "Power"
+      },
+      {
+        "key": "Display",
+        "value": "LCD Display",
+        "category": "Display"
+      },
+      {
+        "key": "Dimensions",
+        "value": "94.3 x 26.2 x 9.3 cm",
+        "category": "Dimensions"
+      },
+      {
+        "key": "Weight",
+        "value": "4.1 kg (without batteries)",
+        "category": "Dimensions"
+      },
+      {
+        "key": "Colour",
+        "value": "Black",
+        "category": "Design"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 8499,
+        "original_price": 12990,
+        "discount_percent": 35,
+        "url": "https://www.amazon.in/s?k=Yamaha+PSR+E373+Keyboard",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.6,
+        "total_reviews": 14200,
+        "seller": "Yamaha Music India",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "Extra 10% off with HDFC Credit Card",
+            "discount_type": "bank",
+            "value": "10",
+            "code": "HDFC10",
+            "expires": "2026-09-30"
+          },
+          {
+            "title": "No-cost EMI starting 3 months",
+            "discount_type": "emi",
+            "value": "0",
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Free Keyboard Stand worth Rs. 899",
+            "discount_type": "bundle",
+            "value": "899",
+            "code": null,
+            "expires": "2026-08-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Mithun Chakraborty",
+            "rating": 5,
+            "title": "Best beginner keyboard in India!",
+            "body": "Bought for my 10-year-old daughter. She loves it! The 622 voices keep her engaged for hours. Touch sensitivity is excellent and the lesson songs are great for beginners. Sound quality is amazing for this price.",
+            "date": "2026-07-22",
+            "verified": true,
+            "helpful_votes": 892,
+            "platform": "amazon"
+          },
+          {
+            "user": "Kavitha Subramaniam",
+            "rating": 5,
+            "title": "Professional sound quality",
+            "body": "I'm a music teacher and use this in class. The AWM sound generation sounds incredibly realistic. Students love the various styles. Build quality is solid Yamaha.",
+            "date": "2026-06-17",
+            "verified": true,
+            "helpful_votes": 678,
+            "platform": "amazon"
+          },
+          {
+            "user": "Siddharth Menon",
+            "rating": 4,
+            "title": "Great for learning piano",
+            "body": "Using Yamaha's built-in lesson songs to learn. Very helpful! The 154 built-in songs with lesson function makes practice easy. Lacks weighted keys but that's expected at this price.",
+            "date": "2026-05-08",
+            "verified": true,
+            "helpful_votes": 543,
+            "platform": "amazon"
+          },
+          {
+            "user": "Rekha Nambiar",
+            "rating": 5,
+            "title": "Worth every rupee",
+            "body": "Compared to Casio CT-X700 and Casio CTK-3500 — Yamaha PSR-E373 wins hands down. Sound quality, build, features are all superior. Highly recommended!",
+            "date": "2026-04-19",
+            "verified": true,
+            "helpful_votes": 712,
+            "platform": "amazon"
+          },
+          {
+            "user": "Anand Krishnaswamy",
+            "rating": 4,
+            "title": "Excellent versatility",
+            "body": "From classical piano to Indian music styles, this keyboard handles everything well. The 205 styles include Indian rhythms which is a huge plus!",
+            "date": "2026-03-27",
+            "verified": true,
+            "helpful_votes": 487,
+            "platform": "amazon"
+          }
+        ]
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 8999,
+        "original_price": 12990,
+        "discount_percent": 31,
+        "url": "https://www.flipkart.com/search?q=Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.5,
+        "total_reviews": 18700,
+        "seller": "Flipkart SmartBuy",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "10% off with Flipkart Axis Bank Card",
+            "discount_type": "bank",
+            "value": "10",
+            "code": "FKAXIS10",
+            "expires": "2026-09-30"
+          },
+          {
+            "title": "No-cost EMI on 6 months",
+            "discount_type": "emi",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Prasanna Murthy",
+            "rating": 5,
+            "title": "Incredible keyboard",
+            "body": "The 622 voices are incredible! From grand piano to sitar to drums — everything sounds amazing. My kids practice daily and love the educational songs.",
+            "date": "2026-07-13",
+            "verified": true,
+            "helpful_votes": 654,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Divya Prabhu",
+            "rating": 4,
+            "title": "Good for learning",
+            "body": "Bought for music lessons. Teacher is happy with the touch sensitivity and sound quality. Very good keyboard for beginners and intermediate players.",
+            "date": "2026-06-28",
+            "verified": true,
+            "helpful_votes": 432,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Ritesh Jain",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The DSP effects make everything sound professional. The accompaniment styles are very useful for practice. Build quality is solid.",
+            "date": "2026-05-17",
+            "verified": true,
+            "helpful_votes": 567,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Gowri Shankar",
+            "rating": 4,
+            "title": "Great keyboard, slightly heavy",
+            "body": "Sound quality is excellent. The 4.1kg weight makes it less portable than expected but otherwise perfect for home use.",
+            "date": "2026-04-09",
+            "verified": true,
+            "helpful_votes": 321,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Meena Ganesh",
+            "rating": 5,
+            "title": "Yamaha quality never disappoints",
+            "body": "Third Yamaha keyboard I've owned. PSR-E373 is a significant upgrade with touch sensitivity and more voices. Excellent investment!",
+            "date": "2026-03-22",
+            "verified": true,
+            "helpful_votes": 498,
+            "platform": "flipkart"
+          }
+        ]
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 9999,
+        "original_price": 12990,
+        "discount_percent": 23,
+        "url": "https://www.croma.com/searchB?q=Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days or in-store pickup",
+        "rating": 4.7,
+        "total_reviews": 4800,
+        "seller": "Croma Retail",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "5% off on Croma Pay",
+            "discount_type": "payment",
+            "value": "5",
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI on 3/6/12 months",
+            "discount_type": "emi",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Gopal Krishnan",
+            "rating": 5,
+            "title": "Best in-store demo!",
+            "body": "The Croma staff let me demo the keyboard for 20 minutes before buying. The sound quality blew me away. Worth every rupee!",
+            "date": "2026-07-01",
+            "verified": true,
+            "helpful_votes": 234,
+            "platform": "croma"
+          },
+          {
+            "user": "Sunanda Patel",
+            "rating": 5,
+            "title": "Excellent product",
+            "body": "Bought for my music-loving son. The touch sensitivity helps develop proper piano technique. Croma service was excellent!",
+            "date": "2026-06-16",
+            "verified": true,
+            "helpful_votes": 187,
+            "platform": "croma"
+          },
+          {
+            "user": "Venkatesan R",
+            "rating": 4,
+            "title": "Premium product experience",
+            "body": "Croma gave me a full setup and demo. Keyboard sounds amazing. Pricier than Amazon but in-store experience is worth it.",
+            "date": "2026-05-11",
+            "verified": true,
+            "helpful_votes": 212,
+            "platform": "croma"
+          },
+          {
+            "user": "Indira Devi",
+            "rating": 5,
+            "title": "Perfect gift for my child",
+            "body": "My 8-year-old now practices daily without prompting! The lesson function and beautiful sounds got her hooked.",
+            "date": "2026-04-27",
+            "verified": true,
+            "helpful_votes": 356,
+            "platform": "croma"
+          },
+          {
+            "user": "Ashwin Kumar",
+            "rating": 4,
+            "title": "Good keyboard, better at Amazon",
+            "body": "Keyboard is excellent but same one on Amazon for Rs. 1500 less. Croma's advantage is warranty service and demo.",
+            "date": "2026-03-15",
+            "verified": true,
+            "helpful_votes": 289,
+            "platform": "croma"
+          }
+        ]
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 9499,
+        "original_price": 12990,
+        "discount_percent": 27,
+        "url": "https://www.reliancedigital.in/search?q=Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-4 days",
+        "rating": 4.5,
+        "total_reviews": 3200,
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "5% off with Jio Finance Card",
+            "discount_type": "bank",
+            "value": "5",
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI on 6 months",
+            "discount_type": "emi",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Nagesh Rao",
+            "rating": 5,
+            "title": "Amazing value",
+            "body": "The 622 voices and 205 styles keep it interesting. Sound quality is superb. Reliance Digital gave excellent service.",
+            "date": "2026-07-08",
+            "verified": true,
+            "helpful_votes": 178,
+            "platform": "reliance_digital"
+          },
+          {
+            "user": "Asha Patil",
+            "rating": 4,
+            "title": "Good keyboard for beginners",
+            "body": "My daughter is 7 and finds the keys easy to press. Sound is clear and lesson function is very educational.",
+            "date": "2026-06-24",
+            "verified": true,
+            "helpful_votes": 145,
+            "platform": "reliance_digital"
+          },
+          {
+            "user": "Sreenivas Murthy",
+            "rating": 5,
+            "title": "Professional quality",
+            "body": "I'm a semi-professional musician. This keyboard handles all my gig requirements. Excellent value for the price.",
+            "date": "2026-05-19",
+            "verified": true,
+            "helpful_votes": 267,
+            "platform": "reliance_digital"
+          },
+          {
+            "user": "Meenakshi Sundaram",
+            "rating": 4,
+            "title": "Good build quality",
+            "body": "Keys feel solid and responsive. The chord progression styles are very helpful for songwriting practice.",
+            "date": "2026-04-11",
+            "verified": true,
+            "helpful_votes": 198,
+            "platform": "reliance_digital"
+          },
+          {
+            "user": "Rajan Pillai",
+            "rating": 5,
+            "title": "Worth it completely",
+            "body": "The Indian rhythms in the 205 styles are a huge plus. Carnatic, Bollywood styles all present. Very happy!",
+            "date": "2026-03-29",
+            "verified": true,
+            "helpful_votes": 312,
+            "platform": "reliance_digital"
+          }
+        ]
+      },
+      {
+        "platform": "vijay_sales",
+        "platform_display": "Vijay Sales",
+        "price": 9299,
+        "original_price": 12990,
+        "discount_percent": 28,
+        "url": "https://www.vijaysales.com/search/Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days or store pickup",
+        "rating": 4.5,
+        "total_reviews": 2100,
+        "seller": "Vijay Sales",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "No-cost EMI on 3/6 months",
+            "discount_type": "emi",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Santosh Kulkarni",
+            "rating": 5,
+            "title": "Best music store experience",
+            "body": "Vijay Sales has a dedicated music section. Staff is knowledgeable. The PSR-E373 sounds incredible in person.",
+            "date": "2026-07-18",
+            "verified": true,
+            "helpful_votes": 134,
+            "platform": "vijay_sales"
+          },
+          {
+            "user": "Premlata Joshi",
+            "rating": 4,
+            "title": "Good product",
+            "body": "Reliable purchase from Vijay Sales. Keyboard quality is excellent and warranty is genuine Yamaha India.",
+            "date": "2026-06-07",
+            "verified": true,
+            "helpful_votes": 112,
+            "platform": "vijay_sales"
+          },
+          {
+            "user": "Kishore Nair",
+            "rating": 5,
+            "title": "My child's best gift",
+            "body": "The keyboard came with a stand and headphones at Vijay Sales for same price! Great deal overall.",
+            "date": "2026-05-23",
+            "verified": true,
+            "helpful_votes": 198,
+            "platform": "vijay_sales"
+          },
+          {
+            "user": "Sumati Reddy",
+            "rating": 4,
+            "title": "Good variety of sounds",
+            "body": "622 voices is impressive. The grand piano sound is very close to real. Happy with the purchase!",
+            "date": "2026-04-16",
+            "verified": true,
+            "helpful_votes": 145,
+            "platform": "vijay_sales"
+          },
+          {
+            "user": "Haridas Menon",
+            "rating": 5,
+            "title": "Yamaha always reliable",
+            "body": "Yamaha keyboards are legendary. PSR-E373 is the best in this segment. Highly recommend to all music learners.",
+            "date": "2026-03-09",
+            "verified": true,
+            "helpful_votes": 234,
+            "platform": "vijay_sales"
+          }
+        ]
+      },
+      {
+        "platform": "tatacliq",
+        "platform_display": "Tata CLiQ",
+        "price": 9249,
+        "original_price": 12990,
+        "discount_percent": 29,
+        "url": "https://www.tatacliq.com/searchCategory?searchCategory=all&text=Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 4.5,
+        "total_reviews": 3600,
+        "seller": "Tata CLiQ",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "5% Cashback with Tata Neu HDFC Card",
+            "discount_type": "cashback",
+            "value": "5",
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI on 6 months",
+            "discount_type": "emi",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Balaji Venkataraman",
+            "rating": 5,
+            "title": "Authentic Yamaha product",
+            "body": "Tata CLiQ delivered genuine product with original Yamaha warranty card. Sound quality is outstanding.",
+            "date": "2026-07-14",
+            "verified": true,
+            "helpful_votes": 167,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Savitha Reddy",
+            "rating": 4,
+            "title": "Great for practice",
+            "body": "The 154 lesson songs are perfect for self-learning. My 12-year-old is now playing full songs in 2 months!",
+            "date": "2026-06-29",
+            "verified": true,
+            "helpful_votes": 234,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Narayan Iyer",
+            "rating": 5,
+            "title": "Outstanding sound quality",
+            "body": "The AWM (Advanced Wave Memory) sound technology makes this sound incredibly real. Worth every rupee!",
+            "date": "2026-05-14",
+            "verified": true,
+            "helpful_votes": 312,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Parvathi Krishnan",
+            "rating": 4,
+            "title": "Good platform, good product",
+            "body": "Tata CLiQ delivered in 4 days. Product quality is excellent. Happy with the purchase!",
+            "date": "2026-04-28",
+            "verified": true,
+            "helpful_votes": 143,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Ramakrishna Nair",
+            "rating": 5,
+            "title": "Best keyboard at this price",
+            "body": "Compared PSR-E363 and PSR-E373 — upgrade is absolutely worth it. Touch sensitivity changes everything for learning.",
+            "date": "2026-03-12",
+            "verified": true,
+            "helpful_votes": 267,
+            "platform": "tatacliq"
+          }
+        ]
+      },
+      {
+        "platform": "meesho",
+        "platform_display": "Meesho",
+        "price": 7999,
+        "original_price": 12990,
+        "discount_percent": 38,
+        "url": "https://www.meesho.com/search?q=Yamaha+PSR+E373+Keyboard",
+        "in_stock": true,
+        "delivery": "Free delivery in 5-7 days",
+        "rating": 3.9,
+        "total_reviews": 8900,
+        "seller": "Music World",
+        "warranty": "Seller Warranty",
+        "offers": [
+          {
+            "title": "Extra 10% off — First Order",
+            "discount_type": "first_order",
+            "value": "10",
+            "code": "FIRST10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Ganesh Hegde",
+            "rating": 4,
+            "title": "Good deal but check authenticity",
+            "body": "Keyboard works well and sounds great. Not 100% sure if it's India warranty model. But product is functional.",
+            "date": "2026-07-21",
+            "verified": true,
+            "helpful_votes": 312,
+            "platform": "meesho"
+          },
+          {
+            "user": "Sarada Devi",
+            "rating": 3,
+            "title": "Okay quality",
+            "body": "Keyboard is functional but the warranty card doesn't look official. Prefer buying from authorized dealers.",
+            "date": "2026-06-06",
+            "verified": true,
+            "helpful_votes": 456,
+            "platform": "meesho"
+          },
+          {
+            "user": "Bharat Singh",
+            "rating": 5,
+            "title": "Amazing value!",
+            "body": "Got the keyboard at a great price. Sounds exactly like the official product. Very happy with the purchase!",
+            "date": "2026-05-29",
+            "verified": true,
+            "helpful_votes": 267,
+            "platform": "meesho"
+          },
+          {
+            "user": "Lalitha Prasad",
+            "rating": 4,
+            "title": "Good for budget buyers",
+            "body": "If you want the PSR-E373 experience at lower cost, this works. Sound quality is identical to the original.",
+            "date": "2026-04-17",
+            "verified": false,
+            "helpful_votes": 198,
+            "platform": "meesho"
+          },
+          {
+            "user": "Sudarshan Rao",
+            "rating": 2,
+            "title": "Warranty issues",
+            "body": "Had a key issue after 2 months. Yamaha service center didn't honor the warranty. Beware!",
+            "date": "2026-03-31",
+            "verified": true,
+            "helpful_votes": 634,
+            "platform": "meesho"
+          }
+        ]
+      },
+      {
+        "platform": "snapdeal",
+        "platform_display": "Snapdeal",
+        "price": 8699,
+        "original_price": 12990,
+        "discount_percent": 33,
+        "url": "https://www.snapdeal.com/search?keyword=Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Delivery in 4-6 days",
+        "rating": 4.1,
+        "total_reviews": 5400,
+        "seller": "Harmonics Music Store",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "5% off on UPI Payment",
+            "discount_type": "payment",
+            "value": "5",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Govind Krishnan",
+            "rating": 4,
+            "title": "Good product",
+            "body": "Keyboard quality is excellent. Snapdeal delivery was 5 days. Would prefer Amazon's speed but price is good.",
+            "date": "2026-07-09",
+            "verified": true,
+            "helpful_votes": 178,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Shantha Kumari",
+            "rating": 5,
+            "title": "Great purchase",
+            "body": "The 622 voices and 205 styles make this keyboard incredibly versatile. Perfect for hobbyists!",
+            "date": "2026-06-25",
+            "verified": true,
+            "helpful_votes": 234,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Kiran Reddy",
+            "rating": 4,
+            "title": "Solid keyboard",
+            "body": "Build quality is good, sounds are excellent. USB connectivity to laptop is great for music production.",
+            "date": "2026-05-13",
+            "verified": true,
+            "helpful_votes": 167,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Jayalakshmi S",
+            "rating": 3,
+            "title": "Delivery issues",
+            "body": "Took 8 days to deliver. Keyboard itself is fine but delivery tracking was poor.",
+            "date": "2026-04-26",
+            "verified": true,
+            "helpful_votes": 143,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Murugesan P",
+            "rating": 5,
+            "title": "Best keyboard for this price range",
+            "body": "Compared every keyboard in 8000-10000 range. PSR-E373 is the winner. Touch sensitivity and sound quality are unmatched.",
+            "date": "2026-03-18",
+            "verified": true,
+            "helpful_votes": 312,
+            "platform": "snapdeal"
+          }
+        ]
+      },
+      {
+        "platform": "nykaa_fashion",
+        "platform_display": "Paytm Mall",
+        "price": 8799,
+        "original_price": 12990,
+        "discount_percent": 32,
+        "url": "https://paytmmall.com/shop/search?q=Yamaha+PSR+E373",
+        "in_stock": true,
+        "delivery": "Free delivery in 4-6 days",
+        "rating": 4.2,
+        "total_reviews": 3100,
+        "seller": "Paytm Mall",
+        "warranty": "1 Year Yamaha India Warranty",
+        "offers": [
+          {
+            "title": "Extra 5% cashback with Paytm Wallet",
+            "discount_type": "cashback",
+            "value": "5",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Parthasarathy K",
+            "rating": 4,
+            "title": "Good deal on Paytm Mall",
+            "body": "Cashback with Paytm wallet makes it competitive with Amazon. Keyboard quality is excellent.",
+            "date": "2026-07-16",
+            "verified": true,
+            "helpful_votes": 134,
+            "platform": "paytm_mall"
+          },
+          {
+            "user": "Vimala Devi",
+            "rating": 5,
+            "title": "Happy with the purchase",
+            "body": "Genuine Yamaha warranty, original packing. Sounds incredible! The piano voice is very realistic.",
+            "date": "2026-06-21",
+            "verified": true,
+            "helpful_votes": 189,
+            "platform": "paytm_mall"
+          },
+          {
+            "user": "Swaminathan R",
+            "rating": 4,
+            "title": "Good product",
+            "body": "PSR-E373 is one of the best entry level keyboards. Paytm Mall delivered it in 5 days.",
+            "date": "2026-05-27",
+            "verified": true,
+            "helpful_votes": 145,
+            "platform": "paytm_mall"
+          },
+          {
+            "user": "Annamalai S",
+            "rating": 3,
+            "title": "Slightly overpriced vs Amazon",
+            "body": "Amazon has the same keyboard cheaper. But Paytm cashback helps. Mixed feelings.",
+            "date": "2026-04-14",
+            "verified": true,
+            "helpful_votes": 112,
+            "platform": "paytm_mall"
+          },
+          {
+            "user": "Usha Krishnan",
+            "rating": 5,
+            "title": "My daughter loves it",
+            "body": "She plays for 3 hours straight! The Yamaha Education Suite makes learning engaging and fun.",
+            "date": "2026-03-07",
+            "verified": true,
+            "helpful_votes": 267,
+            "platform": "paytm_mall"
+          }
+        ]
+      },
+      {
+        "platform": "shopclues",
+        "platform_display": "ShopClues",
+        "price": 8249,
+        "original_price": 12990,
+        "discount_percent": 37,
+        "url": "https://www.shopclues.com/search?q=Yamaha+PSR+E373",
+        "in_stock": false,
+        "delivery": "Delivery in 5-8 days",
+        "rating": 3.7,
+        "total_reviews": 2300,
+        "seller": "Musical Instruments Hub",
+        "warranty": "Seller Warranty",
+        "offers": [
+          {
+            "title": "15% off with ShopClues Select",
+            "discount_type": "membership",
+            "value": "15",
+            "code": "SELECT15",
+            "expires": "2026-08-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Nagarajan S",
+            "rating": 3,
+            "title": "Risky purchase",
+            "body": "Keyboard works but warranty card seems unofficial. Always buy from authorized Yamaha dealers for safety.",
+            "date": "2026-07-05",
+            "verified": true,
+            "helpful_votes": 342,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Kamakshi Devi",
+            "rating": 4,
+            "title": "Good sound quality",
+            "body": "Despite concerns about warranty, the keyboard sounds exactly like genuine PSR-E373. Happy with sound quality.",
+            "date": "2026-06-12",
+            "verified": false,
+            "helpful_votes": 189,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Madhavan R",
+            "rating": 5,
+            "title": "Great value",
+            "body": "Got it at a great price. All features work perfectly. The accompaniment styles are very impressive.",
+            "date": "2026-05-22",
+            "verified": true,
+            "helpful_votes": 234,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Thangam N",
+            "rating": 2,
+            "title": "Quality doubts",
+            "body": "A few keys feel different from the keyboard I played at the store. Might not be the same variant.",
+            "date": "2026-04-08",
+            "verified": true,
+            "helpful_votes": 412,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Krishnamoorthy V",
+            "rating": 4,
+            "title": "Budget option works",
+            "body": "For the price, keyboard performance is good. Recommend comparing with Amazon before buying.",
+            "date": "2026-03-19",
+            "verified": true,
+            "helpful_votes": 167,
+            "platform": "shopclues"
+          }
+        ]
+      }
+    ],
+    "price_history": [
+      {
+        "date": "2024-09",
+        "price": 12990,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-10",
+        "price": 10499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-11",
+        "price": 8999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-12",
+        "price": 10999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-01",
+        "price": 9499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-02",
+        "price": 11499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-03",
+        "price": 11999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-04",
+        "price": 12990,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-05",
+        "price": 12490,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-06",
+        "price": 10999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-07",
+        "price": 9999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-08",
+        "price": 8999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-09",
+        "price": 12990,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-10",
+        "price": 9499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-11",
+        "price": 7999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-12",
+        "price": 10499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-01",
+        "price": 8999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-02",
+        "price": 10999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-03",
+        "price": 11499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-04",
+        "price": 12490,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-05",
+        "price": 11499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-06",
+        "price": 9999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-07",
+        "price": 9499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-08",
+        "price": 8499,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-09",
+        "price": 12990,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2024-10",
+        "price": 10999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2024-11",
+        "price": 9499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2024-12",
+        "price": 11499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-01",
+        "price": 9999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-02",
+        "price": 11999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-03",
+        "price": 12490,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-04",
+        "price": 12990,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-05",
+        "price": 12490,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-06",
+        "price": 11499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-07",
+        "price": 10499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-08",
+        "price": 9499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-09",
+        "price": 12990,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-10",
+        "price": 9999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-11",
+        "price": 8499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-12",
+        "price": 10999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-01",
+        "price": 9499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-02",
+        "price": 11499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-04",
+        "price": 12490,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-05",
+        "price": 11999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-06",
+        "price": 10499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-07",
+        "price": 9999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-08",
+        "price": 8999,
+        "platform": "flipkart"
+      }
+    ]
+  }
+]

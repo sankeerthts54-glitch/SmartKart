@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "nike-air-force-1-white",
+    "name": "Nike Air Force 1 '07 (White)",
+    "brand": "Nike",
+    "category": "fashion",
+    "subcategory": "sneakers",
+    "image_url": "https://static.nike.com/a/images/t_PDP_1280_v1/af53d117-9c39-4e21-a898-e5c3d5a5a7a6/air-force-1-07-shoes-WrLlWX.png",
+    "description": "The Nike Air Force 1 '07 is a timeless icon, built on the same lines as the original 1982 design. Premium leather upper, Nike Air cushioning, and the classic low-top silhouette make it perfect for everyday wear.",
+    "search_keywords": [
+      "nike",
+      "air force 1",
+      "af1",
+      "white sneakers",
+      "nike shoes",
+      "casual shoes",
+      "nike af1",
+      "leather sneakers",
+      "men shoes",
+      "women shoes"
+    ],
+    "best_price": 7495,
+    "best_platform": "amazon",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Nike",
+        "category": "General"
+      },
+      {
+        "key": "Model",
+        "value": "Air Force 1 '07",
+        "category": "General"
+      },
+      {
+        "key": "Colorway",
+        "value": "White/White",
+        "category": "General"
+      },
+      {
+        "key": "Upper Material",
+        "value": "Premium Leather",
+        "category": "Material"
+      },
+      {
+        "key": "Sole",
+        "value": "Rubber Outsole",
+        "category": "Material"
+      },
+      {
+        "key": "Closure",
+        "value": "Lace-Up",
+        "category": "Design"
+      },
+      {
+        "key": "Cushioning",
+        "value": "Nike Air Unit",
+        "category": "Technology"
+      },
+      {
+        "key": "Toe Box",
+        "value": "Perforated Leather",
+        "category": "Design"
+      },
+      {
+        "key": "Ankle Height",
+        "value": "Low-Top",
+        "category": "Design"
+      },
+      {
+        "key": "Sizes Available",
+        "value": "UK 6 – UK 11",
+        "category": "Sizing"
+      },
+      {
+        "key": "Weight (per shoe)",
+        "value": "Approx. 420g",
+        "category": "General"
+      },
+      {
+        "key": "Country of Origin",
+        "value": "Indonesia / Vietnam",
+        "category": "General"
+      },
+      {
+        "key": "Style Code",
+        "value": "CW2288-111",
+        "category": "General"
+      },
+      {
+        "key": "Year of Original Design",
+        "value": "1982",
+        "category": "General"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 7495,
+        "original_price": 8495,
+        "discount_percent": 12,
+        "url": "https://www.amazon.in/s?k=Nike+Air+Force+1+White",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.4,
+        "total_reviews": 12800,
+        "seller": "NK Footwear Store",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "10% off with HDFC Credit Card",
+            "discount_type": "bank",
+            "value": "10",
+            "code": "HDFC10",
+            "expires": "2026-09-30"
+          },
+          {
+            "title": "Free Returns within 30 days",
+            "discount_type": "policy",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Arjun Mehta",
+            "rating": 5,
+            "title": "Classic that never goes out of style",
+            "body": "Got the white AF1s and they look absolutely premium. Leather is soft yet sturdy. The Nike Air cushioning makes it comfortable for all-day wear.",
+            "date": "2026-07-15",
+            "verified": true,
+            "helpful_votes": 342,
+            "platform": "amazon"
+          },
+          {
+            "user": "Priya Nair",
+            "rating": 4,
+            "title": "Great shoe but runs slightly big",
+            "body": "Order half a size down. The shoe is beautiful and the leather quality is excellent. Arrived in 1 day via Prime.",
+            "date": "2026-06-22",
+            "verified": true,
+            "helpful_votes": 218,
+            "platform": "amazon"
+          },
+          {
+            "user": "Rohan Desai",
+            "rating": 5,
+            "title": "Perfect for daily use",
+            "body": "Wearing these to college every day. Super comfortable, looks great with jeans or joggers. Highly recommended!",
+            "date": "2026-05-10",
+            "verified": true,
+            "helpful_votes": 195,
+            "platform": "amazon"
+          },
+          {
+            "user": "Sneha Pillai",
+            "rating": 3,
+            "title": "Good but sole yellowed fast",
+            "body": "Love the design but the sole started yellowing within 3 months of use. Otherwise a great shoe.",
+            "date": "2026-04-01",
+            "verified": true,
+            "helpful_votes": 167,
+            "platform": "amazon"
+          },
+          {
+            "user": "Vikram Sharma",
+            "rating": 5,
+            "title": "Nike quality as expected",
+            "body": "Ordered for my birthday, very impressed. The box, the tissue paper, the shoe — everything feels premium.",
+            "date": "2026-03-14",
+            "verified": true,
+            "helpful_votes": 284,
+            "platform": "amazon"
+          }
+        ]
+      },
+      {
+        "platform": "myntra",
+        "platform_display": "Myntra",
+        "price": 7695,
+        "original_price": 8495,
+        "discount_percent": 9,
+        "url": "https://www.myntra.com/shoes?rawQuery=Nike+Air+Force+1",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.5,
+        "total_reviews": 21400,
+        "seller": "Nike Official Store",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "15% off on Myntra Insider Plus",
+            "discount_type": "membership",
+            "value": "15",
+            "code": "INSIDER15",
+            "expires": "2026-09-15"
+          },
+          {
+            "title": "Extra 5% off with Kotak Card",
+            "discount_type": "bank",
+            "value": "5",
+            "code": "KOTAK5",
+            "expires": "2026-08-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Divya Krishnan",
+            "rating": 5,
+            "title": "Myntra delivered in 2 days!",
+            "body": "Ordered Sunday evening, got it Tuesday morning. The shoe is exactly as described — super clean white and premium leather.",
+            "date": "2026-07-05",
+            "verified": true,
+            "helpful_votes": 398,
+            "platform": "myntra"
+          },
+          {
+            "user": "Karan Patel",
+            "rating": 4,
+            "title": "Authentic Nike product",
+            "body": "Bought from Nike Official Store on Myntra. QR code verified authentic. Will shop here again.",
+            "date": "2026-06-10",
+            "verified": true,
+            "helpful_votes": 211,
+            "platform": "myntra"
+          },
+          {
+            "user": "Ananya Iyer",
+            "rating": 5,
+            "title": "Best sneaker ever made",
+            "body": "AF1s are just timeless. Got them in white for my sister's birthday and she loved them. Very comfortable and stylish.",
+            "date": "2026-05-22",
+            "verified": true,
+            "helpful_votes": 187,
+            "platform": "myntra"
+          },
+          {
+            "user": "Rahul Kumar",
+            "rating": 4,
+            "title": "Good quality, easy returns",
+            "body": "The shoe was slightly tight but Myntra's return policy made it easy to exchange for a bigger size. Great service!",
+            "date": "2026-04-17",
+            "verified": false,
+            "helpful_votes": 144,
+            "platform": "myntra"
+          },
+          {
+            "user": "Pooja Menon",
+            "rating": 5,
+            "title": "Iconic sneaker",
+            "body": "I've had 3 pairs of AF1s over the years. This one feels the best quality wise. The leather is thicker and more premium.",
+            "date": "2026-03-29",
+            "verified": true,
+            "helpful_votes": 267,
+            "platform": "myntra"
+          }
+        ]
+      },
+      {
+        "platform": "ajio",
+        "platform_display": "AJIO",
+        "price": 7295,
+        "original_price": 8495,
+        "discount_percent": 14,
+        "url": "https://www.ajio.com/s/nike-air-force-1",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days",
+        "rating": 4.3,
+        "total_reviews": 8700,
+        "seller": "AJIO Sneakers",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "Buy 2 Get Extra 10% Off",
+            "discount_type": "combo",
+            "value": "10",
+            "code": "BUY2",
+            "expires": "2026-09-30"
+          },
+          {
+            "title": "Free Gift Wrapping",
+            "discount_type": "service",
+            "value": "0",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Siddharth Rao",
+            "rating": 4,
+            "title": "Good deal on AJIO",
+            "body": "Got it during AJIO sale at 14% off. The shoe is original and well packed. Delivery was 3 days.",
+            "date": "2026-07-01",
+            "verified": true,
+            "helpful_votes": 154,
+            "platform": "ajio"
+          },
+          {
+            "user": "Meera Joshi",
+            "rating": 5,
+            "title": "Beautiful white sneakers",
+            "body": "Love how clean they look. Paired with white socks they're stunning. AJIO packaging was also great.",
+            "date": "2026-06-08",
+            "verified": true,
+            "helpful_votes": 132,
+            "platform": "ajio"
+          },
+          {
+            "user": "Aditya Singh",
+            "rating": 4,
+            "title": "Authentic product",
+            "body": "Verified authenticity using Nike website. AJIO is legit for Nike. Happy with the purchase!",
+            "date": "2026-05-12",
+            "verified": true,
+            "helpful_votes": 119,
+            "platform": "ajio"
+          },
+          {
+            "user": "Shreya Das",
+            "rating": 3,
+            "title": "Delivery was slow",
+            "body": "Took 5 days instead of 3-4. The shoe itself is great but delivery was disappointing.",
+            "date": "2026-04-05",
+            "verified": true,
+            "helpful_votes": 98,
+            "platform": "ajio"
+          },
+          {
+            "user": "Nikhil Verma",
+            "rating": 5,
+            "title": "Perfect budget buy",
+            "body": "Best priced AF1s I found online in India. No compromise on quality. Highly recommend!",
+            "date": "2026-03-20",
+            "verified": true,
+            "helpful_votes": 203,
+            "platform": "ajio"
+          }
+        ]
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 7899,
+        "original_price": 8495,
+        "discount_percent": 7,
+        "url": "https://www.flipkart.com/search?q=Nike+Air+Force+1",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.2,
+        "total_reviews": 9600,
+        "seller": "RetailNet",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "Extra 8% off with Flipkart Axis Card",
+            "discount_type": "bank",
+            "value": "8",
+            "code": "FKAXIS8",
+            "expires": "2026-09-30"
+          },
+          {
+            "title": "5% off with SuperCoins",
+            "discount_type": "loyalty",
+            "value": "5",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Gaurav Tiwari",
+            "rating": 4,
+            "title": "Good buy",
+            "body": "Shoe is authentic and came well packaged. Flipkart's 10-day return window also gave me peace of mind.",
+            "date": "2026-07-09",
+            "verified": true,
+            "helpful_votes": 176,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Anjali Sharma",
+            "rating": 5,
+            "title": "Love my new sneakers!",
+            "body": "First Nike purchase and I'm amazed. The comfort, the look, everything is perfect. Will buy more Nike shoes!",
+            "date": "2026-06-14",
+            "verified": true,
+            "helpful_votes": 223,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Ravi Kumar",
+            "rating": 3,
+            "title": "Slightly overpriced vs Amazon",
+            "body": "Same shoe, slightly higher price. But Flipkart's SuperCoin discount helped. Delivery was fast though!",
+            "date": "2026-05-30",
+            "verified": true,
+            "helpful_votes": 134,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Sona Reddy",
+            "rating": 5,
+            "title": "Excellent sneakers",
+            "body": "The leather quality is top notch and the Air cushioning is very comfortable. Great all-day shoe.",
+            "date": "2026-04-23",
+            "verified": true,
+            "helpful_votes": 189,
+            "platform": "flipkart"
+          },
+          {
+            "user": "Manish Gupta",
+            "rating": 4,
+            "title": "Solid classic",
+            "body": "AF1s look great and feel premium. Wish they came with an extra pair of laces like international versions.",
+            "date": "2026-03-07",
+            "verified": true,
+            "helpful_votes": 141,
+            "platform": "flipkart"
+          }
+        ]
+      },
+      {
+        "platform": "tatacliq",
+        "platform_display": "Tata CLiQ",
+        "price": 7999,
+        "original_price": 8495,
+        "discount_percent": 6,
+        "url": "https://www.tatacliq.com/searchCategory?searchCategory=all&text=Nike+Air+Force+1",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 4.4,
+        "total_reviews": 5200,
+        "seller": "Tata CLiQ Fashion",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "5% Cashback with Tata Neu Card",
+            "discount_type": "cashback",
+            "value": "5",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Kabir Malhotra",
+            "rating": 5,
+            "title": "Authenticated and genuine",
+            "body": "Tata CLiQ sells genuine Nike products. Very happy with the authenticity and packaging.",
+            "date": "2026-07-02",
+            "verified": true,
+            "helpful_votes": 165,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Rashmi Bansal",
+            "rating": 4,
+            "title": "Good delivery",
+            "body": "Came in 4 days. Shoe is genuine and looks great. Will shop more fashion from Tata CLiQ.",
+            "date": "2026-06-18",
+            "verified": true,
+            "helpful_votes": 132,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Amit Saxena",
+            "rating": 5,
+            "title": "Great for gifting",
+            "body": "Bought for my girlfriend's birthday. The packaging was premium and she loved it!",
+            "date": "2026-05-20",
+            "verified": true,
+            "helpful_votes": 118,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Zara Khan",
+            "rating": 4,
+            "title": "Comfortable and stylish",
+            "body": "These shoes are super comfortable for long walks. The white leather stays clean if you maintain it.",
+            "date": "2026-04-11",
+            "verified": false,
+            "helpful_votes": 97,
+            "platform": "tatacliq"
+          },
+          {
+            "user": "Deepak Nair",
+            "rating": 5,
+            "title": "Worth every penny",
+            "body": "Premium Nike quality. The Air unit cushioning is genuinely comfortable. Highly recommend!",
+            "date": "2026-03-25",
+            "verified": true,
+            "helpful_votes": 214,
+            "platform": "tatacliq"
+          }
+        ]
+      },
+      {
+        "platform": "meesho",
+        "platform_display": "Meesho",
+        "price": 6999,
+        "original_price": 8495,
+        "discount_percent": 18,
+        "url": "https://www.meesho.com/search?q=Nike+Air+Force+1",
+        "in_stock": true,
+        "delivery": "Free delivery in 5-7 days",
+        "rating": 3.8,
+        "total_reviews": 34600,
+        "seller": "Sneakers Hub",
+        "warranty": "Seller Warranty",
+        "offers": [
+          {
+            "title": "Extra 10% off — First Order",
+            "discount_type": "first_order",
+            "value": "10",
+            "code": "FIRST10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Tarun Batra",
+            "rating": 4,
+            "title": "Good for the price",
+            "body": "Not 100% sure if original but looks and feels good. For this price, very satisfied.",
+            "date": "2026-07-18",
+            "verified": true,
+            "helpful_votes": 287,
+            "platform": "meesho"
+          },
+          {
+            "user": "Preeti Singh",
+            "rating": 3,
+            "title": "Might not be original",
+            "body": "Quality is decent but I'm skeptical. Buy from Nike authorized sellers for guaranteed authenticity.",
+            "date": "2026-06-05",
+            "verified": false,
+            "helpful_votes": 412,
+            "platform": "meesho"
+          },
+          {
+            "user": "Saurav Ghosh",
+            "rating": 4,
+            "title": "Looks great",
+            "body": "For casual wear this is perfect. Looks like AF1, feels comfortable, got it super cheap.",
+            "date": "2026-05-14",
+            "verified": true,
+            "helpful_votes": 195,
+            "platform": "meesho"
+          },
+          {
+            "user": "Komal Yadav",
+            "rating": 5,
+            "title": "Amazing value",
+            "body": "Can't believe I got AF1 style shoes at this price. Very happy with the purchase!",
+            "date": "2026-04-29",
+            "verified": true,
+            "helpful_votes": 321,
+            "platform": "meesho"
+          },
+          {
+            "user": "Harish Pandey",
+            "rating": 2,
+            "title": "Not original",
+            "body": "The logo looks slightly off. Return process was easy though. Buy from branded stores instead.",
+            "date": "2026-03-11",
+            "verified": true,
+            "helpful_votes": 532,
+            "platform": "meesho"
+          }
+        ]
+      },
+      {
+        "platform": "snapdeal",
+        "platform_display": "Snapdeal",
+        "price": 7299,
+        "original_price": 8495,
+        "discount_percent": 14,
+        "url": "https://www.snapdeal.com/search?keyword=Nike+Air+Force+1",
+        "in_stock": true,
+        "delivery": "Free delivery in 4-6 days",
+        "rating": 3.9,
+        "total_reviews": 6800,
+        "seller": "Brand Factory",
+        "warranty": "6 Months Warranty",
+        "offers": [
+          {
+            "title": "Additional 5% off with Snapdeal UPI",
+            "discount_type": "payment",
+            "value": "5",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Prakash Reddy",
+            "rating": 4,
+            "title": "Decent buy",
+            "body": "Good quality sneakers for the price. Delivery was 5 days. Snapdeal packaging was okay.",
+            "date": "2026-07-22",
+            "verified": true,
+            "helpful_votes": 98,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Neha Jain",
+            "rating": 3,
+            "title": "Average experience",
+            "body": "The shoe is okay, delivery was slow. Would prefer buying from Amazon or Myntra next time.",
+            "date": "2026-06-27",
+            "verified": true,
+            "helpful_votes": 87,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Rajesh Kumar",
+            "rating": 5,
+            "title": "Great value",
+            "body": "Very happy with this purchase. Looks stylish and comfortable. Good deal!",
+            "date": "2026-05-08",
+            "verified": false,
+            "helpful_votes": 113,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Alka Sharma",
+            "rating": 4,
+            "title": "Comfortable sneakers",
+            "body": "The Air cushioning is noticeable. Good for daily walks and casual outings.",
+            "date": "2026-04-14",
+            "verified": true,
+            "helpful_votes": 76,
+            "platform": "snapdeal"
+          },
+          {
+            "user": "Suresh Pillai",
+            "rating": 4,
+            "title": "Good quality leather",
+            "body": "Leather feels premium. A bit concerned about authenticity but product looks and feels great.",
+            "date": "2026-03-03",
+            "verified": true,
+            "helpful_votes": 89,
+            "platform": "snapdeal"
+          }
+        ]
+      },
+      {
+        "platform": "nykaa_fashion",
+        "platform_display": "Nykaa Fashion",
+        "price": 7999,
+        "original_price": 8495,
+        "discount_percent": 6,
+        "url": "https://www.nykaafashion.com/search?q=Nike+Air+Force+1",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 4.3,
+        "total_reviews": 4100,
+        "seller": "Nykaa Fashion",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "10% off on Nykaa HDFC Card",
+            "discount_type": "bank",
+            "value": "10",
+            "code": "NYKAAHDFC10",
+            "expires": "2026-09-30"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Riya Mehta",
+            "rating": 5,
+            "title": "Nykaa for shoes too!",
+            "body": "Was surprised to find Nike here. Product is genuine, packaging beautiful. Great experience!",
+            "date": "2026-07-10",
+            "verified": true,
+            "helpful_votes": 134,
+            "platform": "nykaa_fashion"
+          },
+          {
+            "user": "Shalini Gupta",
+            "rating": 4,
+            "title": "Good platform",
+            "body": "Easy shopping experience. The shoe arrived in good condition. Will buy more here!",
+            "date": "2026-06-15",
+            "verified": true,
+            "helpful_votes": 112,
+            "platform": "nykaa_fashion"
+          },
+          {
+            "user": "Monika Choudhary",
+            "rating": 5,
+            "title": "Authentic Nike",
+            "body": "Bought for my husband. He loves them! Nykaa Fashion is now my go-to for branded shoes.",
+            "date": "2026-05-28",
+            "verified": true,
+            "helpful_votes": 98,
+            "platform": "nykaa_fashion"
+          },
+          {
+            "user": "Prashant Tiwari",
+            "rating": 4,
+            "title": "Premium feel",
+            "body": "The leather is butter soft and the shoe looks stunning. Perfect with jeans.",
+            "date": "2026-04-19",
+            "verified": true,
+            "helpful_votes": 87,
+            "platform": "nykaa_fashion"
+          },
+          {
+            "user": "Vandana Singh",
+            "rating": 3,
+            "title": "Slightly expensive",
+            "body": "Same shoe is cheaper on AJIO. But Nykaa's service was better. Mixed feelings.",
+            "date": "2026-03-08",
+            "verified": true,
+            "helpful_votes": 73,
+            "platform": "nykaa_fashion"
+          }
+        ]
+      },
+      {
+        "platform": "reliance_trends",
+        "platform_display": "Reliance Trends",
+        "price": 7799,
+        "original_price": 8495,
+        "discount_percent": 8,
+        "url": "https://www.relianceretail.com/brands/nike.html",
+        "in_stock": true,
+        "delivery": "Free delivery or in-store pickup in 3-4 days",
+        "rating": 4.1,
+        "total_reviews": 2900,
+        "seller": "Reliance Retail",
+        "warranty": "6 Months Brand Warranty",
+        "offers": [
+          {
+            "title": "5% off on Jio Finance Card",
+            "discount_type": "bank",
+            "value": "5",
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Arun Shetty",
+            "rating": 4,
+            "title": "Good in-store experience",
+            "body": "Bought in-store at Reliance Trends. Staff was helpful and the shoe fits perfectly. Good experience.",
+            "date": "2026-07-03",
+            "verified": true,
+            "helpful_votes": 67,
+            "platform": "reliance_trends"
+          },
+          {
+            "user": "Deepa Nambiar",
+            "rating": 5,
+            "title": "Original Nike guaranteed",
+            "body": "When you buy from Reliance Retail, you know it's authentic. Very happy with the shoe!",
+            "date": "2026-06-21",
+            "verified": true,
+            "helpful_votes": 89,
+            "platform": "reliance_trends"
+          },
+          {
+            "user": "Nitin Malhotra",
+            "rating": 4,
+            "title": "Comfortable and stylish",
+            "body": "Great everyday sneaker. The Air unit makes it comfortable for long hours.",
+            "date": "2026-05-16",
+            "verified": true,
+            "helpful_votes": 76,
+            "platform": "reliance_trends"
+          },
+          {
+            "user": "Sunita Rao",
+            "rating": 3,
+            "title": "Limited stock",
+            "body": "Only a few sizes available online. Had to go to the store. But shoe quality is great.",
+            "date": "2026-04-08",
+            "verified": true,
+            "helpful_votes": 54,
+            "platform": "reliance_trends"
+          },
+          {
+            "user": "Vijay Krishnamurthy",
+            "rating": 5,
+            "title": "Classic design",
+            "body": "AF1s are legendary for a reason. This pair is perfect quality and looks stunning.",
+            "date": "2026-03-22",
+            "verified": false,
+            "helpful_votes": 92,
+            "platform": "reliance_trends"
+          }
+        ]
+      },
+      {
+        "platform": "shopclues",
+        "platform_display": "ShopClues",
+        "price": 6799,
+        "original_price": 8495,
+        "discount_percent": 20,
+        "url": "https://www.shopclues.com/search?q=Nike+Air+Force+1",
+        "in_stock": false,
+        "delivery": "Delivery in 5-8 days",
+        "rating": 3.5,
+        "total_reviews": 3200,
+        "seller": "Sport Zone",
+        "warranty": "Seller Warranty",
+        "offers": [
+          {
+            "title": "Extra 15% off on ShopClues Select",
+            "discount_type": "membership",
+            "value": "15",
+            "code": "SELECT15",
+            "expires": "2026-08-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Irfan Khan",
+            "rating": 3,
+            "title": "Risky buy",
+            "body": "Wouldn't recommend for authentic Nike. Shoe looks okay but authenticity doubtful. Buy from branded stores.",
+            "date": "2026-07-14",
+            "verified": true,
+            "helpful_votes": 287,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Pallavi Mishra",
+            "rating": 4,
+            "title": "Budget option",
+            "body": "If you want the look for less, this works. Quality is decent for the price.",
+            "date": "2026-06-03",
+            "verified": false,
+            "helpful_votes": 198,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Sanjay Bose",
+            "rating": 2,
+            "title": "Not what was shown",
+            "body": "Sole material felt cheap and logo didn't look right. Returned immediately.",
+            "date": "2026-05-18",
+            "verified": true,
+            "helpful_votes": 412,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Kavya Reddy",
+            "rating": 4,
+            "title": "Looks great",
+            "body": "Happy with the purchase. May not be 100% original but looks and feels good for casual use.",
+            "date": "2026-04-06",
+            "verified": true,
+            "helpful_votes": 143,
+            "platform": "shopclues"
+          },
+          {
+            "user": "Mohit Kapoor",
+            "rating": 3,
+            "title": "Average quality",
+            "body": "Acceptable for the price. Not original Nike quality. Buyer beware.",
+            "date": "2026-03-16",
+            "verified": true,
+            "helpful_votes": 321,
+            "platform": "shopclues"
+          }
+        ]
+      }
+    ],
+    "price_history": [
+      {
+        "date": "2024-09",
+        "price": 8495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-10",
+        "price": 7295,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-11",
+        "price": 6999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-12",
+        "price": 7495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-01",
+        "price": 7199,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-02",
+        "price": 7799,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-03",
+        "price": 7995,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-04",
+        "price": 8495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-05",
+        "price": 8495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-06",
+        "price": 7999,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-07",
+        "price": 7795,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-08",
+        "price": 7395,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-09",
+        "price": 8495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-10",
+        "price": 7195,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-11",
+        "price": 6795,
+        "platform": "amazon"
+      },
+      {
+        "date": "2025-12",
+        "price": 7495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-01",
+        "price": 7195,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-02",
+        "price": 7795,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-03",
+        "price": 7995,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-04",
+        "price": 8495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-05",
+        "price": 8295,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-06",
+        "price": 7795,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-07",
+        "price": 7595,
+        "platform": "amazon"
+      },
+      {
+        "date": "2026-08",
+        "price": 7495,
+        "platform": "amazon"
+      },
+      {
+        "date": "2024-09",
+        "price": 8495,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2024-10",
+        "price": 7499,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2024-11",
+        "price": 7099,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2024-12",
+        "price": 7699,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-01",
+        "price": 7299,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-02",
+        "price": 7899,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-03",
+        "price": 8295,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-04",
+        "price": 8495,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-05",
+        "price": 8495,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-06",
+        "price": 8099,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-07",
+        "price": 7899,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-08",
+        "price": 7599,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-09",
+        "price": 8495,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-10",
+        "price": 7399,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-11",
+        "price": 6999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2025-12",
+        "price": 7699,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-01",
+        "price": 7399,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-02",
+        "price": 7899,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-03",
+        "price": 8199,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-04",
+        "price": 8495,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-05",
+        "price": 8295,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-06",
+        "price": 7999,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-07",
+        "price": 7799,
+        "platform": "flipkart"
+      },
+      {
+        "date": "2026-08",
+        "price": 7899,
+        "platform": "flipkart"
+      }
+    ]
+  }
+]

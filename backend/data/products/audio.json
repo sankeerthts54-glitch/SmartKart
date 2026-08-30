@@ -1,0 +1,4903 @@
+[
+  {
+    "id": "sony-wh-1000xm5",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "brand": "Sony",
+    "category": "audio",
+    "subcategory": "Over-Ear Headphones",
+    "image_url": "https://images.smartkart.app/products/sony-wh-1000xm5.jpg",
+    "description": "Industry-leading noise cancellation meets 30-hour battery life. The WH-1000XM5 features 8 microphones, LDAC codec support, multipoint connection, and a redesigned driver for warm, detailed sound.",
+    "search_keywords": [
+      "sony wh1000xm5",
+      "sony noise cancelling headphones",
+      "sony xm5",
+      "best anc headphones",
+      "sony headphones price",
+      "wh1000xm5 india",
+      "sony wireless headphones"
+    ],
+    "ai_verdict": "The benchmark for ANC headphones. Best-in-class noise cancellation and 30-hour battery. Price has stabilised \u2014 buy now, unlikely to go lower.",
+    "buy_recommendation": "buy_now",
+    "specs": [
+      {
+        "key": "Driver",
+        "value": "30mm custom dynamic driver",
+        "category": "audio"
+      },
+      {
+        "key": "Frequency Response",
+        "value": "4 Hz \u2013 40 kHz",
+        "category": "audio"
+      },
+      {
+        "key": "Noise Cancellation",
+        "value": "Industry-leading ANC (8-mic array, QN1 + V1 processors)",
+        "category": "audio"
+      },
+      {
+        "key": "Codec",
+        "value": "LDAC, AAC, SBC",
+        "category": "connectivity"
+      },
+      {
+        "key": "Battery Life",
+        "value": "30 hours (ANC on), 40 hours (ANC off)",
+        "category": "battery"
+      },
+      {
+        "key": "Quick Charge",
+        "value": "3 min = 3 hours playback",
+        "category": "battery"
+      },
+      {
+        "key": "Multipoint",
+        "value": "Connect 2 devices simultaneously",
+        "category": "connectivity"
+      },
+      {
+        "key": "Weight",
+        "value": "250 g",
+        "category": "design"
+      },
+      {
+        "key": "Foldable",
+        "value": "No (but slim case included)",
+        "category": "design"
+      },
+      {
+        "key": "Colours",
+        "value": "Black, Platinum Silver, Midnight Blue",
+        "category": "design"
+      },
+      {
+        "key": "Mic",
+        "value": "4 beamforming + 4 feedback mics (Precise Voice Pickup)",
+        "category": "audio"
+      },
+      {
+        "key": "Touch Controls",
+        "value": "Yes \u2014 swipe, tap, hold",
+        "category": "design"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 24953,
+        "original_price": 34990,
+        "discount_percent": 29,
+        "url": "https://www.amazon.in/s?k=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.5,
+        "total_reviews": 14726,
+        "offers": [
+          {
+            "title": "Exchange offer: Up to \u20b918,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b9750 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b92,079/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this Sony WH-1000XM5 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2026-06-16",
+            "verified": true,
+            "helpful_votes": 65,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Amazon packaging was good.",
+            "date": "2026-04-13",
+            "verified": true,
+            "helpful_votes": 100,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The Sony WH-1000XM5 performs brilliantly. Would buy from Amazon again.",
+            "date": "2026-06-28",
+            "verified": false,
+            "helpful_votes": 117,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Vikram Gupta",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Amazon experience too.",
+            "date": "2025-08-04",
+            "verified": false,
+            "helpful_votes": 16,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid Sony WH-1000XM5. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2025-08-21",
+            "verified": true,
+            "helpful_votes": 45,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Black"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 25454,
+        "original_price": 34990,
+        "discount_percent": 27,
+        "url": "https://www.flipkart.com/search?q=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.4,
+        "total_reviews": 51075,
+        "offers": [
+          {
+            "title": "\u20b9750 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b92,121/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Neha Singh",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2026-04-29",
+            "verified": false,
+            "helpful_votes": 109,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Amit Kumar",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid Sony WH-1000XM5. Does exactly what it promises. Flipkart gave a good deal with extra cashback.",
+            "date": "2026-05-16",
+            "verified": true,
+            "helpful_votes": 61,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Anjali Desai",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The Sony WH-1000XM5 performs brilliantly. Would buy from Flipkart again.",
+            "date": "2025-12-19",
+            "verified": true,
+            "helpful_votes": 119,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2026-03-29",
+            "verified": false,
+            "helpful_votes": 99,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Flipkart experience too.",
+            "date": "2025-10-15",
+            "verified": true,
+            "helpful_votes": 38,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Platinum Silver"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 24462,
+        "original_price": 34990,
+        "discount_percent": 30,
+        "url": "https://www.croma.com/searchB?q=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.5,
+        "total_reviews": 40641,
+        "offers": [
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b918,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Meera Krishnan",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Croma. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2025-12-23",
+            "verified": true,
+            "helpful_votes": 74,
+            "platform": "Croma"
+          },
+          {
+            "user": "Meera Krishnan",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Croma experience too.",
+            "date": "2026-03-25",
+            "verified": true,
+            "helpful_votes": 54,
+            "platform": "Croma"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The Sony WH-1000XM5 performs brilliantly. Would buy from Croma again.",
+            "date": "2026-05-14",
+            "verified": true,
+            "helpful_votes": 51,
+            "platform": "Croma"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Croma packaging was good.",
+            "date": "2026-05-29",
+            "verified": true,
+            "helpful_votes": 16,
+            "platform": "Croma"
+          },
+          {
+            "user": "Lakshmi Rao",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The Sony WH-1000XM5 is okay but I've used better. Customer support from Croma was helpful though.",
+            "date": "2026-02-02",
+            "verified": true,
+            "helpful_votes": 103,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Black"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 25070,
+        "original_price": 34990,
+        "discount_percent": 28,
+        "url": "https://www.reliancedigital.in/search?q=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.3,
+        "total_reviews": 49055,
+        "offers": [
+          {
+            "title": "Exchange offer: Up to \u20b917,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b92,089/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Priya Patel",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Reliance Digital packaging was good.",
+            "date": "2026-03-02",
+            "verified": true,
+            "helpful_votes": 55,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Reliance Digital. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2026-08-17",
+            "verified": false,
+            "helpful_votes": 48,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Divya Menon",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Reliance Digital experience too.",
+            "date": "2026-04-09",
+            "verified": true,
+            "helpful_votes": 113,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid Sony WH-1000XM5. Does exactly what it promises. Reliance Digital gave a good deal with extra cashback.",
+            "date": "2026-05-19",
+            "verified": true,
+            "helpful_votes": 38,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this Sony WH-1000XM5 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Reliance Digital was super fast.",
+            "date": "2026-03-14",
+            "verified": true,
+            "helpful_votes": 44,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Midnight Blue"
+      },
+      {
+        "platform": "vijay_sales",
+        "platform_display": "Vijay Sales",
+        "price": 26792,
+        "original_price": 34990,
+        "discount_percent": 23,
+        "url": "https://www.vijaysales.com/search/Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 4.0,
+        "total_reviews": 31298,
+        "offers": [
+          {
+            "title": "Exchange offer: Up to \u20b923,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Meera Krishnan",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Vijay Sales packaging was good.",
+            "date": "2025-08-25",
+            "verified": true,
+            "helpful_votes": 7,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The Sony WH-1000XM5 performs brilliantly. Would buy from Vijay Sales again.",
+            "date": "2026-07-19",
+            "verified": true,
+            "helpful_votes": 57,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Vijay Sales experience too.",
+            "date": "2026-07-30",
+            "verified": true,
+            "helpful_votes": 113,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Vijay Sales. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2025-12-04",
+            "verified": true,
+            "helpful_votes": 65,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Anjali Desai",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The Sony WH-1000XM5 is okay but I've used better. Customer support from Vijay Sales was helpful though.",
+            "date": "2026-08-19",
+            "verified": true,
+            "helpful_votes": 54,
+            "platform": "Vijay Sales"
+          }
+        ],
+        "seller": "Vijay Sales Retail",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Black"
+      },
+      {
+        "platform": "tatacliq",
+        "platform_display": "Tata CLiQ",
+        "price": 23342,
+        "original_price": 34990,
+        "discount_percent": 33,
+        "url": "https://www.tatacliq.com/search/?searchCategory=all&text=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days",
+        "rating": 3.9,
+        "total_reviews": 19044,
+        "offers": [
+          {
+            "title": "Extra \u20b9500 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b910,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this Sony WH-1000XM5 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Tata CLiQ was super fast.",
+            "date": "2026-05-03",
+            "verified": true,
+            "helpful_votes": 82,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Tata CLiQ. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2026-06-25",
+            "verified": false,
+            "helpful_votes": 101,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The Sony WH-1000XM5 is okay but I've used better. Customer support from Tata CLiQ was helpful though.",
+            "date": "2026-06-27",
+            "verified": true,
+            "helpful_votes": 47,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this Sony WH-1000XM5 at this price. The quality is premium. Tata CLiQ delivered in 1 day!",
+            "date": "2026-04-27",
+            "verified": true,
+            "helpful_votes": 83,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Lakshmi Rao",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Tata CLiQ packaging was good.",
+            "date": "2025-08-04",
+            "verified": false,
+            "helpful_votes": 64,
+            "platform": "Tata CLiQ"
+          }
+        ],
+        "seller": "Tata CLiQ",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Platinum Silver"
+      },
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 24328,
+        "original_price": 34990,
+        "discount_percent": 30,
+        "url": "https://www.amazon.in/s?k=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.1,
+        "total_reviews": 10906,
+        "offers": [
+          {
+            "title": "\u20b91500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b92,027/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid Sony WH-1000XM5. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2025-12-10",
+            "verified": true,
+            "helpful_votes": 52,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this Sony WH-1000XM5 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2025-10-29",
+            "verified": true,
+            "helpful_votes": 118,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The Sony WH-1000XM5 is okay but I've used better. Customer support from Amazon was helpful though.",
+            "date": "2025-12-13",
+            "verified": true,
+            "helpful_votes": 89,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Neha Singh",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2026-06-27",
+            "verified": true,
+            "helpful_votes": 15,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Amazon packaging was good.",
+            "date": "2026-08-25",
+            "verified": true,
+            "helpful_votes": 45,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Platinum Silver \u2014 Limited Stock"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 25817,
+        "original_price": 34990,
+        "discount_percent": 26,
+        "url": "https://www.flipkart.com/search?q=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 3.9,
+        "total_reviews": 37612,
+        "offers": [
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b92,151/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Rohit Joshi",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The Sony WH-1000XM5 is okay but I've used better. Customer support from Flipkart was helpful though.",
+            "date": "2025-07-30",
+            "verified": false,
+            "helpful_votes": 103,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2026-05-04",
+            "verified": false,
+            "helpful_votes": 114,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this Sony WH-1000XM5 at this price. The quality is premium. Flipkart delivered in 1 day!",
+            "date": "2026-08-11",
+            "verified": true,
+            "helpful_votes": 102,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Neha Singh",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Flipkart experience too.",
+            "date": "2026-04-23",
+            "verified": true,
+            "helpful_votes": 111,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Amit Kumar",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2025-07-28",
+            "verified": true,
+            "helpful_votes": 41,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Midnight Blue"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 24925,
+        "original_price": 34990,
+        "discount_percent": 29,
+        "url": "https://www.croma.com/searchB?q=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.3,
+        "total_reviews": 2156,
+        "offers": [
+          {
+            "title": "\u20b91000 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b92,077/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Croma experience too.",
+            "date": "2026-07-28",
+            "verified": true,
+            "helpful_votes": 84,
+            "platform": "Croma"
+          },
+          {
+            "user": "Divya Menon",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this Sony WH-1000XM5 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Croma was super fast.",
+            "date": "2026-08-06",
+            "verified": true,
+            "helpful_votes": 61,
+            "platform": "Croma"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The Sony WH-1000XM5 performs brilliantly. Would buy from Croma again.",
+            "date": "2025-12-21",
+            "verified": true,
+            "helpful_votes": 4,
+            "platform": "Croma"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The Sony WH-1000XM5 is okay but I've used better. Customer support from Croma was helpful though.",
+            "date": "2025-08-17",
+            "verified": true,
+            "helpful_votes": 104,
+            "platform": "Croma"
+          },
+          {
+            "user": "Neha Singh",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Croma. Works exactly as described. Sony wh-1000xm5 is solid, no complaints so far.",
+            "date": "2025-11-02",
+            "verified": false,
+            "helpful_votes": 48,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Platinum Silver + Carry Bag Bundle"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 25487,
+        "original_price": 34990,
+        "discount_percent": 27,
+        "url": "https://www.reliancedigital.in/search?q=Sony+WH-1000XM5+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.7,
+        "total_reviews": 25722,
+        "offers": [
+          {
+            "title": "No-cost EMI from \u20b92,123/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Exchange offer: Up to \u20b96,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b91000 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Anjali Desai",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid Sony WH-1000XM5. Does exactly what it promises. Reliance Digital gave a good deal with extra cashback.",
+            "date": "2026-05-15",
+            "verified": true,
+            "helpful_votes": 83,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Divya Menon",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent Sony WH-1000XM5. There are a couple of small niggles but nothing deal-breaking. Reliance Digital packaging was good.",
+            "date": "2025-12-27",
+            "verified": true,
+            "helpful_votes": 37,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this Sony WH-1000XM5 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Reliance Digital was super fast.",
+            "date": "2026-04-12",
+            "verified": true,
+            "helpful_votes": 52,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best Sony WH-1000XM5 in this price range. Very happy with the Reliance Digital experience too.",
+            "date": "2026-05-08",
+            "verified": true,
+            "helpful_votes": 105,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The Sony WH-1000XM5 performs brilliantly. Would buy from Reliance Digital again.",
+            "date": "2026-01-04",
+            "verified": true,
+            "helpful_votes": 114,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Midnight Blue"
+      }
+    ],
+    "price_history": [
+      {
+        "date": "2024-09-01",
+        "platform": "amazon",
+        "price": 24071
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "amazon",
+        "price": 19614
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "amazon",
+        "price": 20603
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "amazon",
+        "price": 20103
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "amazon",
+        "price": 23669
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "amazon",
+        "price": 21329
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "amazon",
+        "price": 23927
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "amazon",
+        "price": 24404
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "amazon",
+        "price": 23568
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "amazon",
+        "price": 24330
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "amazon",
+        "price": 22419
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "amazon",
+        "price": 24352
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "amazon",
+        "price": 22280
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "amazon",
+        "price": 23894
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "amazon",
+        "price": 19944
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "amazon",
+        "price": 19355
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "amazon",
+        "price": 23920
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "amazon",
+        "price": 22285
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "amazon",
+        "price": 24266
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "amazon",
+        "price": 23771
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "amazon",
+        "price": 23710
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "amazon",
+        "price": 24436
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "amazon",
+        "price": 22083
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "amazon",
+        "price": 24264
+      },
+      {
+        "date": "2024-09-01",
+        "platform": "flipkart",
+        "price": 25183
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "flipkart",
+        "price": 22418
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "flipkart",
+        "price": 21179
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "flipkart",
+        "price": 21010
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "flipkart",
+        "price": 25224
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "flipkart",
+        "price": 23151
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "flipkart",
+        "price": 24491
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "flipkart",
+        "price": 24910
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "flipkart",
+        "price": 25273
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "flipkart",
+        "price": 25388
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "flipkart",
+        "price": 23076
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "flipkart",
+        "price": 24496
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "flipkart",
+        "price": 22931
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "flipkart",
+        "price": 25119
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "flipkart",
+        "price": 20985
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "flipkart",
+        "price": 19681
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "flipkart",
+        "price": 24791
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "flipkart",
+        "price": 23828
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "flipkart",
+        "price": 24900
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "flipkart",
+        "price": 25245
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "flipkart",
+        "price": 25203
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "flipkart",
+        "price": 24704
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "flipkart",
+        "price": 24052
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "flipkart",
+        "price": 24769
+      }
+    ]
+  },
+  {
+    "id": "boat-rockerz-550",
+    "name": "boAt Rockerz 550 Wireless Headphones",
+    "brand": "boAt",
+    "category": "audio",
+    "subcategory": "Over-Ear Headphones",
+    "image_url": "https://images.smartkart.app/products/boat-rockerz-550.jpg",
+    "description": "boAt Rockerz 550 delivers 20 hours of playtime, 40mm drivers tuned for bass lovers, voice assistant support, and a foldable design with soft earcups \u2014 all at a price that's hard to beat.",
+    "search_keywords": [
+      "boat rockerz 550",
+      "boat headphones",
+      "boat wireless headphones",
+      "boat rockerz price",
+      "budget headphones india",
+      "boat 550",
+      "boat bluetooth headphones"
+    ],
+    "ai_verdict": "Best budget wireless headphones under \u20b92000. Bass-heavy sound signature suits Bollywood and EDM. Amazon and Flipkart frequently offer 60%+ off MRP.",
+    "buy_recommendation": "buy_now",
+    "specs": [
+      {
+        "key": "Driver",
+        "value": "40mm dynamic driver",
+        "category": "audio"
+      },
+      {
+        "key": "Frequency Response",
+        "value": "20 Hz \u2013 20 kHz",
+        "category": "audio"
+      },
+      {
+        "key": "Battery Life",
+        "value": "20 hours playback",
+        "category": "battery"
+      },
+      {
+        "key": "Charging",
+        "value": "Micro-USB, 2 hours full charge",
+        "category": "battery"
+      },
+      {
+        "key": "Codec",
+        "value": "SBC",
+        "category": "connectivity"
+      },
+      {
+        "key": "Bluetooth",
+        "value": "Bluetooth 5.0, 10m range",
+        "category": "connectivity"
+      },
+      {
+        "key": "Foldable",
+        "value": "Yes",
+        "category": "design"
+      },
+      {
+        "key": "Weight",
+        "value": "218 g",
+        "category": "design"
+      },
+      {
+        "key": "Colours",
+        "value": "Luscious Black, Furious Blue, Rockin Red, Hazel Green",
+        "category": "design"
+      },
+      {
+        "key": "Mic",
+        "value": "Built-in mic for calls",
+        "category": "audio"
+      },
+      {
+        "key": "Controls",
+        "value": "Physical buttons on earcup",
+        "category": "design"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.amazon.in/s?k=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.1,
+        "total_reviews": 13937,
+        "offers": [
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b919,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Divya Menon",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent boAt Rockerz 550. There are a couple of small niggles but nothing deal-breaking. Amazon packaging was good.",
+            "date": "2025-11-02",
+            "verified": true,
+            "helpful_votes": 94,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Anita Shah",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid boAt Rockerz 550. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2026-01-21",
+            "verified": false,
+            "helpful_votes": 115,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2025-09-29",
+            "verified": true,
+            "helpful_votes": 11,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best boAt Rockerz 550 in this price range. Very happy with the Amazon experience too.",
+            "date": "2026-01-25",
+            "verified": true,
+            "helpful_votes": 12,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this boAt Rockerz 550 at this price. The quality is premium. Amazon delivered in 1 day!",
+            "date": "2025-09-30",
+            "verified": true,
+            "helpful_votes": 28,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Luscious Black"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.flipkart.com/search?q=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.7,
+        "total_reviews": 47252,
+        "offers": [
+          {
+            "title": "No-cost EMI from \u20b9166/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Exchange offer: Up to \u20b920,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Neha Singh",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2026-01-30",
+            "verified": true,
+            "helpful_votes": 6,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2026-05-20",
+            "verified": true,
+            "helpful_votes": 117,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Flipkart was helpful though.",
+            "date": "2025-09-13",
+            "verified": false,
+            "helpful_votes": 79,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Amit Kumar",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid boAt Rockerz 550. Does exactly what it promises. Flipkart gave a good deal with extra cashback.",
+            "date": "2025-12-29",
+            "verified": true,
+            "helpful_votes": 90,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent boAt Rockerz 550. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2026-04-30",
+            "verified": true,
+            "helpful_votes": 103,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Furious Blue"
+      },
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.amazon.in/s?k=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.8,
+        "total_reviews": 40469,
+        "offers": [
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b9750 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Neha Singh",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this boAt Rockerz 550 at this price. The quality is premium. Amazon delivered in 1 day!",
+            "date": "2026-05-18",
+            "verified": false,
+            "helpful_votes": 42,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Lakshmi Rao",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2026-07-17",
+            "verified": true,
+            "helpful_votes": 64,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid boAt Rockerz 550. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2026-04-10",
+            "verified": true,
+            "helpful_votes": 31,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2025-09-10",
+            "verified": true,
+            "helpful_votes": 64,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Amazon was helpful though.",
+            "date": "2026-06-06",
+            "verified": true,
+            "helpful_votes": 68,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Rockin Red"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.flipkart.com/search?q=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.3,
+        "total_reviews": 2468,
+        "offers": [
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b99,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b9166/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Ravi Pillai",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2026-08-18",
+            "verified": true,
+            "helpful_votes": 108,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Amit Kumar",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent boAt Rockerz 550. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2026-01-20",
+            "verified": true,
+            "helpful_votes": 15,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The boAt Rockerz 550 performs brilliantly. Would buy from Flipkart again.",
+            "date": "2026-08-03",
+            "verified": true,
+            "helpful_votes": 64,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Divya Menon",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best boAt Rockerz 550 in this price range. Very happy with the Flipkart experience too.",
+            "date": "2026-07-06",
+            "verified": false,
+            "helpful_votes": 108,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Lakshmi Rao",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this boAt Rockerz 550 at this price. The quality is premium. Flipkart delivered in 1 day!",
+            "date": "2025-08-28",
+            "verified": true,
+            "helpful_votes": 43,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Hazel Green"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 2586,
+        "original_price": 4999,
+        "discount_percent": 48,
+        "url": "https://www.croma.com/searchB?q=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.6,
+        "total_reviews": 38807,
+        "offers": [
+          {
+            "title": "Exchange offer: Up to \u20b920,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Deepak Verma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Croma was helpful though.",
+            "date": "2025-08-22",
+            "verified": false,
+            "helpful_votes": 30,
+            "platform": "Croma"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The boAt Rockerz 550 performs brilliantly. Would buy from Croma again.",
+            "date": "2026-04-10",
+            "verified": true,
+            "helpful_votes": 117,
+            "platform": "Croma"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Croma. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2025-07-28",
+            "verified": true,
+            "helpful_votes": 56,
+            "platform": "Croma"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best boAt Rockerz 550 in this price range. Very happy with the Croma experience too.",
+            "date": "2026-01-17",
+            "verified": false,
+            "helpful_votes": 89,
+            "platform": "Croma"
+          },
+          {
+            "user": "Vikram Gupta",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Croma was super fast.",
+            "date": "2026-04-05",
+            "verified": true,
+            "helpful_votes": 7,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Luscious Black"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 2665,
+        "original_price": 4999,
+        "discount_percent": 47,
+        "url": "https://www.reliancedigital.in/search?q=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.3,
+        "total_reviews": 36302,
+        "offers": [
+          {
+            "title": "Exchange offer: Up to \u20b923,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b9222/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Karan Mehta",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this boAt Rockerz 550 at this price. The quality is premium. Reliance Digital delivered in 1 day!",
+            "date": "2026-07-04",
+            "verified": false,
+            "helpful_votes": 26,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Reliance Digital was helpful though.",
+            "date": "2026-01-12",
+            "verified": true,
+            "helpful_votes": 45,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The boAt Rockerz 550 performs brilliantly. Would buy from Reliance Digital again.",
+            "date": "2026-07-06",
+            "verified": true,
+            "helpful_votes": 118,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Anjali Desai",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent boAt Rockerz 550. There are a couple of small niggles but nothing deal-breaking. Reliance Digital packaging was good.",
+            "date": "2025-12-17",
+            "verified": true,
+            "helpful_votes": 54,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Reliance Digital was super fast.",
+            "date": "2025-08-20",
+            "verified": true,
+            "helpful_votes": 9,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Furious Blue"
+      },
+      {
+        "platform": "tatacliq",
+        "platform_display": "Tata CLiQ",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.tatacliq.com/search/?searchCategory=all&text=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": false,
+        "delivery": "Free delivery in 3-4 days",
+        "rating": 3.9,
+        "total_reviews": 25670,
+        "offers": [
+          {
+            "title": "Extra \u20b9500 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b921,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b9500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Arjun Das",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The boAt Rockerz 550 performs brilliantly. Would buy from Tata CLiQ again.",
+            "date": "2025-08-06",
+            "verified": false,
+            "helpful_votes": 75,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid boAt Rockerz 550. Does exactly what it promises. Tata CLiQ gave a good deal with extra cashback.",
+            "date": "2026-06-18",
+            "verified": true,
+            "helpful_votes": 77,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Divya Menon",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this boAt Rockerz 550 at this price. The quality is premium. Tata CLiQ delivered in 1 day!",
+            "date": "2026-02-02",
+            "verified": true,
+            "helpful_votes": 61,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Tata CLiQ. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2025-12-30",
+            "verified": true,
+            "helpful_votes": 95,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Tata CLiQ was helpful though.",
+            "date": "2026-06-11",
+            "verified": true,
+            "helpful_votes": 100,
+            "platform": "Tata CLiQ"
+          }
+        ],
+        "seller": "Tata CLiQ",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Rockin Red"
+      },
+      {
+        "platform": "vijay_sales",
+        "platform_display": "Vijay Sales",
+        "price": 2237,
+        "original_price": 4999,
+        "discount_percent": 55,
+        "url": "https://www.vijaysales.com/search/boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 4.6,
+        "total_reviews": 38374,
+        "offers": [
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b921,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b9186/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Suresh Nair",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The boAt Rockerz 550 performs brilliantly. Would buy from Vijay Sales again.",
+            "date": "2026-02-14",
+            "verified": true,
+            "helpful_votes": 94,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Vijay Sales. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2026-03-08",
+            "verified": true,
+            "helpful_votes": 13,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Anjali Desai",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent boAt Rockerz 550. There are a couple of small niggles but nothing deal-breaking. Vijay Sales packaging was good.",
+            "date": "2025-09-13",
+            "verified": false,
+            "helpful_votes": 120,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Anita Shah",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Vijay Sales was super fast.",
+            "date": "2026-06-07",
+            "verified": true,
+            "helpful_votes": 114,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this boAt Rockerz 550 at this price. The quality is premium. Vijay Sales delivered in 1 day!",
+            "date": "2026-07-27",
+            "verified": true,
+            "helpful_votes": 59,
+            "platform": "Vijay Sales"
+          }
+        ],
+        "seller": "Vijay Sales Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Furious Blue"
+      },
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.amazon.in/s?k=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.2,
+        "total_reviews": 3251,
+        "offers": [
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b918,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b9166/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Anita Shah",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid boAt Rockerz 550. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2026-03-07",
+            "verified": true,
+            "helpful_votes": 80,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Amazon was helpful though.",
+            "date": "2026-06-19",
+            "verified": true,
+            "helpful_votes": 7,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The boAt Rockerz 550 performs brilliantly. Would buy from Amazon again.",
+            "date": "2026-01-19",
+            "verified": true,
+            "helpful_votes": 9,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Meera Krishnan",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent boAt Rockerz 550. There are a couple of small niggles but nothing deal-breaking. Amazon packaging was good.",
+            "date": "2026-03-09",
+            "verified": true,
+            "helpful_votes": 116,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best boAt Rockerz 550 in this price range. Very happy with the Amazon experience too.",
+            "date": "2026-07-09",
+            "verified": true,
+            "helpful_votes": 91,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Luscious Black \u2014 Deal of the Day"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 1999,
+        "original_price": 4999,
+        "discount_percent": 60,
+        "url": "https://www.flipkart.com/search?q=boAt+Rockerz+550+Wireless+Headphones",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.2,
+        "total_reviews": 8992,
+        "offers": [
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b911,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b9750 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Kavita Iyer",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid boAt Rockerz 550. Does exactly what it promises. Flipkart gave a good deal with extra cashback.",
+            "date": "2026-05-17",
+            "verified": true,
+            "helpful_votes": 50,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this boAt Rockerz 550 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2025-11-14",
+            "verified": true,
+            "helpful_votes": 26,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Boat rockerz 550 is solid, no complaints so far.",
+            "date": "2026-07-09",
+            "verified": true,
+            "helpful_votes": 110,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Lakshmi Rao",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best boAt Rockerz 550 in this price range. Very happy with the Flipkart experience too.",
+            "date": "2025-10-13",
+            "verified": false,
+            "helpful_votes": 23,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The boAt Rockerz 550 is okay but I've used better. Customer support from Flipkart was helpful though.",
+            "date": "2026-02-07",
+            "verified": true,
+            "helpful_votes": 63,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Special Edition Blue"
+      }
+    ],
+    "price_history": [
+      {
+        "date": "2024-09-01",
+        "platform": "amazon",
+        "price": 1499
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "amazon",
+        "price": 1277
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "amazon",
+        "price": 1357
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "amazon",
+        "price": 1262
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "amazon",
+        "price": 1486
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "amazon",
+        "price": 1401
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "amazon",
+        "price": 1484
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "amazon",
+        "price": 1470
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "amazon",
+        "price": 1513
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "amazon",
+        "price": 1513
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "amazon",
+        "price": 1380
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "amazon",
+        "price": 1506
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "amazon",
+        "price": 1420
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "amazon",
+        "price": 1527
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "amazon",
+        "price": 1243
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "amazon",
+        "price": 1169
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "amazon",
+        "price": 1513
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "amazon",
+        "price": 1364
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "amazon",
+        "price": 1506
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "amazon",
+        "price": 1521
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "amazon",
+        "price": 1504
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "amazon",
+        "price": 1505
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "amazon",
+        "price": 1465
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "amazon",
+        "price": 1493
+      },
+      {
+        "date": "2024-09-01",
+        "platform": "flipkart",
+        "price": 1611
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "flipkart",
+        "price": 1437
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "flipkart",
+        "price": 1328
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "flipkart",
+        "price": 1403
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "flipkart",
+        "price": 1577
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "flipkart",
+        "price": 1407
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "flipkart",
+        "price": 1582
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "flipkart",
+        "price": 1577
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "flipkart",
+        "price": 1577
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "flipkart",
+        "price": 1616
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "flipkart",
+        "price": 1537
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "flipkart",
+        "price": 1581
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "flipkart",
+        "price": 1489
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "flipkart",
+        "price": 1614
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "flipkart",
+        "price": 1343
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "flipkart",
+        "price": 1291
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "flipkart",
+        "price": 1600
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "flipkart",
+        "price": 1440
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "flipkart",
+        "price": 1591
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "flipkart",
+        "price": 1625
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "flipkart",
+        "price": 1609
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "flipkart",
+        "price": 1618
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "flipkart",
+        "price": 1513
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "flipkart",
+        "price": 1605
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-pro-2",
+    "name": "Apple AirPods Pro (2nd Gen) with USB-C",
+    "brand": "Apple",
+    "category": "audio",
+    "subcategory": "True Wireless Earbuds",
+    "image_url": "https://images.smartkart.app/products/apple-airpods-pro-2.jpg",
+    "description": "AirPods Pro 2 feature the H2 chip for 2\u00d7 better ANC than Gen 1, Adaptive Transparency, Personalized Spatial Audio, and USB-C charging \u2014 the best earbuds for iPhone users by a wide margin.",
+    "search_keywords": [
+      "airpods pro 2",
+      "apple airpods pro",
+      "airpods pro price india",
+      "apple earbuds",
+      "best earbuds for iphone",
+      "airpods anc",
+      "airpods usb-c"
+    ],
+    "ai_verdict": "Must-have for iPhone users. H2 chip's ANC is class-leading for earbuds. Deep Apple ecosystem integration (Find My, Spatial Audio) unmatched elsewhere.",
+    "buy_recommendation": "buy_now",
+    "specs": [
+      {
+        "key": "Chip",
+        "value": "Apple H2",
+        "category": "performance"
+      },
+      {
+        "key": "ANC",
+        "value": "2\u00d7 improvement over Gen 1 (H2 adaptive ANC)",
+        "category": "audio"
+      },
+      {
+        "key": "Transparency Mode",
+        "value": "Adaptive Transparency \u2014 adjusts in real-time",
+        "category": "audio"
+      },
+      {
+        "key": "Battery Life",
+        "value": "6 hours (ANC on), 30 hours with case",
+        "category": "battery"
+      },
+      {
+        "key": "Charging",
+        "value": "USB-C (MagSafe compatible)",
+        "category": "battery"
+      },
+      {
+        "key": "Water Resistance",
+        "value": "IPX4 (buds + case)",
+        "category": "design"
+      },
+      {
+        "key": "Spatial Audio",
+        "value": "Personalized Spatial Audio with dynamic head tracking",
+        "category": "audio"
+      },
+      {
+        "key": "Codec",
+        "value": "AAC",
+        "category": "connectivity"
+      },
+      {
+        "key": "Fit",
+        "value": "4 ear tip sizes (XS, S, M, L)",
+        "category": "design"
+      },
+      {
+        "key": "Weight",
+        "value": "5.3 g per bud",
+        "category": "design"
+      },
+      {
+        "key": "Colour",
+        "value": "White",
+        "category": "design"
+      },
+      {
+        "key": "Find My",
+        "value": "Precision Finding with Ultra Wideband",
+        "category": "connectivity"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 20418,
+        "original_price": 24900,
+        "discount_percent": 18,
+        "url": "https://www.amazon.in/s?k=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.3,
+        "total_reviews": 44943,
+        "offers": [
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Extra \u20b9500 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "No-cost EMI from \u20b91,701/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Lakshmi Rao",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Amazon again.",
+            "date": "2025-10-11",
+            "verified": true,
+            "helpful_votes": 94,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2025-09-15",
+            "verified": false,
+            "helpful_votes": 93,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this AirPods Pro 2 at this price. The quality is premium. Amazon delivered in 1 day!",
+            "date": "2025-10-27",
+            "verified": true,
+            "helpful_votes": 38,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2026-01-19",
+            "verified": true,
+            "helpful_votes": 109,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2025-12-29",
+            "verified": true,
+            "helpful_votes": 20,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "USB-C"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 19874,
+        "original_price": 24900,
+        "discount_percent": 20,
+        "url": "https://www.flipkart.com/search?q=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.6,
+        "total_reviews": 49046,
+        "offers": [
+          {
+            "title": "No-cost EMI from \u20b91,656/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Divya Menon",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2026-02-01",
+            "verified": true,
+            "helpful_votes": 11,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The AirPods Pro 2 is okay but I've used better. Customer support from Flipkart was helpful though.",
+            "date": "2026-03-19",
+            "verified": true,
+            "helpful_votes": 11,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Flipkart again.",
+            "date": "2025-08-10",
+            "verified": true,
+            "helpful_votes": 96,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2026-02-01",
+            "verified": true,
+            "helpful_votes": 114,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this AirPods Pro 2 at this price. The quality is premium. Flipkart delivered in 1 day!",
+            "date": "2026-07-16",
+            "verified": true,
+            "helpful_votes": 8,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "USB-C"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 22551,
+        "original_price": 24900,
+        "discount_percent": 9,
+        "url": "https://www.croma.com/searchB?q=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.2,
+        "total_reviews": 26755,
+        "offers": [
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Anita Shah",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The AirPods Pro 2 is okay but I've used better. Customer support from Croma was helpful though.",
+            "date": "2026-06-24",
+            "verified": true,
+            "helpful_votes": 78,
+            "platform": "Croma"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best AirPods Pro 2 in this price range. Very happy with the Croma experience too.",
+            "date": "2025-11-23",
+            "verified": false,
+            "helpful_votes": 97,
+            "platform": "Croma"
+          },
+          {
+            "user": "Amit Kumar",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this AirPods Pro 2 at this price. The quality is premium. Croma delivered in 1 day!",
+            "date": "2026-07-10",
+            "verified": true,
+            "helpful_votes": 63,
+            "platform": "Croma"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Croma again.",
+            "date": "2025-11-27",
+            "verified": true,
+            "helpful_votes": 13,
+            "platform": "Croma"
+          },
+          {
+            "user": "Meera Krishnan",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Croma was super fast.",
+            "date": "2026-08-01",
+            "verified": false,
+            "helpful_votes": 64,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "USB-C"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 22897,
+        "original_price": 24900,
+        "discount_percent": 8,
+        "url": "https://www.reliancedigital.in/search?q=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.7,
+        "total_reviews": 18059,
+        "offers": [
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Exchange offer: Up to \u20b925,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Lakshmi Rao",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Reliance Digital gave a good deal with extra cashback.",
+            "date": "2026-05-09",
+            "verified": true,
+            "helpful_votes": 33,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Reliance Digital again.",
+            "date": "2026-08-22",
+            "verified": true,
+            "helpful_votes": 93,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent AirPods Pro 2. There are a couple of small niggles but nothing deal-breaking. Reliance Digital packaging was good.",
+            "date": "2025-11-29",
+            "verified": true,
+            "helpful_votes": 88,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Reliance Digital was super fast.",
+            "date": "2025-08-28",
+            "verified": false,
+            "helpful_votes": 63,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best AirPods Pro 2 in this price range. Very happy with the Reliance Digital experience too.",
+            "date": "2026-05-30",
+            "verified": true,
+            "helpful_votes": 71,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "USB-C"
+      },
+      {
+        "platform": "vijay_sales",
+        "platform_display": "Vijay Sales",
+        "price": 21845,
+        "original_price": 24900,
+        "discount_percent": 12,
+        "url": "https://www.vijaysales.com/search/Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 3.9,
+        "total_reviews": 24344,
+        "offers": [
+          {
+            "title": "\u20b91500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b97,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Vijay Sales gave a good deal with extra cashback.",
+            "date": "2026-08-05",
+            "verified": true,
+            "helpful_votes": 20,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The AirPods Pro 2 is okay but I've used better. Customer support from Vijay Sales was helpful though.",
+            "date": "2025-12-02",
+            "verified": true,
+            "helpful_votes": 26,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this AirPods Pro 2 at this price. The quality is premium. Vijay Sales delivered in 1 day!",
+            "date": "2026-08-08",
+            "verified": true,
+            "helpful_votes": 36,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Vijay Sales again.",
+            "date": "2026-08-02",
+            "verified": false,
+            "helpful_votes": 70,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Vijay Sales. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2026-02-19",
+            "verified": true,
+            "helpful_votes": 27,
+            "platform": "Vijay Sales"
+          }
+        ],
+        "seller": "Vijay Sales Retail",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "USB-C"
+      },
+      {
+        "platform": "tatacliq",
+        "platform_display": "Tata CLiQ",
+        "price": 20222,
+        "original_price": 24900,
+        "discount_percent": 19,
+        "url": "https://www.tatacliq.com/search/?searchCategory=all&text=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": false,
+        "delivery": "Free delivery in 3-4 days",
+        "rating": 4.2,
+        "total_reviews": 11027,
+        "offers": [
+          {
+            "title": "\u20b91500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Extra \u20b9300 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Anita Shah",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The AirPods Pro 2 is okay but I've used better. Customer support from Tata CLiQ was helpful though.",
+            "date": "2026-05-14",
+            "verified": true,
+            "helpful_votes": 8,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Anjali Desai",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Tata CLiQ was super fast.",
+            "date": "2026-06-04",
+            "verified": true,
+            "helpful_votes": 42,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Tata CLiQ again.",
+            "date": "2026-07-09",
+            "verified": true,
+            "helpful_votes": 46,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Tata CLiQ. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2025-12-16",
+            "verified": true,
+            "helpful_votes": 30,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent AirPods Pro 2. There are a couple of small niggles but nothing deal-breaking. Tata CLiQ packaging was good.",
+            "date": "2026-07-25",
+            "verified": true,
+            "helpful_votes": 44,
+            "platform": "Tata CLiQ"
+          }
+        ],
+        "seller": "Tata CLiQ",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "USB-C"
+      },
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 18793,
+        "original_price": 24900,
+        "discount_percent": 25,
+        "url": "https://www.amazon.in/s?k=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.0,
+        "total_reviews": 2752,
+        "offers": [
+          {
+            "title": "\u20b9500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b91,566/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Deepak Verma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The AirPods Pro 2 is okay but I've used better. Customer support from Amazon was helpful though.",
+            "date": "2025-08-25",
+            "verified": true,
+            "helpful_votes": 118,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Vikram Gupta",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Amazon again.",
+            "date": "2026-05-28",
+            "verified": false,
+            "helpful_votes": 10,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2026-02-16",
+            "verified": true,
+            "helpful_votes": 77,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2025-08-13",
+            "verified": true,
+            "helpful_votes": 40,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2025-08-27",
+            "verified": true,
+            "helpful_votes": 99,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "USB-C \u2014 Lightning Adapter Included"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 21725,
+        "original_price": 24900,
+        "discount_percent": 13,
+        "url": "https://www.flipkart.com/search?q=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.0,
+        "total_reviews": 16476,
+        "offers": [
+          {
+            "title": "No-cost EMI from \u20b91,810/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Exchange offer: Up to \u20b925,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Lakshmi Rao",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Flipkart gave a good deal with extra cashback.",
+            "date": "2025-10-28",
+            "verified": true,
+            "helpful_votes": 72,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Vikram Gupta",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2025-12-31",
+            "verified": true,
+            "helpful_votes": 83,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this AirPods Pro 2 at this price. The quality is premium. Flipkart delivered in 1 day!",
+            "date": "2025-12-17",
+            "verified": true,
+            "helpful_votes": 114,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2025-12-08",
+            "verified": false,
+            "helpful_votes": 116,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent AirPods Pro 2. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2025-10-16",
+            "verified": true,
+            "helpful_votes": 60,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "USB-C + Apple Polishing Cloth Bundle"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 22981,
+        "original_price": 24900,
+        "discount_percent": 8,
+        "url": "https://www.croma.com/searchB?q=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.2,
+        "total_reviews": 21311,
+        "offers": [
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b914,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b91,915/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Extra \u20b9300 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Deepak Verma",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Croma was super fast.",
+            "date": "2025-10-23",
+            "verified": false,
+            "helpful_votes": 117,
+            "platform": "Croma"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best AirPods Pro 2 in this price range. Very happy with the Croma experience too.",
+            "date": "2026-07-21",
+            "verified": true,
+            "helpful_votes": 70,
+            "platform": "Croma"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Croma gave a good deal with extra cashback.",
+            "date": "2026-01-10",
+            "verified": true,
+            "helpful_votes": 7,
+            "platform": "Croma"
+          },
+          {
+            "user": "Neha Singh",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The AirPods Pro 2 is okay but I've used better. Customer support from Croma was helpful though.",
+            "date": "2026-06-02",
+            "verified": true,
+            "helpful_votes": 91,
+            "platform": "Croma"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this AirPods Pro 2 at this price. The quality is premium. Croma delivered in 1 day!",
+            "date": "2025-11-30",
+            "verified": true,
+            "helpful_votes": 70,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "USB-C + Extra Ear Tips"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 23186,
+        "original_price": 24900,
+        "discount_percent": 7,
+        "url": "https://www.reliancedigital.in/search?q=Apple+AirPods+Pro+%282nd+Gen%29+with+USB-C",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.4,
+        "total_reviews": 25644,
+        "offers": [
+          {
+            "title": "No-cost EMI from \u20b91,932/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Reliance Digital. Works exactly as described. Airpods pro 2 is solid, no complaints so far.",
+            "date": "2026-04-17",
+            "verified": true,
+            "helpful_votes": 95,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid AirPods Pro 2. Does exactly what it promises. Reliance Digital gave a good deal with extra cashback.",
+            "date": "2025-07-27",
+            "verified": true,
+            "helpful_votes": 11,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Vikram Gupta",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent AirPods Pro 2. There are a couple of small niggles but nothing deal-breaking. Reliance Digital packaging was good.",
+            "date": "2026-01-15",
+            "verified": true,
+            "helpful_votes": 10,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Anjali Desai",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The AirPods Pro 2 performs brilliantly. Would buy from Reliance Digital again.",
+            "date": "2026-08-19",
+            "verified": false,
+            "helpful_votes": 69,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this AirPods Pro 2 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Reliance Digital was super fast.",
+            "date": "2026-02-20",
+            "verified": true,
+            "helpful_votes": 105,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "USB-C \u2014 RD Exclusive"
+      }
+    ],
+    "price_history": [
+      {
+        "date": "2024-09-01",
+        "platform": "amazon",
+        "price": 19690
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "amazon",
+        "price": 17373
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "amazon",
+        "price": 17841
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "amazon",
+        "price": 17079
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "amazon",
+        "price": 19924
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "amazon",
+        "price": 18888
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "amazon",
+        "price": 19572
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "amazon",
+        "price": 19893
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "amazon",
+        "price": 20170
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "amazon",
+        "price": 19902
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "amazon",
+        "price": 18888
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "amazon",
+        "price": 19992
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "amazon",
+        "price": 18014
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "amazon",
+        "price": 19977
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "amazon",
+        "price": 16756
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "amazon",
+        "price": 16012
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "amazon",
+        "price": 20192
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "amazon",
+        "price": 17824
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "amazon",
+        "price": 20065
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "amazon",
+        "price": 19921
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "amazon",
+        "price": 20099
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "amazon",
+        "price": 19652
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "amazon",
+        "price": 18963
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "amazon",
+        "price": 20112
+      },
+      {
+        "date": "2024-09-01",
+        "platform": "flipkart",
+        "price": 21163
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "flipkart",
+        "price": 18062
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "flipkart",
+        "price": 19110
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "flipkart",
+        "price": 17146
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "flipkart",
+        "price": 20795
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "flipkart",
+        "price": 18820
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "flipkart",
+        "price": 20577
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "flipkart",
+        "price": 21114
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "flipkart",
+        "price": 21029
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "flipkart",
+        "price": 21079
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "flipkart",
+        "price": 20307
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "flipkart",
+        "price": 21061
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "flipkart",
+        "price": 20106
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "flipkart",
+        "price": 21285
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "flipkart",
+        "price": 18388
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "flipkart",
+        "price": 17608
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "flipkart",
+        "price": 21142
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "flipkart",
+        "price": 19030
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "flipkart",
+        "price": 20801
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "flipkart",
+        "price": 20684
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "flipkart",
+        "price": 20937
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "flipkart",
+        "price": 20999
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "flipkart",
+        "price": 19469
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "flipkart",
+        "price": 21305
+      }
+    ]
+  },
+  {
+    "id": "jbl-flip-6",
+    "name": "JBL Flip 6 Portable Bluetooth Speaker",
+    "brand": "JBL",
+    "category": "audio",
+    "subcategory": "Bluetooth Speakers",
+    "image_url": "https://images.smartkart.app/products/jbl-flip-6.jpg",
+    "description": "JBL Flip 6 punches above its price with a 2-way speaker system (racetrack woofer + tweeter), IP67 waterproof rating, 12-hour battery, and PartyBoost to sync 2+ JBL speakers.",
+    "search_keywords": [
+      "jbl flip 6",
+      "jbl speaker",
+      "jbl bluetooth speaker",
+      "jbl flip 6 price",
+      "portable speaker india",
+      "waterproof speaker",
+      "jbl partyboost"
+    ],
+    "ai_verdict": "Best portable speaker under \u20b910K. IP67 waterproofing makes it pool-party ready. Sound quality is genuinely impressive for the size. Buy during sale for best value.",
+    "buy_recommendation": "good_deal",
+    "specs": [
+      {
+        "key": "Speaker System",
+        "value": "2-way: racetrack woofer + tweeter",
+        "category": "audio"
+      },
+      {
+        "key": "Output Power",
+        "value": "30W RMS total",
+        "category": "audio"
+      },
+      {
+        "key": "Frequency Response",
+        "value": "63 Hz \u2013 20 kHz",
+        "category": "audio"
+      },
+      {
+        "key": "Battery Life",
+        "value": "12 hours",
+        "category": "battery"
+      },
+      {
+        "key": "Charging",
+        "value": "USB-C, 2.5 hours full charge",
+        "category": "battery"
+      },
+      {
+        "key": "Water Resistance",
+        "value": "IP67 \u2014 1m for 30 min",
+        "category": "design"
+      },
+      {
+        "key": "Bluetooth",
+        "value": "Bluetooth 5.1, 10m range",
+        "category": "connectivity"
+      },
+      {
+        "key": "PartyBoost",
+        "value": "Yes \u2014 sync multiple JBL PartyBoost speakers",
+        "category": "connectivity"
+      },
+      {
+        "key": "Weight",
+        "value": "550 g",
+        "category": "design"
+      },
+      {
+        "key": "Dimensions",
+        "value": "178 \u00d7 68 \u00d7 72 mm",
+        "category": "design"
+      },
+      {
+        "key": "Colours",
+        "value": "Black, Blue, Red, Teal, Sand, Squad",
+        "category": "design"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 7703,
+        "original_price": 11999,
+        "discount_percent": 36,
+        "url": "https://www.amazon.in/s?k=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.5,
+        "total_reviews": 18515,
+        "offers": [
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Extra \u20b9500 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Lakshmi Rao",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2026-08-27",
+            "verified": true,
+            "helpful_votes": 21,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid JBL Flip 6. Does exactly what it promises. Amazon gave a good deal with extra cashback.",
+            "date": "2026-01-10",
+            "verified": true,
+            "helpful_votes": 73,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The JBL Flip 6 performs brilliantly. Would buy from Amazon again.",
+            "date": "2025-10-09",
+            "verified": true,
+            "helpful_votes": 116,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Divya Menon",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best JBL Flip 6 in this price range. Very happy with the Amazon experience too.",
+            "date": "2026-04-29",
+            "verified": false,
+            "helpful_votes": 29,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2026-08-05",
+            "verified": true,
+            "helpful_votes": 117,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Black"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 8019,
+        "original_price": 11999,
+        "discount_percent": 33,
+        "url": "https://www.flipkart.com/search?q=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.8,
+        "total_reviews": 20440,
+        "offers": [
+          {
+            "title": "\u20b9750 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "Extra \u20b9300 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Flipkart delivered in 1 day!",
+            "date": "2026-04-24",
+            "verified": true,
+            "helpful_votes": 8,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2026-08-04",
+            "verified": true,
+            "helpful_votes": 57,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best JBL Flip 6 in this price range. Very happy with the Flipkart experience too.",
+            "date": "2025-10-17",
+            "verified": true,
+            "helpful_votes": 20,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid JBL Flip 6. Does exactly what it promises. Flipkart gave a good deal with extra cashback.",
+            "date": "2025-12-25",
+            "verified": true,
+            "helpful_votes": 60,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Kavita Iyer",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2025-09-19",
+            "verified": true,
+            "helpful_votes": 11,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Blue"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 8467,
+        "original_price": 11999,
+        "discount_percent": 29,
+        "url": "https://www.croma.com/searchB?q=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.6,
+        "total_reviews": 41692,
+        "offers": [
+          {
+            "title": "Extra \u20b9300 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b9500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Croma was super fast.",
+            "date": "2025-12-21",
+            "verified": true,
+            "helpful_votes": 82,
+            "platform": "Croma"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The JBL Flip 6 performs brilliantly. Would buy from Croma again.",
+            "date": "2026-03-12",
+            "verified": true,
+            "helpful_votes": 113,
+            "platform": "Croma"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Croma. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2025-12-11",
+            "verified": false,
+            "helpful_votes": 48,
+            "platform": "Croma"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Croma delivered in 1 day!",
+            "date": "2025-11-28",
+            "verified": true,
+            "helpful_votes": 32,
+            "platform": "Croma"
+          },
+          {
+            "user": "Neha Singh",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Croma packaging was good.",
+            "date": "2025-09-20",
+            "verified": true,
+            "helpful_votes": 59,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Red"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 9016,
+        "original_price": 11999,
+        "discount_percent": 25,
+        "url": "https://www.reliancedigital.in/search?q=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.4,
+        "total_reviews": 12519,
+        "offers": [
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "\u20b91500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b99,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Deepak Verma",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid JBL Flip 6. Does exactly what it promises. Reliance Digital gave a good deal with extra cashback.",
+            "date": "2026-05-25",
+            "verified": true,
+            "helpful_votes": 50,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Reliance Digital packaging was good.",
+            "date": "2026-01-22",
+            "verified": true,
+            "helpful_votes": 52,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The JBL Flip 6 is okay but I've used better. Customer support from Reliance Digital was helpful though.",
+            "date": "2026-06-27",
+            "verified": false,
+            "helpful_votes": 11,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Ravi Pillai",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The JBL Flip 6 performs brilliantly. Would buy from Reliance Digital again.",
+            "date": "2026-06-13",
+            "verified": false,
+            "helpful_votes": 93,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Reliance Digital. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2026-05-21",
+            "verified": true,
+            "helpful_votes": 78,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Teal"
+      },
+      {
+        "platform": "vijay_sales",
+        "platform_display": "Vijay Sales",
+        "price": 10019,
+        "original_price": 11999,
+        "discount_percent": 17,
+        "url": "https://www.vijaysales.com/search/JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-5 days",
+        "rating": 4.2,
+        "total_reviews": 38436,
+        "offers": [
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "\u20b9500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b95,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Anita Shah",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Vijay Sales. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2026-07-27",
+            "verified": true,
+            "helpful_votes": 58,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Rohit Joshi",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The JBL Flip 6 is okay but I've used better. Customer support from Vijay Sales was helpful though.",
+            "date": "2025-10-20",
+            "verified": true,
+            "helpful_votes": 24,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Pooja Verma",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Vijay Sales packaging was good.",
+            "date": "2026-06-26",
+            "verified": true,
+            "helpful_votes": 19,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Arjun Das",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Vijay Sales delivered in 1 day!",
+            "date": "2026-02-05",
+            "verified": false,
+            "helpful_votes": 74,
+            "platform": "Vijay Sales"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best JBL Flip 6 in this price range. Very happy with the Vijay Sales experience too.",
+            "date": "2026-03-06",
+            "verified": true,
+            "helpful_votes": 71,
+            "platform": "Vijay Sales"
+          }
+        ],
+        "seller": "Vijay Sales Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Black"
+      },
+      {
+        "platform": "tatacliq",
+        "platform_display": "Tata CLiQ",
+        "price": 7903,
+        "original_price": 11999,
+        "discount_percent": 34,
+        "url": "https://www.tatacliq.com/search/?searchCategory=all&text=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days",
+        "rating": 4.2,
+        "total_reviews": 29099,
+        "offers": [
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "\u20b91000 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "5% Cashback with Axis Flipkart Card",
+            "discount_type": "cashback",
+            "value": "5%",
+            "code": null,
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "No-cost EMI from \u20b9658/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Sneha Reddy",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best JBL Flip 6 in this price range. Very happy with the Tata CLiQ experience too.",
+            "date": "2025-09-12",
+            "verified": true,
+            "helpful_votes": 31,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Tata CLiQ packaging was good.",
+            "date": "2025-07-27",
+            "verified": true,
+            "helpful_votes": 69,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Tata CLiQ. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2025-09-12",
+            "verified": true,
+            "helpful_votes": 100,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 4,
+            "title": "Happy with the purchase",
+            "body": "Solid JBL Flip 6. Does exactly what it promises. Tata CLiQ gave a good deal with extra cashback.",
+            "date": "2026-04-28",
+            "verified": true,
+            "helpful_votes": 102,
+            "platform": "Tata CLiQ"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Tata CLiQ delivered in 1 day!",
+            "date": "2025-12-05",
+            "verified": true,
+            "helpful_votes": 38,
+            "platform": "Tata CLiQ"
+          }
+        ],
+        "seller": "Tata CLiQ",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Sand"
+      },
+      {
+        "platform": "amazon",
+        "platform_display": "Amazon",
+        "price": 7665,
+        "original_price": 11999,
+        "discount_percent": 36,
+        "url": "https://www.amazon.in/s?k=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "FREE delivery Tomorrow",
+        "rating": 4.4,
+        "total_reviews": 33668,
+        "offers": [
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Exchange offer: Up to \u20b912,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Amazon was super fast.",
+            "date": "2026-01-26",
+            "verified": true,
+            "helpful_votes": 78,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Amazon packaging was good.",
+            "date": "2026-07-25",
+            "verified": true,
+            "helpful_votes": 6,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Karan Mehta",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Amazon. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2025-09-30",
+            "verified": true,
+            "helpful_votes": 40,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The JBL Flip 6 is okay but I've used better. Customer support from Amazon was helpful though.",
+            "date": "2026-07-08",
+            "verified": true,
+            "helpful_votes": 71,
+            "platform": "Amazon"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The JBL Flip 6 performs brilliantly. Would buy from Amazon again.",
+            "date": "2026-05-05",
+            "verified": true,
+            "helpful_votes": 34,
+            "platform": "Amazon"
+          }
+        ],
+        "seller": "Cloudtail India Pvt Ltd",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Blue \u2014 Deal"
+      },
+      {
+        "platform": "flipkart",
+        "platform_display": "Flipkart",
+        "price": 8207,
+        "original_price": 11999,
+        "discount_percent": 32,
+        "url": "https://www.flipkart.com/search?q=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 2 days",
+        "rating": 4.4,
+        "total_reviews": 11133,
+        "offers": [
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          },
+          {
+            "title": "Extra \u20b9300 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Rohit Joshi",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Flipkart was super fast.",
+            "date": "2025-08-24",
+            "verified": true,
+            "helpful_votes": 75,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Sneha Reddy",
+            "rating": 3,
+            "title": "Good but has minor issues",
+            "body": "Overall a decent JBL Flip 6. There are a couple of small niggles but nothing deal-breaking. Flipkart packaging was good.",
+            "date": "2026-08-06",
+            "verified": true,
+            "helpful_votes": 34,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Suresh Nair",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Flipkart delivered in 1 day!",
+            "date": "2026-05-19",
+            "verified": false,
+            "helpful_votes": 20,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Anita Shah",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best JBL Flip 6 in this price range. Very happy with the Flipkart experience too.",
+            "date": "2025-07-28",
+            "verified": true,
+            "helpful_votes": 105,
+            "platform": "Flipkart"
+          },
+          {
+            "user": "Sandeep Bose",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Flipkart. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2026-07-15",
+            "verified": true,
+            "helpful_votes": 4,
+            "platform": "Flipkart"
+          }
+        ],
+        "seller": "RetailNet",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Teal \u2014 Sale"
+      },
+      {
+        "platform": "croma",
+        "platform_display": "Croma",
+        "price": 9463,
+        "original_price": 11999,
+        "discount_percent": 21,
+        "url": "https://www.croma.com/searchB?q=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 3-4 days, or pick up in-store",
+        "rating": 4.3,
+        "total_reviews": 30240,
+        "offers": [
+          {
+            "title": "Buy now, pay later with Simpl",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "No-cost EMI from \u20b9788/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "10% off with HDFC Bank Card",
+            "discount_type": "bank",
+            "value": "10%",
+            "code": "HDFC10",
+            "expires": "2026-12-31"
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Sneha Reddy",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Croma delivered in 1 day!",
+            "date": "2026-05-05",
+            "verified": true,
+            "helpful_votes": 32,
+            "platform": "Croma"
+          },
+          {
+            "user": "Deepak Verma",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Croma. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2025-10-19",
+            "verified": true,
+            "helpful_votes": 56,
+            "platform": "Croma"
+          },
+          {
+            "user": "Neha Singh",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Croma was super fast.",
+            "date": "2026-03-30",
+            "verified": true,
+            "helpful_votes": 29,
+            "platform": "Croma"
+          },
+          {
+            "user": "Anita Shah",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The JBL Flip 6 is okay but I've used better. Customer support from Croma was helpful though.",
+            "date": "2025-08-15",
+            "verified": true,
+            "helpful_votes": 102,
+            "platform": "Croma"
+          },
+          {
+            "user": "Priya Patel",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "Did a lot of research before buying. This is honestly the best JBL Flip 6 in this price range. Very happy with the Croma experience too.",
+            "date": "2025-11-07",
+            "verified": true,
+            "helpful_votes": 65,
+            "platform": "Croma"
+          }
+        ],
+        "seller": "Croma Retail",
+        "warranty": "1 Year Manufacturer Warranty, 6 Month Extended Available",
+        "variant": "Squad Edition"
+      },
+      {
+        "platform": "reliance_digital",
+        "platform_display": "Reliance Digital",
+        "price": 9519,
+        "original_price": 11999,
+        "discount_percent": 21,
+        "url": "https://www.reliancedigital.in/search?q=JBL+Flip+6+Portable+Bluetooth+Speaker",
+        "in_stock": true,
+        "delivery": "Free delivery in 2-3 days",
+        "rating": 4.4,
+        "total_reviews": 31234,
+        "offers": [
+          {
+            "title": "\u20b9500 off on prepaid orders",
+            "discount_type": "coupon",
+            "value": null,
+            "code": "PREPAID",
+            "expires": "2026-10-31"
+          },
+          {
+            "title": "Extra \u20b9200 off with SBI Card",
+            "discount_type": "bank",
+            "value": null,
+            "code": "SBI500",
+            "expires": "2026-11-30"
+          },
+          {
+            "title": "No-cost EMI from \u20b9793/month",
+            "discount_type": "emi",
+            "value": null,
+            "code": null,
+            "expires": null
+          },
+          {
+            "title": "Exchange offer: Up to \u20b911,000 off",
+            "discount_type": "exchange",
+            "value": null,
+            "code": null,
+            "expires": null
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Anjali Desai",
+            "rating": 5,
+            "title": "Exceeded expectations",
+            "body": "Honestly didn't expect this much from this JBL Flip 6 at this price. The quality is premium. Reliance Digital delivered in 1 day!",
+            "date": "2025-11-17",
+            "verified": true,
+            "helpful_votes": 99,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Anita Shah",
+            "rating": 2,
+            "title": "Could be better",
+            "body": "The JBL Flip 6 is okay but I've used better. Customer support from Reliance Digital was helpful though.",
+            "date": "2025-08-22",
+            "verified": true,
+            "helpful_votes": 18,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 5,
+            "title": "Absolutely love it!",
+            "body": "Been using this JBL Flip 6 for 2 months now. The build quality is top-notch and performance hasn't let me down once. Delivery from Reliance Digital was super fast.",
+            "date": "2026-01-30",
+            "verified": true,
+            "helpful_votes": 45,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Rahul Sharma",
+            "rating": 4,
+            "title": "Great value for money",
+            "body": "Picked this up during a sale on Reliance Digital. Works exactly as described. Jbl flip 6 is solid, no complaints so far.",
+            "date": "2025-09-28",
+            "verified": true,
+            "helpful_votes": 32,
+            "platform": "Reliance Digital"
+          },
+          {
+            "user": "Amit Kumar",
+            "rating": 4,
+            "title": "Recommended!",
+            "body": "My friend suggested this and I'm glad I listened. The JBL Flip 6 performs brilliantly. Would buy from Reliance Digital again.",
+            "date": "2026-03-02",
+            "verified": true,
+            "helpful_votes": 1,
+            "platform": "Reliance Digital"
+          }
+        ],
+        "seller": "Reliance Digital",
+        "warranty": "1 Year Manufacturer Warranty",
+        "variant": "Flip 6 + Bag Bundle"
+      }
+    ],
+    "price_history": [
+      {
+        "date": "2024-09-01",
+        "platform": "amazon",
+        "price": 7931
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "amazon",
+        "price": 7269
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "amazon",
+        "price": 6817
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "amazon",
+        "price": 6772
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "amazon",
+        "price": 8034
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "amazon",
+        "price": 6925
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "amazon",
+        "price": 8116
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "amazon",
+        "price": 7938
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "amazon",
+        "price": 8150
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "amazon",
+        "price": 8102
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "amazon",
+        "price": 7319
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "amazon",
+        "price": 7855
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "amazon",
+        "price": 7125
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "amazon",
+        "price": 7939
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "amazon",
+        "price": 6956
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "amazon",
+        "price": 6241
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "amazon",
+        "price": 7906
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "amazon",
+        "price": 7341
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "amazon",
+        "price": 8094
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "amazon",
+        "price": 7841
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "amazon",
+        "price": 7937
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "amazon",
+        "price": 7935
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "amazon",
+        "price": 7867
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "amazon",
+        "price": 8116
+      },
+      {
+        "date": "2024-09-01",
+        "platform": "flipkart",
+        "price": 8378
+      },
+      {
+        "date": "2024-10-01",
+        "platform": "flipkart",
+        "price": 7253
+      },
+      {
+        "date": "2024-10-31",
+        "platform": "flipkart",
+        "price": 7852
+      },
+      {
+        "date": "2024-11-30",
+        "platform": "flipkart",
+        "price": 6914
+      },
+      {
+        "date": "2024-12-30",
+        "platform": "flipkart",
+        "price": 8355
+      },
+      {
+        "date": "2025-01-29",
+        "platform": "flipkart",
+        "price": 8039
+      },
+      {
+        "date": "2025-02-28",
+        "platform": "flipkart",
+        "price": 8353
+      },
+      {
+        "date": "2025-03-30",
+        "platform": "flipkart",
+        "price": 8484
+      },
+      {
+        "date": "2025-04-29",
+        "platform": "flipkart",
+        "price": 8495
+      },
+      {
+        "date": "2025-05-29",
+        "platform": "flipkart",
+        "price": 8346
+      },
+      {
+        "date": "2025-06-28",
+        "platform": "flipkart",
+        "price": 7721
+      },
+      {
+        "date": "2025-07-28",
+        "platform": "flipkart",
+        "price": 8557
+      },
+      {
+        "date": "2025-08-27",
+        "platform": "flipkart",
+        "price": 7946
+      },
+      {
+        "date": "2025-09-26",
+        "platform": "flipkart",
+        "price": 8332
+      },
+      {
+        "date": "2025-10-26",
+        "platform": "flipkart",
+        "price": 7090
+      },
+      {
+        "date": "2025-11-25",
+        "platform": "flipkart",
+        "price": 6857
+      },
+      {
+        "date": "2025-12-25",
+        "platform": "flipkart",
+        "price": 8478
+      },
+      {
+        "date": "2026-01-24",
+        "platform": "flipkart",
+        "price": 8061
+      },
+      {
+        "date": "2026-02-23",
+        "platform": "flipkart",
+        "price": 8562
+      },
+      {
+        "date": "2026-03-25",
+        "platform": "flipkart",
+        "price": 8417
+      },
+      {
+        "date": "2026-04-24",
+        "platform": "flipkart",
+        "price": 8351
+      },
+      {
+        "date": "2026-05-24",
+        "platform": "flipkart",
+        "price": 8520
+      },
+      {
+        "date": "2026-06-23",
+        "platform": "flipkart",
+        "price": 7897
+      },
+      {
+        "date": "2026-07-23",
+        "platform": "flipkart",
+        "price": 8446
+      }
+    ]
+  }
+]

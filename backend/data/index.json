@@ -1,0 +1,683 @@
+{
+  "categories": [
+    "phones",
+    "laptops",
+    "audio",
+    "grocery",
+    "appliances",
+    "fashion",
+    "bags",
+    "music",
+    "groceries_kitchen",
+    "sports",
+    "electronics"
+  ],
+  "products": [
+    {
+      "id": "iphone-15-128gb",
+      "name": "Apple iPhone 15 (128GB)",
+      "category": "phones",
+      "brand": "Apple",
+      "image_url": "https://images.smartkart.app/products/iphone-15-128gb.jpg",
+      "best_price": 61642,
+      "best_platform": "Croma"
+    },
+    {
+      "id": "samsung-galaxy-s24",
+      "name": "Samsung Galaxy S24",
+      "category": "phones",
+      "brand": "Samsung",
+      "image_url": "https://images.smartkart.app/products/samsung-galaxy-s24.jpg",
+      "best_price": 60477,
+      "best_platform": "Reliance Digital"
+    },
+    {
+      "id": "oneplus-12r",
+      "name": "OnePlus 12R (128GB)",
+      "category": "phones",
+      "brand": "OnePlus",
+      "image_url": "https://images.smartkart.app/products/oneplus-12r.jpg",
+      "best_price": 29563,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "pixel-8a",
+      "name": "Google Pixel 8a",
+      "category": "phones",
+      "brand": "Google",
+      "image_url": "https://images.smartkart.app/products/pixel-8a.jpg",
+      "best_price": 40397,
+      "best_platform": "Tata CLiQ"
+    },
+    {
+      "id": "vivo-v30-pro",
+      "name": "Vivo V30 Pro (256GB)",
+      "category": "phones",
+      "brand": "Vivo",
+      "image_url": "https://images.smartkart.app/products/vivo-v30-pro.jpg",
+      "best_price": 32984,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "macbook-air-m3-13",
+      "name": "Apple MacBook Air M3 (13\", 8GB, 256GB)",
+      "category": "laptops",
+      "brand": "Apple",
+      "image_url": "https://images.smartkart.app/products/macbook-air-m3-13.jpg",
+      "best_price": 109869,
+      "best_platform": "Vijay Sales"
+    },
+    {
+      "id": "asus-rog-strix-g16",
+      "name": "ASUS ROG Strix G16 (2024, i9, RTX 4070)",
+      "category": "laptops",
+      "brand": "ASUS",
+      "image_url": "https://images.smartkart.app/products/asus-rog-strix-g16.jpg",
+      "best_price": 120045,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "hp-pavilion-15",
+      "name": "HP Pavilion 15 (Intel Core i5, 16GB, 512GB)",
+      "category": "laptops",
+      "brand": "HP",
+      "image_url": "https://images.smartkart.app/products/hp-pavilion-15.jpg",
+      "best_price": 52822,
+      "best_platform": "Tata CLiQ"
+    },
+    {
+      "id": "lenovo-ideapad-slim-5",
+      "name": "Lenovo IdeaPad Slim 5 (AMD Ryzen 7, 16GB)",
+      "category": "laptops",
+      "brand": "Lenovo",
+      "image_url": "https://images.smartkart.app/products/lenovo-ideapad-slim-5.jpg",
+      "best_price": 53270,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "dell-xps-15",
+      "name": "Dell XPS 15 (i7, RTX 4060, 32GB, 1TB)",
+      "category": "laptops",
+      "brand": "Dell",
+      "image_url": "https://images.smartkart.app/products/dell-xps-15.jpg",
+      "best_price": 152986,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "sony-wh-1000xm5",
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "category": "audio",
+      "brand": "Sony",
+      "image_url": "https://images.smartkart.app/products/sony-wh-1000xm5.jpg",
+      "best_price": 23342,
+      "best_platform": "Tata CLiQ"
+    },
+    {
+      "id": "boat-rockerz-550",
+      "name": "boAt Rockerz 550 Wireless Headphones",
+      "category": "audio",
+      "brand": "boAt",
+      "image_url": "https://images.smartkart.app/products/boat-rockerz-550.jpg",
+      "best_price": 1999,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "apple-airpods-pro-2",
+      "name": "Apple AirPods Pro (2nd Gen) with USB-C",
+      "category": "audio",
+      "brand": "Apple",
+      "image_url": "https://images.smartkart.app/products/apple-airpods-pro-2.jpg",
+      "best_price": 18793,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "jbl-flip-6",
+      "name": "JBL Flip 6 Portable Bluetooth Speaker",
+      "category": "audio",
+      "brand": "JBL",
+      "image_url": "https://images.smartkart.app/products/jbl-flip-6.jpg",
+      "best_price": 7665,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "tata-sampann-tur-dal-1kg",
+      "name": "Tata Sampann Unpolished Tur Dal 1 kg",
+      "category": "grocery",
+      "brand": "Tata",
+      "image_url": "https://images.smartkart.app/products/tata-sampann-tur-dal-1kg.jpg",
+      "best_price": 186,
+      "best_platform": "Zepto"
+    },
+    {
+      "id": "aashirvaad-atta-5kg",
+      "name": "Aashirvaad Whole Wheat Atta 5 kg",
+      "category": "grocery",
+      "brand": "Aashirvaad",
+      "image_url": "https://images.smartkart.app/products/aashirvaad-atta-5kg.jpg",
+      "best_price": 239,
+      "best_platform": "BigBasket"
+    },
+    {
+      "id": "amul-butter-500g",
+      "name": "Amul Pasteurised Butter 500 g",
+      "category": "grocery",
+      "brand": "Amul",
+      "image_url": "https://images.smartkart.app/products/amul-butter-500g.jpg",
+      "best_price": 130,
+      "best_platform": "Blinkit"
+    },
+    {
+      "id": "saffola-gold-oil-1l",
+      "name": "Saffola Gold Cooking Oil 1 L",
+      "category": "grocery",
+      "brand": "Saffola",
+      "image_url": "https://images.smartkart.app/products/saffola-gold-oil-1l.jpg",
+      "best_price": 168,
+      "best_platform": "BigBasket"
+    },
+    {
+      "id": "dyson-v12-detect-slim",
+      "name": "Dyson V12 Detect Slim Cordless Vacuum",
+      "category": "appliances",
+      "brand": "Dyson",
+      "image_url": "https://images.smartkart.app/products/dyson-v12-detect-slim.jpg",
+      "best_price": 44429,
+      "best_platform": "Amazon"
+    },
+    {
+      "id": "samsung-1-5t-5star-ac",
+      "name": "Samsung 1.5 Ton 5-Star WindFree AC (AR18BYNZABE)",
+      "category": "appliances",
+      "brand": "Samsung",
+      "image_url": "https://images.smartkart.app/products/samsung-1-5t-5star-ac.jpg",
+      "best_price": 34672,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "nike-air-force-1-white",
+      "name": "Nike Air Force 1 '07 (White)",
+      "category": "fashion",
+      "brand": "Nike",
+      "image_url": "https://static.nike.com/a/images/t_PDP_1280_v1/af53d117-9c39-4e21-a898-e5c3d5a5a7a6/air-force-1-07-shoes-WrLlWX.png",
+      "best_price": 7295,
+      "best_platform": "ajio"
+    },
+    {
+      "id": "safari-laptop-backpack-35l",
+      "name": "Safari Thorium 35L Laptop Backpack",
+      "category": "bags",
+      "brand": "Safari",
+      "image_url": "https://images.meesho.com/images/products/178652011/r6ghj_1200.jpg",
+      "best_price": 1150,
+      "best_platform": "snapdeal"
+    },
+    {
+      "id": "yamaha-psr-e373-keyboard",
+      "name": "Yamaha PSR-E373 61-Key Portable Keyboard",
+      "category": "music",
+      "brand": "Yamaha",
+      "image_url": "https://in.yamaha.com/files/PSR-E373_product_image_1200x1200_bf3f9db9c8d6c6f3c9c1f7c1f1d3c1f0.jpg",
+      "best_price": 7999,
+      "best_platform": "meesho"
+    },
+    {
+      "id": "fresh-vegetables-mixed",
+      "name": "Fresh Vegetables (Mixed)",
+      "category": "groceries_kitchen",
+      "brand": "Farm Fresh",
+      "image_url": "https://i.pinimg.com/736x/4b/5a/f8/4b5af8abef06e276c11ae5c914797a21.jpg",
+      "best_price": 145,
+      "best_platform": "Zepto"
+    },
+    {
+      "id": "fresh-fruits-seasonal",
+      "name": "Fresh Fruits (Seasonal Mix)",
+      "category": "groceries_kitchen",
+      "brand": "Farm Fresh",
+      "image_url": "https://i.pinimg.com/736x/36/78/f1/3678f1eb815bd34ce44345db09fa6805.jpg",
+      "best_price": 289,
+      "best_platform": "Zepto"
+    },
+    {
+      "id": "fresh-leafy-greens",
+      "name": "Fresh Leafy Greens",
+      "category": "groceries_kitchen",
+      "brand": "Farm Fresh",
+      "image_url": "https://i.pinimg.com/1200x/81/b3/5c/81b35c1388a4897316a8fdd57f321d18.jpg",
+      "best_price": 45,
+      "best_platform": "Zepto"
+    },
+    {
+      "id": "exotic-vegetables",
+      "name": "Exotic Vegetables",
+      "category": "groceries_kitchen",
+      "brand": "Farm Fresh",
+      "image_url": "https://i.pinimg.com/736x/3d/29/a2/3d29a2310c62207e02f61aea94ee0773.jpg",
+      "best_price": 239,
+      "best_platform": "Zepto"
+    },
+    {
+      "id": "dairy-products-combo",
+      "name": "Dairy Products (Combo Pack)",
+      "category": "groceries_kitchen",
+      "brand": "Amul",
+      "image_url": "https://i.pinimg.com/736x/fd/9e/c1/fd9ec19c8e92ccb3ac4d3e32c19488eb.jpg",
+      "best_price": 389,
+      "best_platform": "Zepto"
+    },
+    {
+      "id": "kitchen-equipment-set",
+      "name": "Kitchen Equipment Set",
+      "category": "groceries_kitchen",
+      "brand": "Pigeon",
+      "image_url": "https://i.pinimg.com/1200x/db/d1/86/dbd1864cb5a73c593ef9ea15ee5c77ad.jpg",
+      "best_price": 999,
+      "best_platform": "Meesho"
+    },
+    {
+      "id": "kitchen-appliances-multicooker",
+      "name": "Kitchen Appliances (Multi-cooker)",
+      "category": "groceries_kitchen",
+      "brand": "Prestige",
+      "image_url": "https://i.pinimg.com/736x/9d/81/96/9d8196d89a397f3f3b7859fecb1e7644.jpg",
+      "best_price": 3299,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "dinnerware-set-18pc",
+      "name": "Dinnerware Set (18 Piece)",
+      "category": "groceries_kitchen",
+      "brand": "Milton",
+      "image_url": "https://i.pinimg.com/736x/21/47/5e/21475e3d79264984c8191b20ee2571e0.jpg",
+      "best_price": 1299,
+      "best_platform": "Meesho"
+    },
+    {
+      "id": "kitchen-hygiene-essentials",
+      "name": "Kitchen Hygiene Products",
+      "category": "groceries_kitchen",
+      "brand": "Vim",
+      "image_url": "https://i.pinimg.com/736x/ef/c0/a7/efc0a79c4bcfcc9a63de327fdde5b158.jpg",
+      "best_price": 549,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "storage-containers-set",
+      "name": "Storage Containers Set",
+      "category": "groceries_kitchen",
+      "brand": "Tupperware",
+      "image_url": "https://i.pinimg.com/736x/41/a2/88/41a28818094889048ad31e5a199d8c3e.jpg",
+      "best_price": 699,
+      "best_platform": "Meesho"
+    },
+    {
+      "id": "staples-grains-combo",
+      "name": "Staples & Grains (Combo)",
+      "category": "groceries_kitchen",
+      "brand": "India Gate",
+      "image_url": "https://i.pinimg.com/1200x/35/8e/4a/358e4ae4c99f8bdfcbbea29df82dd0a1.jpg",
+      "best_price": 879,
+      "best_platform": "JioMart"
+    },
+    {
+      "id": "spices-seasonings-kit",
+      "name": "Spices & Seasonings Kit",
+      "category": "groceries_kitchen",
+      "brand": "Everest",
+      "image_url": "https://i.pinimg.com/1200x/14/e5/94/14e59476da3f37dcdf6603dde347d185.jpg",
+      "best_price": 469,
+      "best_platform": "JioMart"
+    },
+    {
+      "id": "cooking-oils-ghee-combo",
+      "name": "Cooking Oils & Ghee Combo",
+      "category": "groceries_kitchen",
+      "brand": "Patanjali",
+      "image_url": "https://i.pinimg.com/1200x/f3/19/bd/f319bdd5d38f79ccade9ee70b73d1186.jpg",
+      "best_price": 769,
+      "best_platform": "JioMart"
+    },
+    {
+      "id": "packaged-canned-foods",
+      "name": "Packaged & Canned Foods",
+      "category": "groceries_kitchen",
+      "brand": "MTR",
+      "image_url": "https://i.pinimg.com/1200x/7c/55/62/7c556272d6c14a73ef21cec10117003e.jpg",
+      "best_price": 609,
+      "best_platform": "JioMart"
+    },
+    {
+      "id": "frozen-foods-mixed",
+      "name": "Frozen Foods (Mixed)",
+      "category": "groceries_kitchen",
+      "brand": "McCain",
+      "image_url": "https://i.pinimg.com/736x/83/bf/83/83bf83091a631fe8f61ac4bea59a9be3.jpg",
+      "best_price": 509,
+      "best_platform": "JioMart"
+    },
+    {
+      "id": "adizero-evo-sl-shoes",
+      "name": "Adizero EVO SL Shoes",
+      "category": "sports",
+      "brand": "Adidas",
+      "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/eb7aacb396aa412dbea36ffcadfe5634_9366/Adizero_EVO_SL_Shoes_Green_KI6919_HM4.jpg",
+      "best_price": 8299,
+      "best_platform": "Ajio"
+    },
+    {
+      "id": "asics-gel-tactic-13",
+      "name": "ASICS GEL-TACTIC 13 Volleyball Shoes",
+      "category": "sports",
+      "brand": "ASICS",
+      "image_url": "https://imgs.search.brave.com/-eHRwZOG3OkufWgiKhJKmidPLZDZD9aCPe2BONz1EBw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbXBh/a3RvLmluL2Nkbi9z/aG9wL2ZpbGVzL0FT/MzQ0NF84MDB4Lmpw/Zz92PTE3Nzk1MTY1/MjI",
+      "best_price": 6599,
+      "best_platform": "Ajio"
+    },
+    {
+      "id": "altra-olympus-6",
+      "name": "Altra Olympus 6 Trail Running Shoes",
+      "category": "sports",
+      "brand": "Altra",
+      "image_url": "https://imgs.search.brave.com/xDsIuXLFwTfCxbEf9CwEEfZaKYeUiFVkj_q1V2FimaU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iZXR0/ZXJ0cmFpbC5jb20v/aW1hZ2UvYWRqdXN0/aW5nLXRoZS1sYWNl/cy1vbi10aGUtYWx0/cmEtb2x5bXB1cy02/LWhpa2UtbWlkLWhp/a2luZy1ib290cz9o/YXNoPS80ZjhiOTM5/ODgwZjA0MmViOWIy/ZGRmYTA5YTM2MWNm/MC8xZTc5YjllYmNj/MDI0ZTMyOGI1MWQy/MDcwZWUyZjkwZSZ3/aWR0aD0xOTIwJnF1/YWxpdHk9NzAmZm9y/bWF0PWF1dG8mZml0/PXNjYWxlLWRvd24",
+      "best_price": 13999,
+      "best_platform": "Ajio"
+    },
+    {
+      "id": "sidi-nix-mtb-shoes",
+      "name": "Sidi Nix Mountain Bike Shoes",
+      "category": "sports",
+      "brand": "Sidi",
+      "image_url": "https://imgs.search.brave.com/i67MTJPTMupi40dTQZOd-WHVo4nfLQ1WsWrJ7WT8gvg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jMDIu/cHVycGxlZHNodWIu/Y29tL3VwbG9hZHMv/c2l0ZXMvMzkvMjAy/NS8wMS9TaWRpX25p/eF93b3pfMS5qcGVn/P3dlYnA9MSZ3PTEy/MDA",
+      "best_price": 11999,
+      "best_platform": "Ajio"
+    },
+    {
+      "id": "salomon-speedcross-6",
+      "name": "Salomon Speedcross 6 Trail Running",
+      "category": "sports",
+      "brand": "Salomon",
+      "image_url": "https://imgs.search.brave.com/NGI4VWZcIuITprxohULsyY1tIccGkvjLNk9rlvIh50A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3dpdGNoYmFja3Ry/YXZlbC5jb20vc2l0/ZXMvZGVmYXVsdC9m/aWxlcy9zdHlsZXMv/aW1hZ2VfMzQwXzIy/NS9wdWJsaWMvaW1h/Z2VzL2FydGljbGVz/L0Nsb3NlJTIwdXAl/MjBvZiUyMFNhbG9t/b24lMjBTcGVlZGNy/b3NzJTIwNiUyMHRy/YWlsJTIwcnVubmlu/ZyUyMHNob2VzJTIw/Uy5qcGc_aD1mYmM2/NzM2MCZpdG9rPU5X/T1d0WTZu",
+      "best_price": 10999,
+      "best_platform": "Ajio"
+    },
+    {
+      "id": "cult-x1-training-shoes",
+      "name": "Cult X1 Training Shoes",
+      "category": "sports",
+      "brand": "Cult",
+      "image_url": "https://imgs.search.brave.com/R8saAWAF2oW-edf9uv16biooMVNLIBNd6k1vrgNUwqA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jdWx0/c3RvcmUuY29tL2Nk/bi9zaG9wL2ZpbGVz/LzNMeXRwZEhzckRC/UXBZNDlpN2ZWZUhM/bS5qcGc_Y3JvcD1y/ZWdpb24mY3JvcF9o/ZWlnaHQ9MzAwMCZj/cm9wX2xlZnQ9MCZj/cm9wX3RvcD0wJmNy/b3Bfd2lkdGg9MjI0/OSZ2PTE3MjYyMDg0/NjUmd2lkdGg9MjI1/MA",
+      "best_price": 3699,
+      "best_platform": "Ajio"
+    },
+    {
+      "id": "english-willow-cricket-bat",
+      "name": "English Willow Cricket Bat",
+      "category": "sports",
+      "brand": "Anglars Sports",
+      "image_url": "https://imgs.search.brave.com/C5Ri8T_9SBxJhsSJJ1XXWGXXGKFeqQrTBBdD6SZoB_w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5nbGFyc3BvcnRz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8xMS9IaXR0/ZXItUHJvLUVkaXRp/b24tRXhwbG9yZS1G/aW5hbC53ZWJw",
+      "best_price": 2999,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "yonex-nanoray-badminton",
+      "name": "Yonex Nanoray Badminton Racket",
+      "category": "sports",
+      "brand": "Yonex",
+      "image_url": "https://imgs.search.brave.com/5fbNq58qmpY0Kz3BW1CippSw1JM-GaR2kt2XYvPHSZg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L2ZyZWUtcGhvdG8v/YmFkbWludG9uLWNv/bmNlcHQtd2l0aC1y/YWNrZXQtc2h1dHRs/ZWNvY2tfMjMtMjE0/OTk0MDkyNS5qcGc_/c2VtdD1haXNfaHli/cmlkJnc9NzQwJnE9/ODA",
+      "best_price": 1999,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "carbolflex-125-xtop-squash",
+      "name": "Carbolflex 125 X-Top Squash Racket",
+      "category": "sports",
+      "brand": "Head",
+      "image_url": "https://imgs.search.brave.com/U7RwVjrWsnFGNwIjKRROwpqW68cFI3beW3uBVKbTRKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzE2LzQ0Lzgw/LzM2MF9GXzMxNjQ0/ODAxOV92UFJCanpU/WEN4cXJxb1h3UEs2/MDJEbktxalNTS0Fr/NS5qcGc",
+      "best_price": 7999,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "babolat-evo-aero-tennis",
+      "name": "Babolat EVO Aero Tennis Racquet",
+      "category": "sports",
+      "brand": "Babolat",
+      "image_url": "https://imgs.search.brave.com/ANOwdNrtfPZBzbWJC117eDBzQ1gfYPVyum9YqxTYHkc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMzQw/MTU3MTgvcGV4ZWxz/LXBob3RvLTM0MDE1/NzE4L2ZyZWUtcGhv/dG8tb2YtdGVubmlz/LXJhY2tldHMtYW5k/LWJhbGxzLW9uLWNv/dXJ0LXN1cmZhY2Uu/anBlZz9hdXRvPWNv/bXByZXNzJmNzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw",
+      "best_price": 6799,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "belco-silver-baseball-bat",
+      "name": "BELCO Silver Wooden Baseball Bat",
+      "category": "sports",
+      "brand": "BELCO",
+      "image_url": "https://imgs.search.brave.com/lsGPzV8iqmxN20ub5xgLDPuvZlVKf8dMkWbgV5MzwlU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjIx/MDIyODQ5MS9waG90/by90aHJlZS13b29k/LWJhc2ViYWxsLWJh/dHMtb24taG9tZS1w/bGF0ZS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9OTZ3aTBP/UWNLNGVLd1hLSzFx/T29iWV9WNjM0aTJm/T2ZxMnUzc2I3ZlJL/UT0",
+      "best_price": 999,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "stiga-nitro-ping-pong",
+      "name": "STIGA Nitro Table Tennis Racket",
+      "category": "sports",
+      "brand": "STIGA",
+      "image_url": "https://imgs.search.brave.com/5Wd0oO3ysvMqup5aypRgDtaQz6YJnpJtlvU6LYk3zi8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90ZW5u/ZXguaW4vY2RuL3No/b3AvZmlsZXMvdHRf/cmFja2V0X3RfMzMz/LmpwZz92PTE3NzMz/OTk0NDkmd2lkdGg9/MjAwMA",
+      "best_price": 1199,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "whey-protein-chocolate-1kg",
+      "name": "MuscleBlaze Whey Protein (Chocolate, 1kg)",
+      "category": "sports",
+      "brand": "MuscleBlaze",
+      "image_url": "https://imgs.search.brave.com/CZU0XktSl586f6RuhVUGhhjBuQQmJTFb4evntChl7Yk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yaXBw/ZWR1cG51dHJpdGlv/bi5jb20vY2RuL3No/b3AvZmlsZXMvRnJh/bWVfMTYxODg3NTE4/My5wbmc_dj0xNzc1/ODEzNTAwJndpZHRo/PTEyMDA",
+      "best_price": 1699,
+      "best_platform": "Healthkart"
+    },
+    {
+      "id": "mass-gainer-3kg",
+      "name": "ON Mass Gainer (3kg)",
+      "category": "sports",
+      "brand": "Optimum Nutrition",
+      "image_url": "https://imgs.search.brave.com/LuP9Uh7X99FqaO0Ju6_2NgfAr3L1jhdoNPNM_xeseMo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bXVzY2xlZ2VhcnMu/aW4vY2RuL3No/b3AvZmlsZXMvODFvaTNn/dkVqb0wuX1NMMTUw/MC5qcGc_dj0xNzY4/MjQ2MDU1JndpZHRo/PTM4NDA",
+      "best_price": 3699,
+      "best_platform": "Healthkart"
+    },
+    {
+      "id": "protein-bars-box-12",
+      "name": "RiteBite Protein Bars (Box of 12)",
+      "category": "sports",
+      "brand": "RiteBite",
+      "image_url": "https://imgs.search.brave.com/Ec7WWZZfcHESGf80Gvhl8dhWHIgHqbcFEk9kkOF3Pfk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mb29k/c3VyZS5jby5pbi93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNi8w/NC9TdHJvb20tUHJv/dGVpbi1CYXIyLmpw/Zy5qcGVn",
+      "best_price": 799,
+      "best_platform": "Healthkart"
+    },
+    {
+      "id": "vitamin-supplements-combo",
+      "name": "Naturyz Vitamin Supplements (60 caps)",
+      "category": "sports",
+      "brand": "Naturyz",
+      "image_url": "https://imgs.search.brave.com/qAiUoEt5gz8wM6VNql7umdd86Ig4IRBwp8xOZcqs0Ec/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmF0dXJ5ei5pbi9j/ZG4vc2hvcC9maWxl/cy9Tb2Z0Q2FsY2l1/bTUwLndlYnA_dj0x/NzQwMDM1OTk3Jndp/ZHRoPTUzMw",
+      "best_price": 599,
+      "best_platform": "Healthkart"
+    },
+    {
+      "id": "wilora-wall-mount-pullup-bar",
+      "name": "WILORA Wall Mount Pull-Up Bar",
+      "category": "sports",
+      "brand": "WILORA",
+      "image_url": "https://imgs.search.brave.com/KdDXI_bt2qKxoAjdzEcr6bbSs3jl8U9dRNyijnc8y-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzYxMi82MTIveGlm/MHEvYmFyL3cvYy80/L2NoaW51cC1iYXIt/c3ItYWJzLXdhbGwt/bW91bnQtcHVsbC11/cC1iYXItYW5kLWFi/LXN0cmFwLWNvbWJv/LW9yaWdpbmFsLWlt/YWhyeGt0emtoaHhu/YWguanBlZz9xPTcw",
+      "best_price": 999,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "yoga-mat-6mm",
+      "name": "Boldfit Yoga Mat (6mm)",
+      "category": "sports",
+      "brand": "Boldfit",
+      "image_url": "https://imgs.search.brave.com/huptrEL0hqrKs-Iw9FdLcGUQXbfDeX5Dsf_yQDfJZm8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjUv/NDYyLzcyOC9zbWFs/bC9hLXlvZ2EtbWF0/LW9uLWEtd29vZGVu/LWZsb29yLWZyZWUt/cGhvdG8uanBlZw",
+      "best_price": 549,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "adjustable-dumbbells-5-20kg",
+      "name": "Kore Adjustable Dumbbells (5-20kg)",
+      "category": "sports",
+      "brand": "Kore",
+      "image_url": "https://imgs.search.brave.com/dKPFP0VtJKyxIYKOh8xwhceS0b9wUfPDbZ5boJ_nGH8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTgv/MjkxLzM4NS9zbWFs/bC9kdW1iYmVsbHMt/cGxhY2VkLW9uLW1h/dC1pbi1kYXl0aW1l/LXBob3RvLmpwZw",
+      "best_price": 2999,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "resistance-bands-set",
+      "name": "Cult Resistance Bands Set",
+      "category": "sports",
+      "brand": "Cult",
+      "image_url": "https://imgs.search.brave.com/njDf9SYo2DuTnpjcn8lgBxLl8OTsqn7GfvsfV4fZrq4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jdWx0/c3RvcmUuY29tL2Nk/bi9zaG9wL2ZpbGVz/LzFfNTk5ZTFmODAt/MWFiOC00ZTVjLWJj/ZGItMWY1NjY4YzQw/NTUwLmpwZz92PTE3/NDY2MTM1Njcmd2lk/dGg9MTA4MA",
+      "best_price": 599,
+      "best_platform": "Cult Store"
+    },
+    {
+      "id": "fitness-ball-65cm",
+      "name": "Vito Fitness Ball (65cm)",
+      "category": "sports",
+      "brand": "Vito",
+      "image_url": "https://imgs.search.brave.com/r741xxMmHQcldhIBnFifq85nCgKyuTaUqd8ws016bfA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/NDQ2NzQwMi9waG90/by9ibHVlLWZpdG5l/c3MtYmFsbC1pbi10/aGUtZ3ltLXJvb20u/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWJ4cDRKTGhFdUN4/MW1Zb1cwZWhyaG1m/TkdPd2RPTnFLVWpu/bnlKUjBtZ2M9",
+      "best_price": 699,
+      "best_platform": "Snapdeal"
+    },
+    {
+      "id": "poco-f7",
+      "name": "Poco F7",
+      "category": "electronics",
+      "brand": "Poco",
+      "image_url": "https://www.techadvisor.com/wp-content/uploads/2025/06/Poco-F7-review-5-1.jpg?quality=50&strip=all",
+      "best_price": 24499,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "oneplus-15",
+      "name": "OnePlus 15",
+      "category": "electronics",
+      "brand": "OnePlus",
+      "image_url": "https://media.wired.com/photos/691561195f41d2c34fdd22f1/2:3/w_2146,h_3219,c_limit/DSC_6660.jpg",
+      "best_price": 64499,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "google-pixel-10-pro",
+      "name": "Google Pixel 10 Pro",
+      "category": "electronics",
+      "brand": "Google",
+      "image_url": "https://sm.pcmag.com/pcmag_me/comparison/g/google-pix/google-pixel-10-vs-10-pro-vs-10-pro-xl-whats-different-and-w_9san.jpg",
+      "best_price": 109499,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "redmi-note-15-pro",
+      "name": "Redmi Note 15 Pro",
+      "category": "electronics",
+      "brand": "Xiaomi",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzgKFPQyx7bC2382z1yghyBnoWZ7qw0JSPqPy9-5hI8bJxdbo7hN5yv4&s=10",
+      "best_price": 19499,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "samsung-galaxy-s26-ultra",
+      "name": "Samsung Galaxy S26 Ultra",
+      "category": "electronics",
+      "brand": "Samsung",
+      "image_url": "https://helios-i.mashable.com/imagery/articles/02PGtTeAxIraq4Go0xWfK3H/hero-image.fill.size_1248x702.v1772036077.jpg",
+      "best_price": 143999,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "asus-rog-strix-scar-18-2025",
+      "name": "ASUS ROG Strix SCAR 18 (2025)",
+      "category": "electronics",
+      "brand": "ASUS",
+      "image_url": "https://dlcdnwebimgs.asus.com/files/media/982b43f2-03f0-4780-b552-cf2a58d515bf/v1/images/m-kv_1.webp",
+      "best_price": 287999,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "lenovo-legion-9i-gen10",
+      "name": "Lenovo Legion 9i (Gen 10)",
+      "category": "electronics",
+      "brand": "Lenovo",
+      "image_url": "https://p3-ofp.static.pub/fes/cms/2022/12/27/9hylqphhxi2145wntne08p41hgp1is769981.jpg",
+      "best_price": 217999,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "asus-tuf-gaming-a16-2025",
+      "name": "ASUS TUF Gaming A16 (2025)",
+      "category": "electronics",
+      "brand": "ASUS",
+      "image_url": "https://dlcdnwebimgs.asus.com/files/media/202605/2ef4a9a0-3620-4681-86d4-bd8399e6cfc6/v1/images/kv_v2.webp",
+      "best_price": 87999,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "lenovo-loq-rtx5060-i7",
+      "name": "Lenovo LOQ (RTX 5060, i7-14700HX, 32GB, 1TB)",
+      "category": "electronics",
+      "brand": "Lenovo",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRYItIwsUEYDW1EjqBv1f1dfmqj4OUBEP28v-ZM1H_A&s",
+      "best_price": 73499,
+      "best_platform": "Vijay Sales"
+    },
+    {
+      "id": "macbook-pro-m4-pro-14",
+      "name": "Apple MacBook Pro (M4 Pro, 14-inch)",
+      "category": "electronics",
+      "brand": "Apple",
+      "image_url": "https://www.apple.com/v/macbook-pro/ax/images/meta/macbook-pro__difvbgz1plsi_og.png?202607151829",
+      "best_price": 188900,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "sennheiser-hd-280-pro",
+      "name": "Sennheiser HD 280 Pro",
+      "category": "electronics",
+      "brand": "Sennheiser",
+      "image_url": "https://i.rtings.com/assets/products/mSjSu3wR/sennheiser-hd-280-pro-2016/design-medium.jpg?format=auto",
+      "best_price": 7299,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "apple-airpods-4-anc",
+      "name": "Apple AirPods 4 (with ANC)",
+      "category": "electronics",
+      "brand": "Apple",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5qbsArMHm29nN7J7T3aTmU8lpnFH7FS-SaBgm1Vk66WxQX4D_XsyVNU4&s=10",
+      "best_price": 16749,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "jbl-tune-770nc-wireless",
+      "name": "JBL Tune 770NC Wireless",
+      "category": "electronics",
+      "brand": "JBL",
+      "image_url": "https://m.media-amazon.com/images/I/91SYMGg5hRL._AC_UF1000,1000_QL80_AIweblab1381794,T1_.jpg",
+      "best_price": 5799,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "boat-eardrops-161-tws",
+      "name": "boAt Eardrops 161 TWS",
+      "category": "electronics",
+      "brand": "boAt",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbgWSy3VjgAH1CAxC_ySLlFdTaPLeckoxDVGrTNKmRVT8Ts_TEuxO65U&s=10",
+      "best_price": 1199,
+      "best_platform": "Flipkart"
+    },
+    {
+      "id": "64-audio-solo-planar-iem",
+      "name": "64 Audio Solo Universal Planar IEM",
+      "category": "electronics",
+      "brand": "64 Audio",
+      "image_url": "https://www.headphonezone.in/cdn/shop/files/Headphone-Zone-64-Audio-Solo-08.jpg?v=1740465294&width=1160",
+      "best_price": 53999,
+      "best_platform": "Flipkart"
+    }
+  ]
+}
