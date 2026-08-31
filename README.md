@@ -82,16 +82,6 @@ SmartKart/
 └── README.md
 ```
 
-## Preloaded Products (Phase 1)
-
-| Category | Products |
-|----------|----------|
-| 📱 Phones | iPhone 15, Galaxy S24, OnePlus 12R, Pixel 8a, Vivo V30 Pro |
-| 💻 Laptops | MacBook Air M3, ASUS ROG Strix G16, HP Pavilion 15, Lenovo IdeaPad Slim 5, Dell XPS 15 |
-| 🎧 Audio | Sony WH-1000XM5, boAt Rockerz 550, AirPods Pro 2, JBL Flip 6 |
-| 🛒 Grocery | Tata Sampann Tur Dal, Aashirvaad Atta, Amul Butter, Saffola Gold Oil |
-| 🏠 Appliances | Dyson V12 Detect Slim, Samsung 1.5T AC |
-
 Each product has:
 - ✅ 10 ranked platform results with prices, discounts, offers
 - ✅ 24 months of price history
