@@ -1,7 +1,7 @@
 # SmartKart 🛒
 
 **AI-powered multi-agent shopping comparison platform**  
-Compare prices across Amazon, Flipkart, Croma, BigBasket & more — instantly.
+Compare prices, discounts, ratings, reviews, etc.. across Amazon, Flipkart, Croma, BigBasket & more — instantly.
 
 ---
 
